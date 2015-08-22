@@ -1,0 +1,21 @@
+body {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#content {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#content {
+  width: 600px;
+}
+
+#postamble {
+  display: none;
+}
+
+.label {
+  font-size: 1em;
+}
