@@ -6,8 +6,6 @@
       label,
       root;
 
-  var description = d3.select( "p.description")[0];
-
   var force = d3.layout.force()
         .on("tick", tick)
         .charge(function(d) {
@@ -16,7 +14,7 @@
         .gravity(0.1)
         .friction(0.05)
         .linkDistance(function(d) {
-          return Math.sqrt(d.source.size);
+          return Math.sqrt(d.source.size / 2);
         })
         .size([w, h]);
 
@@ -75,7 +73,7 @@
 
     var minWidth = 40;
     function r(d) {
-      d.r = Math.log(d.size/450) * 20;
+      d.r = Math.log(d.size/900) * 20;
       d.r = d.r < minWidth ? minWidth : d.r;
       return d.r;
     }
@@ -118,7 +116,7 @@
       .attr("font-size", function(d){
         var bbox = this.getBBox();
 
-        if( bbox.width >= (d.r * 2) ){
+        if( bbox.width >= (d.r * 1.5) ){
           d.fontSize = d.fontSize * 0.7;
         }
 
@@ -172,12 +170,10 @@
 
     toggleChildren(d);
 
-    if( d._children ){
-      desc = document.querySelector("p.desc");
+    var desc = document.querySelector("p.description");
 
-      if( desc ){
-        desc.innerHTML = d.desc || "";
-      }
+    if( desc && d.desc ){
+      desc.innerHTML = d.desc || "";
     }
 
     update();
