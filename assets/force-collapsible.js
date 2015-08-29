@@ -114,10 +114,11 @@
         return d.fontSize;
       })
       .attr("font-size", function(d){
+        var diameter = d.r * 2;
         var bbox = this.getBBox();
 
         if( bbox.width >= (d.r * 2) ){
-          d.fontSize = d.fontSize * 0.6;
+          d.fontSize = (diameter / d.name.length) * 1.2;
         }
 
         return d.fontSize;
