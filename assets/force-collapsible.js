@@ -38,8 +38,10 @@
   update();
 
   flatten(root).forEach(function( node ){
-    click(node);
+    toggleChildren(node);
   });
+
+  update();
 
   function update() {
     var nodes = flatten(root),
@@ -154,17 +156,23 @@
     return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
   }
 
-  // Toggle children on click.
-  function click(d) {
-    var desc;
-
+  function toggleChildren(d){
     if (d.children) {
       d._children = d.children;
       d.children = null;
     } else {
       d.children = d._children;
       d._children = null;
+    }
+  }
 
+  // Toggle children on click.
+  function click(d) {
+    var desc;
+
+    toggleChildren(d);
+
+    if( d._children ){
       desc = document.querySelector("p.desc");
 
       if( desc ){
