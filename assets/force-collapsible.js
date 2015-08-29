@@ -9,7 +9,7 @@
   var force = d3.layout.force()
         .on("tick", tick)
         .charge(function(d) {
-          return d.r * -800;
+          return d.r * -1200;
         })
         .gravity(0.1)
         .friction(0.05)
@@ -95,13 +95,13 @@
     node.exit().remove();
 
 
-    label = vis.selectAll("text.label")
+    label = vis.selectAll("text")
       .data(nodes, function(d) { return d.id; });
 
     label
       .enter()
       .append("svg:text")
-      .attr("class", "label")
+      // .attr("class", "label")
       .text(function(d) {
         return d.name;
       })
@@ -110,14 +110,14 @@
     label.exit().remove();
 
     label.attr("font-size", function(d){
-        d.fontSize = d.r / 3;
+        d.fontSize = d.r / 2;
         return d.fontSize;
       })
       .attr("font-size", function(d){
         var bbox = this.getBBox();
 
-        if( bbox.width >= (d.r * 1.5) ){
-          d.fontSize = d.fontSize * 0.7;
+        if( bbox.width >= (d.r * 2) ){
+          d.fontSize = d.fontSize * 0.6;
         }
 
         return d.fontSize;
@@ -174,6 +174,9 @@
 
     if( desc && d.desc ){
       desc.innerHTML = d.desc || "";
+      desc.style.display = "block";
+    } else {
+      desc.style.display = "none";
     }
 
     update();
