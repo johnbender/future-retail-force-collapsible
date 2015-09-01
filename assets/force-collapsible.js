@@ -155,14 +155,61 @@
     return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
   }
 
+  function openChildren(d){
+    if( d._children ){
+      d.children = d._children;
+      d._children = null;
+    }
+  }
+
   function toggleChildren(d){
     if (d.children) {
       d._children = d.children;
       d.children = null;
     } else {
-      d.children = d._children;
-      d._children = null;
+      openChildren(d);
     }
+  }
+
+
+  function focusNode(d){
+    var desc = document.querySelector("p.description");
+
+    if( desc && d.desc ){
+      description(desc, d);
+
+      desc.style.display = "block";
+    } else {
+      desc.style.display = "none";
+    }
+  }
+
+
+  // Toggle children on click.
+  function click(d) {
+    var desc;
+
+    toggleChildren(d);
+    focusNode(d);
+    update();
+  }
+
+  // Returns a list of all nodes under the root.
+  function flatten(root) {
+    var nodes = [], i = 0;
+
+    function recurse(node) {
+      if (node.children) node.size = node.children.reduce(function(p, v) {
+        return p + recurse(v);
+      }, 0);
+
+      if (!node.id) node.id = ++i;
+      nodes.push(node);
+      return node.size;
+    }
+
+    root.size = recurse(root);
+    return nodes;
   }
 
   var basicTemplate = document.querySelector("#basic-template").innerHTML;
@@ -192,58 +239,70 @@
           "<li>" +
           m +
           "</li>";
-      }, ""));        
+      }, ""));
   }
 
   function description(element, node){
     var interp, desc = node.desc;
 
+    // structured content
     if( desc.paragraphs ){
-      if( !desc.imgsrc ){ 
+      if( !desc.imgsrc ){
+        // simple structured content
         element.innerHTML = interpBasicTemplate(node.name, desc);
       } else {
+        // "complex" structured content
         element.innerHTML = interpComplexTemplate(node.name, desc);
       }
+
+      bindRelated(element);
     } else {
+      // raw html
       element.innerHTML = desc || "";
     }
   }
 
-  // Toggle children on click.
-  function click(d) {
-    var desc;
+  function bindRelated(element) {
+    var anchors = [].slice.call(element.querySelectorAll( "[data-node-name]" ));
 
-    toggleChildren(d);
+    anchors.forEach(function(a) {
+      a.addEventListener("click", function() {
+        var name = a.getAttribute("data-node-name");
 
-    var desc = document.querySelector("p.description");
+        openNode(name);
+      });
+    });
+  }
 
-    if( desc && d.desc ){
-      description(desc, d);
-      
-      desc.style.display = "block";
-    } else {
-      desc.style.display = "none";
-    }
+  function openNode(name){
+    var path = findPath(name, [], root);
 
+    path.forEach(function(node){
+      openChildren(node);
+    });
+
+    focusNode(path[path.length - 1]);
     update();
   }
 
-  // Returns a list of all nodes under the root.
-  function flatten(root) {
-    var nodes = [], i = 0;
+  function findPath(name, path, node){
+    path = [].slice.call(path);
+    path.push(node);
 
-    function recurse(node) {
-      if (node.children) node.size = node.children.reduce(function(p, v) {
-        return p + recurse(v);
-      }, 0);
-
-      if (!node.id) node.id = ++i;
-      nodes.push(node);
-      return node.size;
+    if( node.name === name ){
+      return path;
     }
 
-    root.size = recurse(root);
-    return nodes;
-  }
+    var childPath;
 
+    (node._children || node.children || []).forEach(function(child){
+      if( childPath ){
+        return;
+      }
+
+      childPath = findPath(name, path, child);
+    });
+
+    return childPath;
+  }
 })(window.d3);

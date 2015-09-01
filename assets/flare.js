@@ -9,7 +9,7 @@ var bubbleData = {
         ],
 
         "related" : [
-          "Discovery"
+          "Health"
         ]
       },
 
@@ -29,7 +29,7 @@ var bubbleData = {
             ],
 
             "related" : [
-              "Discovery",
+              "Lifestyle",
               "Social Reporting"
             ]
           },
