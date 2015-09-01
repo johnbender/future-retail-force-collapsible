@@ -266,10 +266,12 @@
     var anchors = [].slice.call(element.querySelectorAll( "[data-node-name]" ));
 
     anchors.forEach(function(a) {
-      a.addEventListener("click", function() {
+      a.addEventListener("click", function( event ) {
         var name = a.getAttribute("data-node-name");
 
         openNode(name);
+
+        event.preventDefault();
       });
     });
   }
