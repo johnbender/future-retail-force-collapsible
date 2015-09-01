@@ -114,11 +114,11 @@
         return d.fontSize;
       })
       .attr("font-size", function(d){
-        var diameter = d.r * 2;
+        var diameterThresh = d.r * 1.5;
         var bbox = this.getBBox();
 
-        if( bbox.width >= (d.r * 2) ){
-          d.fontSize = (diameter / d.name.length) * 1.2;
+        if( bbox.width >= diameterThresh ){
+          d.fontSize = (diameterThresh / d.name.length) * 1.4;
         }
 
         return d.fontSize;
@@ -165,6 +165,50 @@
     }
   }
 
+  var basicTemplate = document.querySelector("#basic-template").innerHTML;
+  var complexTemplate = document.querySelector("#complex-template").innerHTML;
+
+  function interpBasicTemplate(name, desc, template) {
+    return (template || basicTemplate)
+      .replace( "{{name}}", name )
+      .replace( "{{paragraphs}}", desc.paragraphs.reduce(function(acc, p) {
+        return acc + "<p>" + p + "</p>";
+      }, ""))
+      .replace( "{{related}}", desc.related.reduce(function(acc, r){
+        return acc +
+          "<li>" +
+          "<a href='#' data-node-name='" + r + "'>" +
+          r +
+          "</a>" +
+          "</li>";
+      }, ""));
+  }
+
+  function interpComplexTemplate(name, desc){
+    return interpBasicTemplate(name, desc, complexTemplate)
+      .replace( "{{imgsrc}}", desc.imgsrc)
+      .replace( "{{meaning}}", desc.meaning.reduce(function(acc, m){
+        return acc +
+          "<li>" +
+          m +
+          "</li>";
+      }, ""));        
+  }
+
+  function description(element, node){
+    var interp, desc = node.desc;
+
+    if( desc.paragraphs ){
+      if( !desc.imgsrc ){ 
+        element.innerHTML = interpBasicTemplate(node.name, desc);
+      } else {
+        element.innerHTML = interpComplexTemplate(node.name, desc);
+      }
+    } else {
+      element.innerHTML = desc || "";
+    }
+  }
+
   // Toggle children on click.
   function click(d) {
     var desc;
@@ -174,7 +218,8 @@
     var desc = document.querySelector("p.description");
 
     if( desc && d.desc ){
-      desc.innerHTML = d.desc || "";
+      description(desc, d);
+      
       desc.style.display = "block";
     } else {
       desc.style.display = "none";

@@ -7,6 +7,36 @@
     <link type="text/css" rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
+    
+    <script type="text/template" id="basic-template">
+      <h2>{{name}}</h2>
+
+      {{paragraphs}}
+
+      See related:
+      <ul>
+        {{related}}
+      </ul>
+    </script>
+
+    <script type="text/template" id="complex-template">
+      <h2>{{name}}</h2>
+
+      <img src="{{imgsrc}}"/>
+
+      {{paragraphs}}
+
+      What does it mean?
+      <ul>
+        {{meaning}}
+      </ul>
+      
+      See related:
+      <ul>
+        {{related}}
+      </ul>
+    </script>
+
     <script type="text/javascript" src="./assets/d3.js"></script>
     <script type="text/javascript" src="./assets/d3.geom.js"></script>
     <script type="text/javascript" src="./assets/d3.layout.js"></script>
@@ -15,5 +45,5 @@
     <script type="text/javascript" src="./assets/force-collapsible.js"></script>
     <p class="description">
     </p>
-  </body>
+</body>
 </html>

@@ -3,13 +3,36 @@ var bubbleData = {
   "children": [
     {
       "name" : "Media",
-      "desc": "Media description goes here",
+      "desc": {
+        "paragraphs": [
+          "paragraph1"
+        ],
+
+        "related" : [
+          "Discovery"
+        ]
+      },
+
       "children" : [
         {
           "name": "Social Media",
-          "desc": "Social media description goes here <a href='#'>Foo</a>"
-            + "<p> foo </p>"
-            + "<p> bar </p>",
+          "desc": {
+            "imgsrc" : "assets/images/placeholder.gif",
+
+            "paragraphs": [
+              "paragraph1"
+            ],
+
+            "meaning": [
+              "meaning1",
+              "meaning2"
+            ],
+
+            "related" : [
+              "Discovery",
+              "Social Reporting"
+            ]
+          },
           "children": [
             { "name": "Self as Brand", "size": 1000 },
             { "name": "Discovery", "size": 1000 },
