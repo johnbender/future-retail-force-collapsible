@@ -297,6 +297,7 @@
 
     var childPath;
 
+    // NOTE could do a reduce here, meh.
     (node._children || node.children || []).forEach(function(child){
       if( childPath ){
         return;
