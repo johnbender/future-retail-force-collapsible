@@ -4347,7 +4347,7 @@ function d3_behavior_dragDispatch(type) {
     d3.event = o;
   }
 
-  o.stopPropagation();
+  // o.stopPropagation();
   o.preventDefault();
 }
 

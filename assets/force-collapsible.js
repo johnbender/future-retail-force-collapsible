@@ -88,12 +88,12 @@
       .attr("cy", function(d) { return d.y + Math.random(); })
       .attr("r", r)
       .style("fill", color)
+      .call(force.drag)
       .on("click", click)
-      .call(force.drag);
+      .on("touchend", click);
 
     // Exit any old nodes.
     node.exit().remove();
-
 
     label = vis.selectAll("text")
       .data(nodes, function(d) { return d.id; });
@@ -101,11 +101,12 @@
     label
       .enter()
       .append("svg:text")
-      // .attr("class", "label")
       .text(function(d) {
         return d.name;
       })
-      .on("click", click);
+      .call(force.drag)
+      .on("click", click)
+      .on("touchend", click);
 
     label.exit().remove();
 
@@ -187,7 +188,10 @@
 
   // Toggle children on click.
   function click(d) {
-    var desc;
+    var desc = document.querySelector("p.description");
+
+    desc.innerHTML = (d3.event.defaultPrevented);
+    desc.style.display = "block";
 
     toggleChildren(d);
     focusNode(d);
