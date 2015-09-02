@@ -147,15 +147,15 @@
 
     label
       .attr( "x", function(d){
-        var bbox = this.getBBox();
+        this.bboxWidth = this.bboxWidth || this.getBBox().width;
         var diameter = d.r * 2;
-        var leftOffset = (diameter - bbox.width) / 2;
+        var leftOffset = (diameter - this.bboxWidth) / 2;
 
         return d.x - d.r + leftOffset;
       })
       .attr("y", function(d) {
-        var bbox = this.getBBox();
-        return d.y + (bbox.height/4);
+        this.bboxHeight = this.bboxHeight || this.getBBox().height;
+        return d.y + (this.bboxHeight/4);
       });
   }
 
