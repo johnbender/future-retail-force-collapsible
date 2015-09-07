@@ -32,7 +32,7 @@ var bubbleData = {
           },
           "children": [
             {
-              "name": "Self as Brand",
+              "name": "Self As Brand",
               "desc": {
                 "paragraphs": [
                   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -78,7 +78,21 @@ var bubbleData = {
             },
               "size": 1000
             },
-            { "name": "Post-Privacy World", "size": 1000 }
+            { "name": "Post-Privacy World",
+            "desc": {
+              "paragraphs": [
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              ],
+
+              "related" : [
+                "You Are Being Tracked",
+                "Big Brother",
+                "Identity",
+                "Privacy"
+              ],
+            },
+            "size": 1000
+          }
           ]
         },
         {
