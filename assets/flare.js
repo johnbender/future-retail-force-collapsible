@@ -273,52 +273,50 @@ var bubbleData = {
           "desc": "Production description goes here",
           "children":[
             {"name":"3D Printing","size":1000},
-            {"name":"Small Batch","size":1000},
-            {"name":"Speed","size":1000},
-            {"name":"Demand","size":1000}
+            {"name":"Quality Redefined","size":1000},
+            {"name":"Rapid Speed","size":1000},
+            {"name":"Automation","size":1000},
+            {"name":"Global Supply Chain","size":1000},
+            {"name":"Customization","size":1000}
           ]
         },
         {
-          "name":"Customization",
-          "desc": "Customization description goes here",
+          "name":"Consumption",
+          "desc": "Consumption description goes here",
           "children":[
-            {"name":"Demand","size":1000},
-            {"name":"Production","size":1000},
-            {"name":"Sourcing","size":1000}
+            {"name":"Sharing Economy","size":1000},
+            {"name":"Emerging Markets","size":1000},
+            {"name":"Product Lifecycle","size":1000}
           ]
         },
         {
-          "name":"Labor",
-          "desc": "Labor description goes here",
+          "name":"Design",
+          "desc": "Design description goes here",
           "children":[
-            {"name":"Robotics","size":1000},
-            {"name":"Efficiency","size":1000},
-            {"name":"Sharing","size":1000}
+            {"name":"Robotic Design","size":1000},
+            {"name":"Crowdsourcing","size":1000},
+            {"name":"Materials","size":1000},
+            {"name":"Aesthetics","size":1000},
+            {"name":"Sustainability","size":1000}
           ]
         },
         {
-          "name":"Sustainability",
-          "desc": "Sustainability description goes here",
+          "name":"Brands",
+          "desc": "Brands description goes here",
           "children":[
-            {"name":"Resource Supply","size":1000},
-            {"name":"Inventory","size":1000},
-            {"name":"Degradation","size":1000}
+            {"name":"Mass Indie","size":1000},
+            {"name":"Mega Brands","size":1000},
+            {"name":"Brand As Media","size":1000},
+            {"name":"Social Responsibility","size":1000}
           ]
         },
         {
-          "name":"Global Trade",
-          "desc": "Global trade description goes here",
+          "name":"Connectivity",
+          "desc": "Connectivity description goes here",
           "children":[
-            {"name":"Resources","size":1000},
-            {"name":"Politics","size":1000}
-          ]
-        },
-        {
-          "name":"Demand",
-          "desc": "Demand description goes here",
-          "children":[
-            {"name":"Shared Economy","size":1000},
-            {"name":"Emerging Markets","size":1000}
+            {"name":"Internet Of Things","size":1000},
+            {"name":"Cloud-Based World","size":1000},
+            {"name":"Wearable Tech","size":1000}
           ]
         }
       ]
