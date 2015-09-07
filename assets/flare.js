@@ -85,7 +85,7 @@ var bubbleData = {
               ],
 
               "related" : [
-                "You Are Being Tracked",
+                "Omni-Tracking",
                 "Big Brother",
                 "Identity",
                 "Privacy"
@@ -109,50 +109,43 @@ var bubbleData = {
             ]
           },
           "children": [
-            { "name": "Programmatic", "size": 1000 },
-            { "name": "Native", "size": 1000 },
-            { "name": "Social", "size": 1000 },
-            { "name": "Affiliate", "size": 1000 }
+            { "name": "Super-Targeting", "size": 1000 },
+            { "name": "Advertorial", "size": 1000 },
+            { "name": "AI Content", "size": 1000 },
+            { "name": "Affiliate Schemes", "size": 1000 }
           ]
         },
         {
           "name": "Entertainment",
           "desc": "Entertainment description goes here",
           "children": [
-            { "name": "Movies", "size": 1000 },
-            { "name": "Live Entertainment", "size": 1000 },
-            { "name": "Radio", "size": 1000 },
-            { "name": "Virtual Reality", "size": 1000 },
-            { "name": "Music", "size": 1000 }
+            { "name": "On-Demand Content", "size": 1000 },
+            { "name": "Level Playing Field", "size": 1000 },
+            { "name": "Shared Experience", "size": 1000 },
+            { "name": "Live Streaming", "size": 1000 },
+            { "name": "Immersive Entertainment", "size": 1000 },
+            { "name": "Global Market", "size": 1000 }
           ]
         },
         {
           "name": "Big Data",
           "desc": "Big data description goes here",
           "children": [
-            { "name": "Tracking", "size": 1000 },
-            { "name": "Targeting", "size": 1000 },
+            { "name": "Omni-Tracking", "size": 1000 },
             { "name": "Fragmentation", "size": 1000 },
-            { "name": "Data as Currency", "size": 1000 }
-          ]
-        },
-        {
-          "name":"Brands",
-          "desc": "Brands description goes here",
-          "children": [
-            { "name": "Individual v Corporate", "size": 1000 },
-            { "name": "Internal v External", "size": 1000 },
-            { "name": "As Media Outlet", "size": 1000 }
+            { "name": "Data As Currency", "size": 1000 }
           ]
         },
         {
           "name":"Content",
           "desc": "Content description goes here",
           "children": [
-            { "name": "Source", "size": 1000 },
-            { "name": "Shelf Life", "size": 1000 },
+            { "name": "Robot Journalism", "size": 1000 },
             { "name": "Digital Exhaust", "size": 1000 },
-            { "name": "Global Reach", "size": 1000 }
+            { "name": "Short Shelf Life", "size": 1000 },
+            { "name": "Monetize or Die", "size": 1000 },
+            { "name": "Luxury Print", "size": 1000 },
+            { "name": "Mobile First", "size": 1000 }
           ]
         }
       ]
