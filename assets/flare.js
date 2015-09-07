@@ -155,49 +155,59 @@ var bubbleData = {
       "desc": "Transportation description goes here",
       "children":[
         {
-          "name":"Private",
-          "desc": "Private transportation description goes here",
+          "name":"Auto",
+          "desc": "Car description goes here",
           "children":[
             {"name":"Driverless Cars","size":1000},
-            {"name":"Private Carsharing","size":1000},
-            {"name":"Non-Motorized","size":1000}
+            {"name":"Carsharing","size":1000},
+            {"name":"Robot Valet","size":1000},
+            {"name":"Carmagedon","size":1000},
+            {"name":"The 3rd Space","size":1000}
           ]
         },
         {
-          "name":"Parking",
-          "desc": "Parking description goes here",
-          "size":2000
+          "name":"Mass Transit",
+          "desc": "Mass transit description goes here",
+          "children":[
+            {"name":"Radical Rail","size":1000},
+            {"name":"Car-riages","size":1000},
+            {"name":"Shared Road","size":1000}
+          ]
         },
         {
-          "name":"Public",
-          "desc": "Public transportation description goes here",
+          "name":"Air & Space",
+          "desc": "Air & Space description goes here",
           "children":[
-            {"name":"Rail","size":1000},
-            {"name":"Air & Space","size":1000},
-            {"name":"Ship","size":1000},
-            {"name":"Public Carsharing","size":1000},
-            {"name":"Teleportation","size":1000}
+            {"name":"Commercial Air","size":1000},
+            {"name":"Private Air","size":1000},
+            {"name":"Space Travel","size":1000}
           ]
         },
         {
           "name":"Delivery",
           "desc": "Delivery description goes here",
           "children":[
-            {"name":"Global Trade","size":1000},
-            {"name":"Mobile Services","size":1000},
+            {"name":"Global Transport","size":1000},
             {"name":"Mobile Inventory","size":1000},
             {"name":"Automation","size":1000},
-            {"name":"Drones","size":1000}
+            {"name":"Drone-To-Door","size":1000}
           ]
         },
         {
-          "name":"Counter-Trends",
-          "desc": "Counter-trends description goes here",
+          "name":"Virtual Transport",
+          "desc": "Virtual Transport description goes here",
           "children":[
             {"name":"Telecommuting","size":1000},
-            {"name":"Virtual Reality","size":1000},
-            {"name":"A.I.","size":1000},
-            {"name":"Slow Travel","size":1000}
+            {"name":"Virtually There","size":1000}
+          ]
+        },
+        {
+          "name":"Travel",
+          "desc": "Travel description goes here",
+          "children":[
+            {"name":"Experiential Modes","size":1000},
+            {"name":"Around The World in 0.8 Days","size":1000},
+            {"name":"Cultural Exploration","size":1000}
           ]
         }
       ]
