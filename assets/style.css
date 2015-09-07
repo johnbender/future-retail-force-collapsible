@@ -26,8 +26,10 @@ svg {
 }
 
 
-p.description {
-  max-width: 50%;
+div.description {
+  max-width: 25%;
+  max-height: 75%;
+  overflow-y: scroll;
   min-width: 400px;
   position: absolute;
   left: 2em;
@@ -40,8 +42,13 @@ p.description {
   display: none;
 }
 
-p.description img {
+div.description img {
   margin-bottom: 1em;
+  width: 100%;
+}
+
+div.description h2 {
+  margin-top: 0px;
 }
 
 circle.node {
@@ -64,4 +71,13 @@ svg text {
   -ms-user-select: none;
   user-select: none;
   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,.5);
 }

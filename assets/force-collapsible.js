@@ -9,7 +9,7 @@
   var force = d3.layout.force()
         .on("tick", tick)
         .charge(function(d) {
-          return d.r * -1200;
+          return d.r * -600;
         })
         .gravity(0.1)
         .friction(0.05)
@@ -174,7 +174,7 @@
 
 
   function focusNode(d){
-    var desc = document.querySelector("p.description");
+    var desc = document.querySelector(".description");
 
     if( desc && d.desc ){
       description(desc, d);
@@ -188,7 +188,7 @@
 
   // Toggle children on click.
   function click(d) {
-    var desc = document.querySelector("p.description");
+    var desc = document.querySelector(".description");
 
     desc.innerHTML = (d3.event.defaultPrevented);
     desc.style.display = "block";

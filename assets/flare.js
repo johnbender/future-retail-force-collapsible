@@ -5,11 +5,12 @@ var bubbleData = {
       "name" : "Media",
       "desc": {
         "paragraphs": [
-          "paragraph1"
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         ],
 
         "related" : [
-          "Health"
+          "Lifestyle",
+          "Product"
         ]
       },
 
@@ -17,27 +18,44 @@ var bubbleData = {
         {
           "name": "Social Media",
           "desc": {
-            "imgsrc" : "assets/images/placeholder.gif",
+            "imgsrc" : "assets/images/social-media.jpg",
 
             "paragraphs": [
-              "paragraph1"
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
             ],
 
             "meaning": [
-              "meaning1",
-              "meaning2"
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             ],
 
             "related" : [
-              "Lifestyle",
-              "Social Reporting"
+              "Entertainment",
+              "Content",
+              "Identity",
+              "Brands"
             ]
           },
           "children": [
-            { "name": "Self as Brand", "size": 1000 },
-            { "name": "Discovery", "size": 1000 },
-            { "name": "Social Reporting", "size": 1000 },
-            { "name": "Privacy", "size": 1000 }
+            {
+              "name": "Self as Brand",
+              "desc": {
+                "paragraphs": [
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                ],
+
+                "related" : [
+                  "Identity",
+                  "Brands",
+                  "Values"
+                ],
+              },
+
+              "size" : 1000
+            },
+            { "name": "Social Discovery", "size": 1000 },
+            { "name": "Democratized Influence", "size": 1000 },
+            { "name": "Post-Privacy World", "size": 1000 }
           ]
         },
         {
