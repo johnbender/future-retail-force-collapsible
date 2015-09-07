@@ -96,8 +96,18 @@ var bubbleData = {
           ]
         },
         {
-          "name": "Paid Media",
-          "desc": "Paid media description goes here",
+          "name": "Advertising",
+          "desc": {
+            "paragraphs": [
+              "Lorem Ipsum is quite simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            ],
+
+            "related" : [
+              "Revenue",
+              "Customer Experience",
+              "Brands"
+            ]
+          },
           "children": [
             { "name": "Programmatic", "size": 1000 },
             { "name": "Native", "size": 1000 },
