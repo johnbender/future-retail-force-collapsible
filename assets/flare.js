@@ -220,60 +220,46 @@ var bubbleData = {
           "name":"Revenue",
           "desc": "Revenue description goes here",
           "children":[
-            {"name":"Lease","size":1000},
-            {"name":"Media","size":1000},
-            {"name":"Events & Activations","size":1000},
-            {"name":"Digital Sales","size":1000}
+            {"name":"Landlords","size":1000},
+            {"name":"Publishers","size":1000},
+            {"name":"Venues","size":1000},
+            {"name":"Referrers","size":1000},
+            {"name":"Entrepreneurs","size":1000}
           ]
         },
         {
           "name":"Market",
           "desc": "Market description goes here",
           "children":[
-            {"name":"Tier","size":1000},
-            {"name":"Tenants","size":1000},
-            {"name":"Geography","size":1000},
-            {"name":"Customer","size":1000}
+            {"name":"Experience Economy","size":1000},
+            {"name":"Flagship Portfolio","size":1000},
+            {"name":"Diversified Mix","size":1000},
+            {"name":"Glocal Footprint","size":1000},
+            {"name":"Phygical","size":1000}
           ]
         },
         {
-          "name":"Experience",
-          "desc": "Experience description goes here",
+          "name":"Customer Experience",
+          "desc": "Customer experience description goes here",
           "children":[
-            {"name":"Retail","size":1000},
+            {"name":"Store","size":1000},
             {"name":"Product","size":1000},
-            {"name":"Services","size":1000},
-            {"name":"Experiential","size":1000},
-            {"name":"Social","size":1000}
+            {"name":"Purchase","size":1000},
+            {"name":"Service","size":1000},
+            {"name":"R&R","size":1000},
+            {"name":"Social","size":1000},
+            {"name":"Omni-Channel","size":1000}
           ]
         },
         {
-          "name":"Payments",
-          "desc": "Payments description goes here",
-          "children":[
-            {"name":"Digital","size":1000},
-            {"name":"Credit","size":1000},
-            {"name":"Trade","size":1000},
-            {"name":"Point of Sale","size":1000},
-            {"name":"Data as Currency","size":1000}
-          ]
-        },
-        {
-          "name":"New Models",
-          "desc": "New business models description goes here",
+          "name":"Mixed Use",
+          "desc": "Mixed Use description goes here",
           "children":[
             {"name":"Resort","size":1000},
-            {"name":"Convention Center","size":1000},
             {"name":"Fulfillment Hub","size":1000},
-            {"name":"Amusement Park","size":1000},
-            {"name":"Membership Club","size":1000},
-            {"name":"Transit Hub","size":1000},
             {"name":"Residential","size":1000},
             {"name":"Office","size":1000},
-            {"name":"Incubator","size":1000},
-            {"name":"Factory","size":1000},
-            {"name":"Urban Agriculture","size":1000},
-            {"name":"Physcial Hedge Fund","size":1000}
+            {"name":"Urban Farm","size":1000}
           ]
         }
       ]
