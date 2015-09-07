@@ -39,6 +39,7 @@ var bubbleData = {
                 ],
 
                 "related" : [
+                  "Experience Economy",
                   "Customization",
                   "Mass Indie",
                   "Identity"
@@ -62,7 +63,21 @@ var bubbleData = {
               },
               "size": 1000
             },
-            { "name": "Democratized Influence", "size": 1000 },
+            { "name": "Democratized Influence",
+            "desc": {
+              "paragraphs": [
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              ],
+
+              "related" : [
+                "Affiliate Schemes",
+                "Luxury Print",
+                "Crowdsourcing",
+                "Mass Indie"
+              ],
+            },
+              "size": 1000
+            },
             { "name": "Post-Privacy World", "size": 1000 }
           ]
         },
