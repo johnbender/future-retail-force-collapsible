@@ -252,8 +252,8 @@ var bubbleData = {
           ]
         },
         {
-          "name":"Mixed Use",
-          "desc": "Mixed Use description goes here",
+          "name":"New (Mixed) Use",
+          "desc": "New (Mixed) Use description goes here",
           "children":[
             {"name":"Resort","size":1000},
             {"name":"Fulfillment Hub","size":1000},
@@ -329,44 +329,51 @@ var bubbleData = {
           "name":"Flexibility",
           "desc": "Flexibility description goes here",
           "children":[
-            {"name":"Transformation","size":1000},
-            {"name":"Pop Up","size":1000},
-            {"name":"Events","size":1000},
-            {"name":"Experience","size":1000},
-            {"name":"Continuous Novelty","size":1000}
-          ]
-        },
-        {
-          "name":"Experience Economy",
-          "desc": "Experience economy description goes here",
-          "children":[
-            {"name":"Virtual Integration","size":1000},
-            {"name":"Counter-Trends","size":1000}
-          ]
-        },
-        {
-          "name":"Shared Economy",
-          "desc": "Shared economy description goes here",
-          "children":[
-            {"name":"Support Insfrastructure","size":1000},
+            {"name":"Modular","size":1000},
+            {"name":"Evolving","size":1000},
+            {"name":"Experiential","size":1000},
+            {"name":"Activated","size":1000},
             {"name":"Shared Spaces","size":1000}
           ]
         },
         {
-          "name":"Sustainability",
-          "desc": "Sustainability description goes here",
+          "name":"Augmented",
+          "desc": "Augmented economy description goes here",
           "children":[
-            {"name":"Resource Use","size":1000},
-            {"name":"'Smart' Buildings'","size":1000},
+            {"name":"Virtual Reality","size":1000},
+            {"name":"Super-Connected","size":1000},
+            {"name":"Ubiquitous Computing","size":1000}
+          ]
+        },
+        {
+          "name":"Smart Buildings",
+          "desc": "Smart buildings description goes here",
+          "children":[
+            {"name":"Linked Systems","size":1000},
+            {"name":"Self-Managing","size":1000},
+            {"name":"Super-Efficiency","size":1000},
             {"name":"Global Impact","size":1000}
           ]
         },
         {
-          "name":"Design",
-          "desc": "Design description goes here",
+          "name":"Development",
+          "desc": "Development description goes here",
           "children":[
-            {"name":"Biomimetic","size":1000},
-            {"name":"Transparency","size":1000}
+            {"name":"Urban Demographics","size":1000},
+            {"name":"Mixed Use","size":1000},
+            {"name":"Repurposed Space","size":1000},
+            {"name":"Aesthetics","size":1000},
+            {"name":"Smart Construction","size":1000}
+          ]
+        },
+        {
+          "name":"Security",
+          "desc": "Security description goes here",
+          "children":[
+            {"name":"Big Brother","size":1000},
+            {"name":"Bio-Identification","size":1000},
+            {"name":"Self-Policiing","size":1000},
+            {"name":"Digital Terrorism","size":1000}
           ]
         },
         {
