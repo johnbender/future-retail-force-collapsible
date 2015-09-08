@@ -375,33 +375,6 @@ var bubbleData = {
             {"name":"Self-Policiing","size":1000},
             {"name":"Digital Terrorism","size":1000}
           ]
-        },
-        {
-          "name":"Transportation",
-          "desc": "Transportation description goes here",
-          "children":[
-            {"name":"Access","size":1000},
-            {"name":"Support Infrastructure","size":1000}
-          ]
-        },
-        {
-          "name":"Planning",
-          "desc": "Planning description goes here",
-          "children":[
-            {"name":"Demographics","size":1000},
-            {"name":"Policy & Principles","size":1000},
-            {"name":"Mixed Use","size":1000},
-            {"name":"Repurposing","size":1000}
-          ]
-        },
-        {
-          "name":"Construction",
-          "desc": "Construction description goes here",
-          "children":[
-            {"name":"Strategic","size":1000},
-            {"name":"Materials","size":1000},
-            {"name":"Methods","size":1000}
-          ]
         }
       ]
     },
@@ -413,63 +386,48 @@ var bubbleData = {
           "name":"Health",
           "desc": "Health description goes here",
           "children":[
-            {"name":"Disease","size":1000},
-            {"name":"Aging","size":1000},
-            {"name":"Wellness","size":1000}
+            {"name":"Personalized Medicine","size":1000},
+            {"name":"60 Is The New 20","size":1000},
+            {"name":"An App A Day","size":1000},
+            {"name":"Food Transparency","size":1000}
           ]
+        },
+        {
+          "name":"Identity",
+          "desc": "Identity description goes here",
+          "children":[
+            {"name":"Gen Z","size":1000},
+            {"name":"Millennial","size":1000},
+            {"name":"Class","size":1000},
+            {"name":"Vocation","size":1000}          ]
         },
         {
           "name":"Values",
           "desc": "Values description goes here",
           "children":[
-            {"name":"Generational","size":1000},
+            {"name":"Privacy","size":1000},
             {"name":"Culture","size":1000},
-            {"name":"Class","size":1000},
-            {"name":"Consumption","size":1000},
-            {"name":"Privacy","size":1000}
+            {"name":"Politics","size":1000},
+            {"name":"Religion","size":1000},
+            {"name":"Consciousness","size":1000}
           ]
         },
         {
           "name":"Spending",
-          "desc": "Discretionary spending description goes here",
+          "desc": "Spending description goes here",
           "children":[
-            {"name":"Housing & Home","size":1000},
-            {"name":"Dining","size":1000},
-            {"name":"Services","size":1000},
-            {"name":"Fashion","size":1000},
-            {"name":"Electronics","size":1000},
-            {"name":"Travel","size":1000},
+            {"name":"Housing","size":1000},
+            {"name":"Discretionary","size":1000},
             {"name":"Luxury","size":1000}
           ]
         },
         {
-          "name":"Social",
-          "desc": "Social description goes here",
+          "name":"Relationships",
+          "desc": "Relationships description goes here",
           "children":[
             {"name":"Platonic","size":1000},
             {"name":"Familial","size":1000},
             {"name":"Romantic","size":1000}
-          ]
-        },
-        {
-          "name":"Vocation",
-          "desc": "Vocation description goes here",
-          "children":[
-            {"name":"Demand","size":1000},
-            {"name":"Legislation","size":1000},
-            {"name":"Economy","size":1000},
-            {"name":"Education","size":1000}
-          ]
-        },
-        {
-          "name":"Connectivity",
-          "desc": "Personal connectivity description goes here",
-          "children":[
-            {"name":"Mobile Phone","size":1000},
-            {"name":"Wearable Tech","size":1000},
-            {"name":"Social Media","size":1000},
-            {"name":"Internet of Things","size":1000},
-            {"name":"Cloud-Based","size":1000}
           ]
         }
       ]
