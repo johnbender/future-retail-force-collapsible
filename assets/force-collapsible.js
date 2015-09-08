@@ -217,6 +217,7 @@
   }
 
   var basicTemplate = document.querySelector("#basic-template").innerHTML;
+  var basicTemplateRelated = document.querySelector("#basic-template-related").innerHTML;
   var complexTemplate = document.querySelector("#complex-template").innerHTML;
 
   function interpBasicTemplate(name, desc, template) {
@@ -224,7 +225,12 @@
       .replace( "{{name}}", name )
       .replace( "{{paragraphs}}", desc.paragraphs.reduce(function(acc, p) {
         return acc + "<p>" + p + "</p>";
-      }, ""))
+      }, ""));
+  }
+
+
+  function interpBasicTemplateRelated(name, desc, template) {
+    return interpBasicTemplate(name, desc, template || basicTemplateRelated)
       .replace( "{{related}}", desc.related.reduce(function(acc, r){
         return acc +
           "<li>" +
@@ -236,7 +242,7 @@
   }
 
   function interpComplexTemplate(name, desc){
-    return interpBasicTemplate(name, desc, complexTemplate)
+    return interpBasicTemplateRelated(name, desc, complexTemplate)
       .replace( "{{imgsrc}}", desc.imgsrc)
       .replace( "{{meaning}}", desc.meaning.reduce(function(acc, m){
         return acc +
@@ -249,14 +255,21 @@
   function description(element, node){
     var interp, desc = node.desc;
 
+    // TODO all of this goes away with a handlebars/mustache and partials
     // structured content
     if( desc.paragraphs ){
-      if( !desc.imgsrc ){
-        // simple structured content
-        element.innerHTML = interpBasicTemplate(node.name, desc);
+
+      // related denotes a more complex layout, o/w use a basic template
+      if( desc.related ) {
+
+        // images denote the most complex layout, o/w just related
+        if( desc.imgsrc ){
+          element.innerHTML = interpComplexTemplate(node.name, desc);
+        } else {
+          element.innerHTML = interpBasicTemplateRelated(node.name, desc);
+        }
       } else {
-        // "complex" structured content
-        element.innerHTML = interpComplexTemplate(node.name, desc);
+        element.innerHTML = interpBasicTemplate(node.name, desc);
       }
 
       bindRelated(element);
