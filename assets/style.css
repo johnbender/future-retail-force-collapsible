@@ -29,11 +29,11 @@ svg {
 
 div.description {
   max-width: 25%;
-  max-height: 75%;
+  max-height: 90%;
   overflow-y: scroll;
-  min-width: 400px;
+  min-width: 340px;
   position: absolute;
-  left: 2em;
+  right: 2em;
   top: 2em;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.9);
