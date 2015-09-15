@@ -110,21 +110,30 @@
 
     label.exit().remove();
 
+
+    // check the bounding box on the text a couple times
+    // to make sure it fits into the associated circle
     label.attr("font-size", function(d){
         d.fontSize = d.r / 2;
         return d.fontSize;
       })
       .attr("font-size", function(d){
-        var diameterThresh = d.r * 1.5;
+        var diameterThresh = d.r * 1.8;
         var bbox = this.getBBox();
 
         if( bbox.width >= diameterThresh ){
-          d.fontSize = (diameterThresh / d.name.length) * 1.4;
+          d.fontSize = (diameterThresh / d.name.length) * 2;
         }
 
         return d.fontSize;
+      })
+      .attr("font-size", fontSize)
+      .attr("font-size", fontSize)
+      .attr("class", function(d){
+        if( !d._children && !d.children ){
+          return "child";
+        }
       });
-
   }
 
   function tick() {
@@ -152,8 +161,7 @@
 
   // Color leaf nodes orange, and packages white or blue.
   function color(d) {
-    // TODO tag the element with a class so we can style it
-    return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
+    return d._children ? "#e23120" : d.children ? "#e23120" : "#29292b";
   }
 
   function openChildren(d){
@@ -324,5 +332,16 @@
     });
 
     return childPath;
+  }
+
+  function fontSize(d){
+    var diameterThresh = d.r * 1.7;
+    var bbox = this.getBBox();
+
+    if( bbox.width >= diameterThresh ){
+      d.fontSize = d.fontSize * 0.9;
+    }
+
+    return d.fontSize;
   }
 })(window.d3);
