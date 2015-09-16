@@ -10,7 +10,7 @@
         .on("tick", tick)
         .charge(function(d) {
           if( isInternalNode(d) ){
-            return d.r * -600;
+            return d.r * -800;
           } else {
             return -50000;
           }
@@ -277,7 +277,7 @@
   }
 
   function description(element, node){
-    var interp, desc = node.desc;
+    var interp, html, desc = node.desc;
 
     // TODO all of this goes away with a handlebars/mustache and partials
     // structured content
@@ -296,11 +296,25 @@
         element.innerHTML = interpBasicTemplate(node.name, desc);
       }
 
+      element.innerHTML = "<a href='#' class='close'>&#x2716</a>" + element.innerHTML;
+
       bindRelated(element);
+      bindClose(element);
     } else {
       // raw html
       element.innerHTML = desc || "";
     }
+  }
+
+  function bindClose(element){
+    var close = element.querySelector( ".close" );
+    var onEvent = function(e){
+      e.preventDefault();
+      element.style.display = "none";
+    };
+
+    element.addEventListener("click", onEvent);
+    element.addEventListener("touchend", onEvent);
   }
 
   function bindRelated(element) {
