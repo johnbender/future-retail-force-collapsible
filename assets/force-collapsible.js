@@ -308,13 +308,14 @@
 
   function bindClose(element){
     var close = element.querySelector( ".close" );
+
     var onEvent = function(e){
       e.preventDefault();
       element.style.display = "none";
     };
 
-    element.addEventListener("click", onEvent);
-    element.addEventListener("touchend", onEvent);
+    close.addEventListener("click", onEvent);
+    close.addEventListener("touchend", onEvent);
   }
 
   function bindRelated(element) {
