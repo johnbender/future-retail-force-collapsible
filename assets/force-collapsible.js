@@ -9,7 +9,11 @@
   var force = d3.layout.force()
         .on("tick", tick)
         .charge(function(d) {
-          return d.r * -600;
+          if( isInternalNode(d) ){
+            return d.r * -600;
+          } else {
+            return -50000;
+          }
         })
         .gravity(0.1)
         .friction(0.05)
@@ -207,6 +211,8 @@
   // Toggle children on click.
   function click(d) {
     var desc = document.querySelector(".description");
+
+    d.fixed = true;
 
     desc.innerHTML = (d3.event.defaultPrevented);
     desc.style.display = "block";
