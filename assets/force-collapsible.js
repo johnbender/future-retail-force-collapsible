@@ -73,8 +73,12 @@
 
     var minWidth = 40;
     function r(d) {
-      d.r = Math.log(d.size/900) * 20;
-      d.r = d.r < minWidth ? minWidth : d.r;
+      if( isInternalNode(d) ){
+        d.r = Math.log(d.size/900) * 20;
+        d.r = d.r < minWidth ? minWidth : d.r;
+      } else {
+        d.r = 10;
+      }
       return d.r;
     }
 
@@ -110,7 +114,6 @@
 
     label.exit().remove();
 
-
     // check the bounding box on the text a couple times
     // to make sure it fits into the associated circle
     label.attr("font-size", function(d){
@@ -130,7 +133,7 @@
       .attr("font-size", fontSize)
       .attr("font-size", fontSize)
       .attr("class", function(d){
-        if( !d._children && !d.children ){
+        if( !isInternalNode(d) ){
           return "child";
         }
       });
@@ -147,6 +150,10 @@
 
     label
       .attr( "x", function(d){
+        if( !isInternalNode(d) ){
+          return d.x + 15;
+        }
+
         this.bboxWidth = this.bboxWidth || this.getBBox().width;
         var diameter = d.r * 2;
         var leftOffset = (diameter - this.bboxWidth) / 2;
@@ -154,6 +161,9 @@
         return d.x - d.r + leftOffset;
       })
       .attr("y", function(d) {
+        if( !isInternalNode(d) ){
+          return d.y + 5;
+        }
         this.bboxHeight = this.bboxHeight || this.getBBox().height;
         return d.y + (this.bboxHeight/4);
       });
@@ -335,6 +345,10 @@
   }
 
   function fontSize(d){
+    if( !isInternalNode(d) ){
+      return d.fontSize = 12;
+    }
+
     var diameterThresh = d.r * 1.7;
     var bbox = this.getBBox();
 
@@ -343,5 +357,9 @@
     }
 
     return d.fontSize;
+  }
+
+  function isInternalNode(d){
+    return d.children || d._children;
   }
 })(window.d3);

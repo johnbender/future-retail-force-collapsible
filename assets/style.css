@@ -96,7 +96,7 @@ svg text {
 }
 
 svg text.child {
-  fill: #fff;
+  fill: #222;
 }
 
 ::-webkit-scrollbar {
