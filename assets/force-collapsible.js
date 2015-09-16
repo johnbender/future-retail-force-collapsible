@@ -298,7 +298,7 @@
         element.innerHTML = interpBasicTemplate(node.name, desc);
       }
 
-      element.innerHTML = "<a href='#' class='close'>&#x2716</a>" + element.innerHTML;
+      element.innerHTML = "<a href='#' class='close'>&times</a>" + element.innerHTML;
 
       bindRelated(element);
       bindClose(element);
