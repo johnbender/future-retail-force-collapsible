@@ -31,8 +31,6 @@
 
   root = json;
   root.fixed = true;
-  root.x = w / 2;
-  root.y = h / 2 - 80;
 
   var nodes = vis.selectAll("g")
         .data(flatten(root));
@@ -194,6 +192,11 @@
     }
   }
 
+  function setFixed(d){
+    // if its an internal node in it's children are visible, fix it's place
+    d.fixed = !!(isInternalNode(d) && d.children) || d == root;
+  }
+
 
   function focusNode(d){
     var desc = document.querySelector(".description");
@@ -212,12 +215,11 @@
   function click(d) {
     var desc = document.querySelector(".description");
 
-    d.fixed = true;
-
     desc.innerHTML = (d3.event.defaultPrevented);
     desc.style.display = "block";
 
     toggleChildren(d);
+    setFixed(d);
     focusNode(d);
     update();
   }
