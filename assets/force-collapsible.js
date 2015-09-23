@@ -1,6 +1,7 @@
 (function(d3) {
   var w = 1200,
       h = 900,
+      rootBound = 200,
       node,
       link,
       label,
@@ -88,8 +89,12 @@
 
     // Enter any new nodes.
     node.enter().append("svg:circle")
-      .attr("cx", function(d) { return d.x + Math.random(); })
-      .attr("cy", function(d) { return d.y + Math.random(); })
+      .attr("cx", function(d) {
+        return d == root ? 100 : d.x + Math.random();
+      })
+      .attr("cy", function(d) {
+        return d == root ? 100 : d.y + Math.random();
+      })
       .attr("r", r)
       .call(force.drag)
       .on("click", click)
@@ -145,8 +150,33 @@
       .attr("x2", function(d) { return d.target.x; })
       .attr("y2", function(d) { return d.target.y; });
 
-    node.attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });
+    node
+      .attr("cx", function(d) {
+        if( d == root ){
+          if( d.x > w - rootBound ){
+            return d.x = w - rootBound;
+          }
+
+          if( d.x < rootBound ) {
+            return d.x = rootBound;
+          }
+        }
+
+        return d.x;
+      })
+      .attr("cy", function(d) {
+        if( d == root ){
+          if( d.y > h - rootBound ){
+            return d.y = h - rootBound;
+          }
+
+          if( d.y < rootBound ) {
+            return d.y = rootBound;
+          }
+        }
+
+        return d.y;
+      });
 
     label
       .attr( "x", function(d){
@@ -305,14 +335,14 @@
         element.innerHTML = interpBasicTemplate(node.name, desc);
       }
 
-      element.innerHTML = "<a href='#' class='close'>&times</a>" + element.innerHTML;
-
       bindRelated(element);
-      bindClose(element);
     } else {
       // raw html
       element.innerHTML = desc || "";
     }
+
+    element.innerHTML = "<a href='#' class='close'>&times</a>" + element.innerHTML;
+    bindClose(element);
   }
 
   function bindClose(element){
