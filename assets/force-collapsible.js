@@ -70,8 +70,7 @@
 
     // Update the nodes…
     node = vis.selectAll("circle.node")
-      .data(nodes, function(d) { return d.id; })
-      .style("fill", color);
+      .data(nodes, function(d) { return d.id; });
 
     var minWidth = 40;
     function r(d) {
@@ -89,14 +88,17 @@
 
     // Enter any new nodes.
     node.enter().append("svg:circle")
-      .attr("class", "node")
       .attr("cx", function(d) { return d.x + Math.random(); })
       .attr("cy", function(d) { return d.y + Math.random(); })
       .attr("r", r)
-      .style("fill", color)
       .call(force.drag)
       .on("click", click)
       .on("touchend", click);
+
+    node
+      .attr("class", function(d){
+        return "node " + nodeType(d);
+      });
 
     // Exit any old nodes.
     node.exit().remove();
@@ -134,11 +136,7 @@
       })
       .attr("font-size", fontSize)
       .attr("font-size", fontSize)
-      .attr("class", function(d){
-        if( !isInternalNode(d) ){
-          return "child";
-        }
-      });
+      .attr("class", nodeType);
   }
 
   function tick() {
@@ -171,9 +169,18 @@
       });
   }
 
-  // Color leaf nodes orange, and packages white or blue.
-  function color(d) {
-    return d._children ? "#e23120" : d.children ? "#e23120" : "#29292b";
+  function color(d){
+    return d._children ? "#e23120" : d.children ? "#29292b" : "#222";
+  }
+
+  function nodeType(d){
+    if( !isInternalNode(d) ){
+      return "child";
+    } else if (d._children){
+      return "internal-closed";
+    } else {
+      return "internal-open";
+    }
   }
 
   function openChildren(d){
@@ -288,7 +295,7 @@
       // related denotes a more complex layout, o/w use a basic template
       if( desc.related ) {
 
-        // images denote the most complex layout, o/w just related
+        // image denotes the most complex layout, o/w just related
         if( desc.imgsrc ){
           element.innerHTML = interpComplexTemplate(node.name, desc);
         } else {

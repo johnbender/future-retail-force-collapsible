@@ -82,6 +82,12 @@ a:hover {
     color: #e23120;
 }
 
+.logo {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+
 circle.node {
   cursor: pointer;
   stroke: #000;
@@ -106,6 +112,26 @@ svg text {
 
 svg text.child {
   fill: #222;
+}
+
+svg text.internal-closed {
+  fill: #222;
+}
+
+svg text.internal-open {
+  fill: #ddd;
+}
+
+svg circle.child {
+  fill: #222;
+}
+
+svg circle.internal-closed {
+  fill: #e23120;
+}
+
+svg circle.internal-open {
+  fill: #29292b;
 }
 
 ::-webkit-scrollbar {
