@@ -85,6 +85,7 @@ a:hover {
   position: fixed;
   bottom: 50px;
   left: 50px;
+  width: 10%;
 }
 
 circle.node {
