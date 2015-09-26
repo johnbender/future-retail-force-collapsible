@@ -119,7 +119,7 @@ svg text.internal-closed {
 }
 
 svg text.internal-open {
-  fill: #ddd;
+  fill: #222;
 }
 
 svg circle.child {
@@ -131,7 +131,7 @@ svg circle.internal-closed {
 }
 
 svg circle.internal-open {
-  fill: #29292b;
+  fill: #e23120;
 }
 
 ::-webkit-scrollbar {
