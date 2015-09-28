@@ -5,7 +5,8 @@ var bubbleData = {
       "name" : "Media",
       "desc": {
         "paragraphs": [
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          "\"The media of the future is nimble, fit, and intimate. It has no respect for its elders. It doesn't care how it was done before. Those who cling on to power are most likely to lose it.\"",
+          "-Glenn Beck, media personality"
         ]
       },
 
@@ -384,7 +385,25 @@ var bubbleData = {
       "children":[
         {
           "name":"Health",
-          "desc": "Health description goes here",
+          "desc": {
+            "imgsrc" : "assets/images/Health.jpg",
+
+            "paragraphs": [
+              "Trailblazing technologies and therapeutics will change every aspect of healthcare – from genetic diagnosis and prevention, to drug research and testing, and high-tech treatments. The implications on every day life will be profound: imagine a world without cancer, where children receive needle-free vaccines, replacement organs are 3D printed from your own tissue, and new drugs are developed and produced as quickly as viruses morph \(for those who can afford it\)."
+            ],
+
+            "meaning": [
+              "Emergence of a ‘luxury medicine’ market with brick-and-mortar presence",
+              "Growth of wearable and embeddable technology market",
+              "Longer lifespans and consumers identifying younger"
+            ],
+
+            "related" : [
+              "Identity",
+              "Spending",
+              "Market"
+            ]
+          },
           "children":[
             {"name":"Personalized Medicine","size":1000},
             {"name":"60 Is The New 20","size":1000},
