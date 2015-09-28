@@ -431,7 +431,7 @@ var bubbleData = {
             {"name":"Consciousness","size":1000}
           ]
         },
-        
+
         {
           "name":"Spending",
           "desc": "Spending description goes here",
