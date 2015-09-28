@@ -90,10 +90,21 @@
     // Enter any new nodes.
     node.enter().append("svg:circle")
       .attr("cx", function(d) {
-        return d == root ? 100 : d.x + Math.random();
+        if( d == root ) {
+          console.log(d.x);
+          d.x = 300
+        }
+
+
+        return d.x;
       })
       .attr("cy", function(d) {
-        return d == root ? 100 : d.y + Math.random();
+        if( d == root ) {
+          console.log(d.y);
+          d.y = 300
+        }
+
+        return d.y;
       })
       .attr("r", r)
       .call(force.drag)
@@ -152,29 +163,11 @@
 
     node
       .attr("cx", function(d) {
-        if( d == root ){
-          if( d.x > w - rootBound ){
-            return d.x = w - rootBound;
-          }
-
-          if( d.x < rootBound ) {
-            return d.x = rootBound;
-          }
-        }
-
+        if( d == root )
+          console.log(d.x);
         return d.x;
       })
       .attr("cy", function(d) {
-        if( d == root ){
-          if( d.y > h - rootBound ){
-            return d.y = h - rootBound;
-          }
-
-          if( d.y < rootBound ) {
-            return d.y = rootBound;
-          }
-        }
-
         return d.y;
       });
 
@@ -230,7 +223,7 @@
   }
 
   function setFixed(d){
-    // if its an internal node in it's children are visible, fix it's place
+    // if its an internal node in it's children are visible, fix its place
     d.fixed = !!(isInternalNode(d) && d.children) || d == root;
   }
 
