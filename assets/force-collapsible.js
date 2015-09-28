@@ -7,6 +7,10 @@
       label,
       root;
 
+  var docEl = document.documentElement;
+  var initClientWidth = docEl.clientWidth;
+  var initClientHeight = docEl.clientHeight;
+
   var force = d3.layout.force()
         .on("tick", tick)
         .charge(function(d) {
@@ -32,6 +36,10 @@
 
   root = json;
   root.fixed = true;
+
+  // NOTE assumes that the svg is width/height 100%
+  root.x = initClientWidth / 2;
+  root.y = initClientHeight  / 2;
 
   var nodes = vis.selectAll("g")
         .data(flatten(root));
@@ -90,20 +98,9 @@
     // Enter any new nodes.
     node.enter().append("svg:circle")
       .attr("cx", function(d) {
-        if( d == root ) {
-          console.log(d.x);
-          d.x = 300
-        }
-
-
         return d.x;
       })
       .attr("cy", function(d) {
-        if( d == root ) {
-          console.log(d.y);
-          d.y = 300
-        }
-
         return d.y;
       })
       .attr("r", r)
@@ -163,8 +160,6 @@
 
     node
       .attr("cx", function(d) {
-        if( d == root )
-          console.log(d.x);
         return d.x;
       })
       .attr("cy", function(d) {
