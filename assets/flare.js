@@ -503,17 +503,18 @@ var bubbleData = {
               "imgsrc" : "assets/images/driverless-car.jpg",
 
               "paragraphs": [
-                "An inevitable future of driverless cars promises increased safety and efficiency, a reduction in traffic congestion, and the ability to multitask. Technology that would enable a vehicle to drive autonomously exists today; cars including Tesla’s Model S are one law and one over-the-air software update away from driving themselves from New York to Los Angeles.",
-                "There are two prevailing views of what may happen when driverless cars become the majority of road users. In one, driverless cars will become part of the shared economy, moving from user to user once their task is complete. In the second scenario, people will be able to simultaneously deploy multiple autonomous vehicles, each completing its task without an occupant. In both cases, the changes to the automotive landscape will be enormous, with major impacts on other industries."
+                "Driverless cars are inevitable in our future.  Technology that would enable a vehicle to drive autonomously exists today; cars including Tesla’s Model S are one law and one over-the-air software update away from driving themselves from New York to Los Angeles. ",
+                "The average car is used for approximately 50 minutes per day.  In a future where the act of driving is no longer required, people will be able to use that time for relaxation, work, sleep, and entertainment.  When this happens, there will be a significant opportunity for brands to monetize this “free time” and to gain share in the attention economy.",
+                "There is a strong connection between transportation technology and land use.  Each advance in transportation technology (electric streetcars, subways, automobiles, high-speed trains, etc.) has produced higher travel speeds; and each time travel speed has increased, the amount of land used for urban growth has increased and population density has decreased.  Driverless cars promise to reduce congestion while being able to safely travel at high rates of speed.  It is possible that driverless cars will expand trade areas and increase the sprawl of urban environments.",
+                "Two prevailing views exist for a future with driverless vehicles.  One believes that driverless cars will be part of the sharing economy and will move from user to user once their task is complete.  The other predicts that people will own multiple driverless cars and will be able to deploy them simultaneously to complete tasks.  In either scenario, there will be a significant impact to infrastructure.  In a sharing economy, there will be no need for parking garages in their current capacity.  In the case that people own multiple vehicles, there will need to be infrastructure that allows the cars to arrive and have items loaded into them."
               ],
 
               "meaning": [
-                "The need for parking structures at shopping centers may go away entirely. In a sharing economy scenario, a driverless car would drop off a shopper and then move on to the next user. In a world with private ownership of driverless vehicles, the parking garages could be designed very differently. Without the need for a shopper to park each car, garages could become more flexible in their placement and more efficient in their layout.",
-                "Without the need to park a vehicle, the arrival experience at a shopping center changes dramatically. Driverless vehicles could drop shoppers off at any locations they choose, then either move on or park themselves. From a development perspective, grand Vegas-hotel-style entrances could be created to usher shoppers into a center.",
-                "If driverless cars can be deployed to complete tasks without an occupant, retailers will need to provide areas where such vehicles can pull up, have goods loaded into them, then depart to the shopper’s home or office.",
-                "The average car is used for approximately 50 minutes each day. If the act of driving is no longer required, this becomes time where the occupant can multitask, shop, interact with brands, plan a visit, or be entertained. This time represents a significant opportunity for Westfield to interact with its customers long before and after they are physically at a center.",
-                "One expected effect of driverless vehicles is cost reduction. Fewer or no accidents could reduce or eliminate need for auto insurance. Optimized energy usage could reduce cost and environmental effects. Ownership might not be required. All of these factors could lead to increased discretionary spending.",
-                "Major advancements in transportation have often led to a spreading out of population; for example, automobiles allowed users to travel greater distances more quickly than did horses. High-speed trains allow people to work in urban centers but live far outside of them. Driverless cars could similarly expand trade areas when, say, a two-hour drive could become two hours of watching TV, reading, working, or sleeping."
+                "The need for parking structures at shopping centers could go away entirely if a sharing economy model is adopted for driverless cars.",
+                "Driverless vehicles could potentially be deployed to complete tasks, such as package retrieval, without any occupants and would need specially designed areas to do so.",
+                "Without the need to manually park a vehicle and enter a property from a parking garage, the arrival experience and 1st impression of a center will change dramatically.",
+                "In a driverless car, since there is no active input required from the occupants, there will be an opportunity to interact with consumers long before and after they’ve visited a center.",
+                "When a two hour drive becomes two hours of watching TV, reading, or relaxing in a driverless car, people may be willing to travel greater distances to a destination which would in turn expand trade areas."
               ],
 
               "related" : [
@@ -528,7 +529,8 @@ var bubbleData = {
             "name":"Carsharing",
             "desc": {
               "paragraphs": [
-                "The average car is used for only one hour a day and costs an average of $715 a month to own. Car ownership, once the symbol of freedom and independence, is increasingly viewed as an expensive burden. For every rented car, there are 15 fewer owned cars on the road; fewer cars lead to less congestion, reduced environmental impact, less need for parking structures, and increased discretionary spending."              ],
+                "The average car is used for only one hour a day and costs an average of $715 a month to own. Car ownership, once the symbol of freedom and independence, is increasingly viewed as an expensive burden. For every rented car, there are 15 fewer owned cars on the road; fewer cars lead to less congestion, reduced environmental impact, less need for parking structures, and increased discretionary spending."
+              ],
 
               "related" : [
                 "Sharing Economy",
@@ -542,7 +544,8 @@ var bubbleData = {
             "name":"Robot Valet",
             "desc": {
               "paragraphs": [
-                "Today’s fully automated parking garages help reduce the footprint of parking structures by increasing vehicle density and reducing pathways. Further development and implementation of this technology could help create an entirely different first impression and arrival experience than those shoppers have today as they enter properties from parking garages."              ],
+                "Today’s fully automated parking garages help reduce the footprint of parking structures by increasing vehicle density and reducing pathways. Further development and implementation of this technology could help create an entirely different first impression and arrival experience than those shoppers have today as they enter properties from parking garages."
+              ],
 
               "related" : [
                 "Smart Buildings",
@@ -556,7 +559,8 @@ var bubbleData = {
             "name":"Carmagedon",
             "desc": {
               "paragraphs": [
-                "Autonomous vehicles promise a new era of convenience, efficiency, and cost savings. One view of the future is of autonomous vehicles that are shared by many people and move from user to user as their task is completed, reducing congestion and eliminating the need for parking garages. The other view is one in which people own multiple autonomous vehicles and deploy them simultaneously to complete tasks, creating a significant increase in congestion."              ],
+                "Autonomous vehicles promise a new era of convenience, efficiency, and cost savings. One view of the future is of autonomous vehicles that are shared by many people and move from user to user as their task is completed, reducing congestion and eliminating the need for parking garages. The other view is one in which people own multiple autonomous vehicles and deploy them simultaneously to complete tasks, creating a significant increase in congestion."
+              ],
 
               "related" : [
                 "New (Mixed) Use",
@@ -570,7 +574,8 @@ var bubbleData = {
             "name":"The 3rd Space",
             "desc": {
               "paragraphs": [
-                "Attention, a scarce resource, is becoming an increasingly important commodity in the Internet age—one that can predict the flow of goods and capital. Monetizing the average 50 minutes per day people spend in their cars is a significant opportunity in the “attention economy.” As driving becomes increasingly automated, people in cars will have more time to relax, learn, be entertained, interact with brands, and shop."              ],
+                "Attention, a scarce resource, is becoming an increasingly important commodity in the Internet age—one that can predict the flow of goods and capital. Monetizing the average 50 minutes per day people spend in their cars is a significant opportunity in the “attention economy.” As driving becomes increasingly automated, people in cars will have more time to relax, learn, be entertained, interact with brands, and shop."
+              ],
 
               "related" : [
                 "Internet of Things",
@@ -584,47 +589,327 @@ var bubbleData = {
       },
       {
         "name":"Mass Transit",
-        "desc": "Mass transit description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "The portion of Americans aged 16 to 24 who have driver’s licenses is at its lowest level in half a century. With a preference for a live/walk/work lifestyle driving urbanization, cities large and small are placing a renewed focus on increasing mobility to spur economic and social activity and create stable, safe, and productive neighborhoods."
+          ],
+
+          "related" : [
+            "New \(Mixed\) Use",
+            "Development",
+            "Necessities"
+          ]
+        },
+
         "children":[
-          {"name":"Radical Rail","size":1000},
-          {"name":"Car-riages","size":1000},
-          {"name":"Shared Road","size":1000}
+          {
+            "name":"Radical Rail",
+            "desc": {
+              "paragraphs": [
+                "Today, traveling from city to city can be prohibitively expensive, time consuming, and inconvenient. Radical new designs for “rail” travel—for example, the Hyperloop, which promises 30-minute trips from San Francisco to Los Angeles for $30—are poised to expand trade areas and bring new competitive forces to market."
+              ],
+
+              "related" : [
+                "Travel",
+                "Development",
+                "Infrastructure"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Car-riages",
+            "desc": {
+              "paragraphs": [
+                "Follow-the-leader systems allow the flexibility of private transport and the efficiency and safety of public transport to coexist. In one possible transportation scenario, a lead vehicle is linked wirelessly to other cars, or “car-riages,” that follow its path autonomously. Each vehicle can leave the train to reach individual destinations; however, linkage could boost fuel and space efficiencies, reduce accidents, and increase free time."
+              ],
+
+              "related" : [
+                "Driverless Cars",
+                "Development",
+                "Travel"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Shared Road",
+            "desc": {
+              "paragraphs": [
+                "A significant barrier to the implementation of futuristic transportation systems is the cost of updating existing infrastructure, or creating entirely new infrastructure. Straddling buses, for example, roll on tracked “stilts” above traffic, creating a second level of traffic flow and increasing the people-carrying capacity of existing roadways."
+              ],
+
+              "related" : [
+                "Flexibility",
+                "Development",
+                "Travel"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Air & Space",
-        "desc": "Air & Space description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "“Earth isn't the only world for us anymore.”",
+            "—Buzz Aldrin, Astronaut and Engineer"
+          ],
+
+          "related" : [
+            "Lifestyle",
+            "Infrastructure",
+            "Travel"
+          ]
+        },
+
         "children":[
-          {"name":"Commercial Air","size":1000},
-          {"name":"Private Air","size":1000},
-          {"name":"Space Travel","size":1000}
+          {
+            "name":"Commercial Air",
+            "desc": {
+              "paragraphs": [
+                "According to Airbus, 63% of people worldwide say they will fly more by 2050, and 60% do not think that social media will replace the need to see people face to face. A future of more efficient and faster commercial air travel could bring more people to more places, increasing retailers’ opportunities to cater to tourists."
+              ],
+
+              "related" : [
+                "Travel",
+                "Development",
+                "Discretionary"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Private Air",
+            "desc": {
+              "paragraphs": [
+                "The private jet market is bigger than most people think, with many busy airports having four or more separate private jet terminals. In fact, more than 39,000 private aircraft are tracked worldwide. By comparison, in 2013 Delta operates 1,273 planes, United 1,242, and American 869. Just as Uber and Lyft have revolutionized the taxi industry, private jet used is poised to shake up air travel. Increased access to private flight could drastically increase the convenience and pleasure of travel and put more people in more places than ever."
+              ],
+
+              "related" : [
+                "Travel",
+                "Luxury",
+                "Flagship Portfolio"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Space Travel",
+            "desc": {
+              "paragraphs": [
+                "Democratized access to space could become a reality. As far as the technology to get there, multiple companies are working on a range of solutions: space planes, magnetic “torpedoes,” space elevators, and more. This will likely open up an entirely new market for space tourism, along with related services and creature comforts. Accessible space transportation in the form of suborbital planes would also open up incredibly fast ways to travel globally."
+              ],
+
+              "related" : [
+                "Travel",
+                "Development",
+                "Luxury"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Delivery",
-        "desc": "Delivery description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "One of the biggest challenges in B2C ecommerce is solving for the “last mile,” the home delivery of goods to a customer. The challenge of combining profitability with a high level of service has led to many advances in delivery, from logistics to drones."
+          ],
+
+          "related" : [
+            "Fulfillment Hub",
+            "Global Supply Chain",
+            "Customer Experience"
+          ]
+        },
+
         "children":[
-          {"name":"Global Transport","size":1000},
-          {"name":"Mobile Inventory","size":1000},
-          {"name":"Automation","size":1000},
-          {"name":"Drone-To-Door","size":1000}
+          {
+            "name":"Global Transport",
+            "desc": {
+              "paragraphs": [
+                "Advances in logistics have helped revolutionize the delivery industry and reduce the time it takes to move goods from inventory to shoppers’ hands. Such advances have companies such as Alibaba projecting three-day delivery anywhere in the world in as few as five to eight years. By then, Amazon will most likely have whittled delivery times to near zero for “local” deliveries. There will be new markets to access, new competition to fend off, new service expectations for physical retailers, and quick delivery from online retailers."
+              ],
+
+              "related" : [
+                "Fulfillment Hub",
+                "Global Supply Chain",
+                "Emergin Markets"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Mobile Inventory",
+
+            "desc": {
+
+              "imgsrc" : "assets/images/truck-of-the-future.jpg",
+
+              "paragraphs": [
+                "Ecommerce, which is rapidly reshaping the retail world, is predicted to make up 11% of all retail sales by 2018. Brick-and-mortar stores, however, are not disappearing. One of the biggest retail trends is the rise of omnichannel shopping, driven by the increasingly blurred line between buying in a store and buying online.",
+                "Traditional brick-and-mortar retailers are finding that their most effective tool when competing with Amazon is a physical network of retail locations that can quickly fulfill orders, reduce online cart abandonment, optimize shipping costs, and increase inventory turnover. Roughly 30% of retailers offer “buy online, pick up in store today” service. Another 34% plan to implement the capability within two years, and 18% say it will take more than two years, but plans are in the works."
+              ],
+
+              "meaning": [
+                "Lease rates are based in part on total sales made in a physical retail location. To make physical retail pay, Westfield will need to be able to capture a piece of online transactions influenced or fulfilled by its physical centers.",
+                "The design of retail spaces will have to incorporate the new use case presented by online order fulfillment. Possible changes include more inventory storage and new layouts that simultaneously support browsing, discovery, and quick pickups.",
+                "Incorporating curbside pickup services into the overall suite of services offered at the center level, including physical space for vehicles to arrive and depart without a customer exiting the vehicle, will be important as more retailers offer this capability."
+              ],
+
+              "related" : [
+                "Fulfillment Hub",
+                "Customer Experience",
+                "Phygical"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Automation",
+            "desc": {
+              "paragraphs": [
+                "Robotic warehouses, like Amazon’s in Trenton, New Jersey, are here—along with in-home buttons that consumers can press to order more paper towels. Even the act of ordering a product is likely to become automated; Amazon has already patented a means for predicting consumer purchases, and sending them on the way even before they have been ordered. Another patent Amazon holds is for a method of on-demand 3D manufacturing that allows products to be created on the way to customers’ homes. The only thing missing are driverless delivery vehicles and drones—also in rapid development. If consumers can quickly receive near-identical products from any retailer, anywhere in the world, it will drive an even greater imperative for retailers to differentiate themselves."
+              ],
+
+              "related" : [
+                "Fulfillment Hub",
+                "Phygical",
+                "Necessities"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Drone-To-Door",
+            "desc": {
+              "paragraphs": [
+                "Amazon estimates that delivery by drone will be available to customers within four to five years; it’s already begun the FAA approvals process. Such delivery could reduce road congestion and boost ecommerce sales, while turning brick-and-mortar retail locations into miniature fulfillment centers."
+              ],
+
+              "related" : [
+                "Fulfillment Hub",
+                "Customer Experience"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Virtual Transport",
-        "desc": "Virtual Transport description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "Faster Internet access, cloud storage, video conferencing, and other technological advances have helped to transform the workplace, with more people than ever working remotely."
+          ],
+
+          "related" : [
+            "Virtual Reality",
+            "Super Connected",
+            "Relationships"
+          ]
+        },
+
         "children":[
-          {"name":"Telecommuting","size":1000},
-          {"name":"Virtually There","size":1000}
+          {
+            "name":"Telecommuting",
+            "desc": {
+              "paragraphs": [
+                "Maintaining a physical office costs companies a lot—and merely getting to the office can cost employees a lot of money, time, and happiness. Cost savings, convenience, and employee happiness is driving growth in telecommuting, and altering the landscape of services that rely on daily traffic from office workers."
+              ],
+
+              "related" : [
+                "Virtual Reality",
+                "Super Connected",
+                "Travel"
+              ]
+            },
+            "size":1000},
+          {
+            "name":"Virtually There",
+            "desc": {
+              "paragraphs": [
+                "Telepresence devices allow people to feel as if they are present, or to give the appearance of being present while physically in another location. Such devices, like those from Beam and Double, are being used today as an alternative to teleconferencing. In fact, two of the first iPhone 6s units sold after launch were sold to people “waiting in line” on telepresence devices. Devices similar to these could one day allow people in New York, for example, to explore and shop at a retail location in London."
+              ],
+
+              "related" : [
+                "Virtual Reality",
+                "Ubiquitous Media",
+                "Relationships"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Travel",
-        "desc": "Travel description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "A significant barrier to the implementation of futuristic transportation systems is the cost of updating existing infrastructure, or creating entirely new infrastructure. Straddling buses, for example, roll on tracked “stilts” above traffic, creating a second level of traffic flow and increasing the people-carrying capacity of existing roadways."
+          ],
+
+          "related" : [
+            "Flexibility",
+            "Development",
+            "Travel"
+          ]
+        },
+
         "children":[
-          {"name":"Experiential Modes","size":1000},
-          {"name":"Around The World in 0.8 Days","size":1000},
-          {"name":"Cultural Exploration","size":1000}
+          {
+            "name":"Experiential Modes",
+            "desc": {
+              "paragraphs": [
+                "A significant barrier to the implementation of futuristic transportation systems is the cost of updating existing infrastructure, or creating entirely new infrastructure. Straddling buses, for example, roll on tracked “stilts” above traffic, creating a second level of traffic flow and increasing the people-carrying capacity of existing roadways."
+              ],
+
+              "related" : [
+                "Flexibility",
+                "Development",
+                "Travel"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Around The World in 0.8 Days",
+            "desc": {
+              "paragraphs": [
+                "A significant barrier to the implementation of futuristic transportation systems is the cost of updating existing infrastructure, or creating entirely new infrastructure. Straddling buses, for example, roll on tracked “stilts” above traffic, creating a second level of traffic flow and increasing the people-carrying capacity of existing roadways."
+              ],
+
+              "related" : [
+                "Flexibility",
+                "Development",
+                "Travel"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Cultural Exploration",
+            "desc": {
+              "paragraphs": [
+                "A significant barrier to the implementation of futuristic transportation systems is the cost of updating existing infrastructure, or creating entirely new infrastructure. Straddling buses, for example, roll on tracked “stilts” above traffic, creating a second level of traffic flow and increasing the people-carrying capacity of existing roadways."
+              ],
+
+              "related" : [
+                "Flexibility",
+                "Development",
+                "Travel"
+              ]
+            },
+            "size":1000
+          }
         ]
       }
     ]
@@ -739,7 +1024,7 @@ var bubbleData = {
     ]
   },
   {
-    "name":"Intrastructure",
+    "name":"Infrastructure",
     "desc": "Infrastructure description goes here",
     "children":[
       {
