@@ -1,13 +1,13 @@
 var bubbleData = {
   "name": "Customer",
-  
+
   "children": [
     {
       "name" : "Media",
       "desc": {
         "paragraphs": [
           "\"The media of the future is nimble, fit, and intimate. It has no respect for its elders. It doesn't care how it was done before. Those who cling on to power are most likely to lose it.\"",
-          "-Glenn Beck, media personality"
+          "—Glenn Beck, media personality"
         ]
       },
 
@@ -18,12 +18,8 @@ var bubbleData = {
             "imgsrc" : "assets/images/social-media.jpg",
 
             "paragraphs": [
-              "Lorem Ipsum is quite simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-            ],
-
-            "meaning": [
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              "Ten years ago social media was a niche hobby concentrated among college students and indie bands. By 2016, there are expected to be more than two billion social media users—more than 25% of the world population. Along with this exponential growth, we’ve seen social media evolve from a fad to a paradigm shift in the way the world communicates, one that’s helped spark everything from fashion trends to political revolutions.",
+              "As more and more of the remaining 55% of the world’s population is brought online, social media is likely to become globally ubiquitous, even more seamlessly integrated into our lives. This integration may take the shape of wearables that track our habits, virtual experiences seamlessly brought to life across platforms, and predictive analytics that tailor messaging to help us cope with the massive amounts of data that humans produce."
             ],
 
             "related" : [
@@ -37,13 +33,12 @@ var bubbleData = {
               "name": "Self As Brand",
               "desc": {
                 "paragraphs": [
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                  "Anyone on social media has already constructed a “digital self,” simply by crafting a personal profile and sharing content drawn from everyday moments. We’re poised to see dramatic growth in the quantity of content created, the amount of available personal data, and the influential power of that data. Predictive analytics will be able to harness data troves to tailor powerful experiences to individual interests, and help us cut through massive amounts of incoming content to hone in on the few pieces we actually want to see. The likely result: hyperpersonalized social media streams that give billions of us the content we want, when we want, from the people and brands we want. For brands, such changes can be a double-edged sword, one that requires them to create genuinely interesting and useful messages—and allows them to precisely target exact consumer niches."
                 ],
 
                 "related" : [
-                  "Experience Economy",
-                  "Customization",
-                  "Mass Indie",
+                  "Big Data",
+                  "Content",
                   "Identity"
                 ],
               },
@@ -51,46 +46,44 @@ var bubbleData = {
               "size" : 1000
             },
             {
-              "name": "Social Discovery",
+              "name": "Living Social",
               "desc": {
                 "paragraphs": [
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                  "The explosion of social media has quickly changed some of our deeply ingrained social behaviors. Many of us find community and validation online, as much as or more than in person—our most trusted circles may be virtual communities of individuals we’ve never physically met. As online communication becomes increasingly immersive, encompassing more and more of life, face-to-face interactions may become less of the norm, with the behaviors and decisions that mark everyday life becoming increasingly virtualized. Imagine shopping a virtual store with a friend, trying things on your personal avatars, and chatting in real time—all while on the go in two different time zones."
                 ],
 
                 "related" : [
-                  "Advertorial",
-                  "Affiliate Schemes",
-                  "Shared Economy"
+                  "Relationships",
+                  "Shared Experience",
+                  "Convivality"
                 ],
               },
               "size": 1000
             },
             { "name": "Democratized Influence",
             "desc": {
+              "imgsrc" : "assets/images/arab-spring.jpg",
+
               "paragraphs": [
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                "Social media has dramatically leveled the playing field of influence, with “trending” topics sparking everything from fashion fads to political revolutions. As connectivity and bandwidth increases around the world, social media will most likely continue to diversify, democratizing the content consumed on a global scale. More and more items—whether breaking news or product launches—will be covered live, with a sea of eyewitnesses streaming sight, sound, touch, and more. Content will be able to join a single immersive stream, enabling viewers worldwide to virtually experience nearly any event in real time. For better and worse, even more of the world will feel like it’s right in front of us."
               ],
 
               "related" : [
-                "Affiliate Schemes",
-                "Luxury Print",
-                "Crowdsourcing",
-                "Mass Indie"
+                "Level Playing Field",
+                "Virtual Reality"
               ],
             },
               "size": 1000
             },
-            { "name": "Post-Privacy World",
+            { "name": "Ubiquitous Media",
             "desc": {
               "paragraphs": [
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                "Social media has been one of the greatest phenomena of the last decade. However, some experts predict that social media as a standalone concept will fade away, instead fusing with other communications and content to become a mass media form. Standalone apps and websites like Facebook and Twitter may become irrelevant, making way for a connectedness that more closely resembles electricity—so seamlessly integrated into our surroundings that we notice it only when it’s not there. Instead of keyboards and smartphones, we may use voice and gestures to share thoughts and sensations, bringing person-to-person interactions ever closer to telepathy."
               ],
 
               "related" : [
-                "Omni-Tracking",
-                "Big Brother",
-                "Identity",
-                "Privacy"
+                "Wearable Tech",
+                "Ubiquitous Computing"
               ],
             },
             "size": 1000
@@ -101,7 +94,9 @@ var bubbleData = {
           "name": "Advertising",
           "desc": {
             "paragraphs": [
-              "Lorem Ipsum is quite simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              "Where advertising was once neatly divided among TV, print and billboard, today’s landscape of outlets, devices, and options is becoming more fragmented by the day. A bombardment of messaging is inspiring more and more consumers to tune out in self-preservation—and prompting the growth of technologies like ad blockers and DVRs.",
+              "However, technology advances in this area run in both directions. Advertisers and publishers are responding with sophisticated targeting, delivery, and content strategies. In the future, consumers are likely to be treated by advertisers as unique individuals—recipients of the “right” message in the right way at the right time. And with advertisers precisely tracking every dollar each consumer spends, the industry’s most famous saying may find itself obsolete:",
+              "\“Half the money I spend on advertising is wasted; the trouble is, I don’t know which half.\”—John Wanamaker, considered the father of the US department store"
             ],
 
             "related" : [
@@ -111,10 +106,59 @@ var bubbleData = {
             ]
           },
           "children": [
-            { "name": "Super-Targeting", "size": 1000 },
-            { "name": "Advertorial", "size": 1000 },
-            { "name": "AI Content", "size": 1000 },
-            { "name": "Affiliate Schemes", "size": 1000 }
+            {
+              "name": "Predictive",
+              "desc": {
+                "imgsrc" : "assets/images/predictive.png",
+
+                "paragraphs": [
+                  "The future of ad targeting lies not in what consumers have done, but in what they’re about to do. Rather than showing ads based on a blunt notion of demographics—where you live, what device you’re on—or what you’ve already looked at—known as retargeting—ads will  use more and more complex predictive computing to deliver highly personalized content.",
+                  "For advertising, the digital ecosystem is an untapped mine of data. When we like posts on Facebook, map directions, or use digital calendars, we’re creating a virtual window into our lives. As processing power skyrockets, companies can use it to overlay these digital crumb trails, building increasingly rich understandings of what we do.",
+                  "Over time, advertising will further hone its ability to serve the right message at the right time in the right place and in the right way, providing greater value to customer and advertiser alike. Some possibilities: fully rendered, completely personalized video ads based on real-time pricing, real-time availability, local weather, and thousands of other data points. The art director and copywriter team of the future may very well be the algorithm and processor.",
+                  "Such contextually precise targeting—aided by a growing landscape of connected wearable devices that provide increasingly more accurate inputs while continuously conveying information—is poised to change advertising as we know it. In fact, much of the technology is already here. What's slowing it down? The time required for a cultural shift toward acceptance of sharing such information with advertisers."
+                ],
+
+                "meaning": [
+                  "Predictive advertising is emerging as a rich world for brands to exploit.",
+                  "Advertising, including creative development, is becoming increasingly data driven and automated.",
+                  "As advertising becomes increasingly heavily reliant on user data, establishing trust among consumers, brands, and publishers will be critical."
+                ],
+
+                "related" : [
+                  "Big Data",
+                  "Self As Brand",
+                  "Security"
+                ]
+              },
+              "size": 1000
+            },
+            {
+              "name": "Advertorial",
+
+              "paragraphs": [
+                "Consumers are inundated by advertising from every direction and every screen. Brands are under increasing pressure to engage this “tuned out” audience. The blurring of lines between advertising and editorial content has already begun, evidenced by “native” Instagram ads, sponsored magazine covers, and branded programming. As media is pressured to monetize in new and greater ways, such practices will only increase."
+              ],
+
+              "size": 1000
+            },
+            {
+              "name": "AI Content",
+
+              "paragraphs": [
+                "Ads, both digital and out-of-home, will likely respond and adapt more and more to the behavior of their audience. Drawing on emotional and physical input—including facial expressions, gestures, and other micro-cues—ad spots may learn and adapt based on audience response, maximizing ad performance."
+              ],
+
+              "size": 1000
+            },
+            {
+              "name": "Affiliate Schemes",
+
+              "paragraphs": [
+                "Retail and media have long been interdependent. As media companies are pressured to monetize in new ways and purchase attribution becomes increasingly precise, outlets are likely to make a play for a cut of the purchases they spur. One possible outcome? Everyone from major sites and influencers to everyday people posting to social media will be able to collect a cut of the sales they help generate."
+              ],
+
+              "size": 1000
+            }
           ]
         },
         {
