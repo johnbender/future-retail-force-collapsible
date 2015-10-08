@@ -267,69 +267,24 @@
     return nodes;
   }
 
-  var basicTemplate = document.querySelector("#basic-template").innerHTML;
-  var basicTemplateRelated = document.querySelector("#basic-template-related").innerHTML;
-  var complexTemplate = document.querySelector("#complex-template").innerHTML;
-
-  function interpBasicTemplate(name, desc, template) {
-    return (template || basicTemplate)
-      .replace( "{{name}}", name )
-      .replace( "{{paragraphs}}", desc.paragraphs.reduce(function(acc, p) {
-        return acc + "<p>" + p + "</p>";
-      }, ""));
-  }
-
-
-  function interpBasicTemplateRelated(name, desc, template) {
-    return interpBasicTemplate(name, desc, template || basicTemplateRelated)
-      .replace( "{{related}}", desc.related.reduce(function(acc, r){
-        return acc +
-          "<li>" +
-          "<a href='#' data-node-name='" + r + "'>" +
-          r +
-          "</a>" +
-          "</li>";
-      }, ""));
-  }
-
-  function interpComplexTemplate(name, desc){
-    return interpBasicTemplateRelated(name, desc, complexTemplate)
-      .replace( "{{imgsrc}}", desc.imgsrc)
-      .replace( "{{meaning}}", desc.meaning.reduce(function(acc, m){
-        return acc +
-          "<li>" +
-          m +
-          "</li>";
-      }, ""));
-  }
+  var template = document.querySelector("#template").innerHTML;
 
   function description(element, node){
     var interp, html, desc = node.desc;
 
-    // TODO all of this goes away with a handlebars/mustache and partials
     // structured content
-    if( desc.paragraphs ){
-
-      // related denotes a more complex layout, o/w use a basic template
-      if( desc.related ) {
-
-        // image denotes the most complex layout, o/w just related
-        if( desc.imgsrc ){
-          element.innerHTML = interpComplexTemplate(node.name, desc);
-        } else {
-          element.innerHTML = interpBasicTemplateRelated(node.name, desc);
-        }
-      } else {
-        element.innerHTML = interpBasicTemplate(node.name, desc);
-      }
-
-      bindRelated(element);
+    if( desc && typeof desc !== "string"){
+      desc.name = node.name;
+      element.innerHTML = Mustache.render(template, desc);
     } else {
       // raw html
       element.innerHTML = desc || "";
     }
 
-    element.innerHTML = "<a href='#' class='close'>&times</a>" + element.innerHTML;
+    element.innerHTML =
+      "<a href='#' class='close'>&times</a>" + element.innerHTML;
+
+    bindRelated(element);
     bindClose(element);
   }
 
