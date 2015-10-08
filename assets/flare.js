@@ -157,6 +157,12 @@ var bubbleData = {
                 "Ads, both digital and out-of-home, will likely respond and adapt more and more to the behavior of their audience. Drawing on emotional and physical input—including facial expressions, gestures, and other micro-cues—ad spots may learn and adapt based on audience response, maximizing ad performance."
               ],
 
+              "related" : [
+                "Robot Journalism",
+                "Robot Design",
+                "Self As Brand"
+              ]
+
             },
 
             "size": 1000
@@ -168,6 +174,13 @@ var bubbleData = {
               "paragraphs": [
                 "Retail and media have long been interdependent. As media companies are pressured to monetize in new ways and purchase attribution becomes increasingly precise, outlets are likely to make a play for a cut of the purchases they spur. One possible outcome? Everyone from major sites and influencers to everyday people posting to social media will be able to collect a cut of the sales they help generate."
               ],
+
+              "related" : [
+                "Democratized Influence",
+                "Revenue",
+                "Monetize or Die"
+              ]
+
             },
 
             "size": 1000
@@ -179,33 +192,106 @@ var bubbleData = {
 
         "desc": {
           "paragraphs": [
-            "Retail and media have long been interdependent. As media companies are pressured to monetize in new ways and purchase attribution becomes increasingly precise, outlets are likely to make a play for a cut of the purchases they spur. One possible outcome? Everyone from major sites and influencers to everyday people posting to social media will be able to collect a cut of the sales they help generate."
+            "Few industries have been more affected by the digital revolution than entertainment. The strongholds of powerhouse conglomerates—record labels, movie studios, and cable networks—are gone or severely injured. Driven by global growth in content consumption and consumer demand for niche programming, the relationship between producers, providers, and consumers is moving toward collaboration. With the commercial adoption of virtual reality (VR) and high-definition range (HDR) technologies, what we watch is poised to change as dramatically as how we watch it, with the potential for full sensory experiences."
           ],
+
+          "related" : [
+            "Democratized Influence",
+            "Revenue",
+            "Monetize or Die"
+          ]
+
         },
 
         "children": [
           {
             "name": "On-Demand Content",
+
+            "desc": {
+              "paragraphs": [
+                "The era of on-demand content has already begun, with shows releasing entire seasons in a single day and a thriving culture of binge-watching digital programming. More and more, viewers expect to watch what they want, when they want, where they want. Looking ahead, we may see full feature films put online simultaneously with in-theater releases, along with predominantly “buy once” programming that is purchased once and viewable across multiple devices."
+              ],
+
+              "related" : [
+                "Predictive",
+                "AI Content",
+                "Living Social"
+              ]
+            },
+
             "size": 1000
           },
           {
             "name": "Level Playing Field",
+            "desc": {
+              "paragraphs": [
+                "Growth of digital filmmaking and distribution will likely continue to lower barriers to entry. That’s likely to make it easier for low-budget producers to reach viewers—and pull eyeballs from the major studios and networks."
+              ],
+
+              "related" : [
+                "Democratized Influence"
+              ]
+            },
+
             "size": 1000
           },
           {
             "name": "Shared Experience",
+            "desc": {
+              "paragraphs": [
+                "Live, in-person entertainment could very well become squeezed by digital programming. Those that succeed may do so by capitalizing on demand for the serendipity and conviviality of shared experiences."
+              ],
+
+              "related" : [
+                "Living Social",
+                "Virtual Reality",
+                "Venues"
+              ]
+            },
             "size": 1000
           },
           {
             "name": "Live Streaming",
+            "desc": {
+              "paragraphs": [
+                "Increased bandwidth availability and the growth of providers such as Periscope and Meerkat is likely to make digitally streamed live content more common and accessible, pulling viewership from traditional live broadcast. Traditional entertainment outlets may seek to ride this wave, incorporating “second-screen” live-streamed content into their programming."
+              ],
+
+              "related" : [
+                "Living Social",
+                "Democratized Influence",
+                "Ubiquitous Media"
+              ]
+          },
             "size": 1000
           },
           {
             "name": "Immersive Entertainment",
+            "desc": {
+              "paragraphs": [
+                "As the quality of virtual reality improves and its cost decreases, it will become easier for entertainment to draw on augmented reality to make fully immersive experiences easily accessible. Expect interfaces that incorporate touch, smell, and 360-degree high-definition visuals to create experiences almost indistinguishable from those in the real world."
+              ],
+
+              "related" : [
+                "Virtual Reality",
+                "Living Social",
+                "Venues"
+              ]
+          },
             "size": 1000
           },
           {
             "name": "Global Market",
+            "desc": {
+              "paragraphs": [
+                "Global connectivity and instant translation technology will make commerce across national borders easier and easier. For brands best able to tailor their offerings to fit local preferences, the result will be one global market of eight billion consumers."
+              ],
+
+              "related" : [
+                "Glocal Footprint",
+                "Democratized Influence"
+              ]
+          },
             "size": 1000
           }
         ]
