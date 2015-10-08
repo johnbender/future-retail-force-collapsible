@@ -364,14 +364,103 @@ var bubbleData = {
       },
       {
         "name":"Content",
-        "desc": "Content description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "Two major trends are driving how we’ll view and use content in the future. As artificial intelligence (AI) improves, it can be used to not only locate, but also create, the right content for the right users. Fast and easy content creation in many sectors will in turn increase churn and reduce shelf life. And as consumers come to expect new forms of content (and content delivery) personalized to their needs and lifestyles, mobile content consumption will become more dominant. Bombarded by such rapidly changing content, consumers will look for information that is relevant, but also engaging and meaningful."
+          ],
+
+          "related" : [
+            "Social Media",
+            "Entertainment",
+            "Publishers"
+          ]
+
+        },
+
         "children": [
-          { "name": "Robot Journalism", "size": 1000 },
-          { "name": "Digital Exhaust", "size": 1000 },
-          { "name": "Short Shelf Life", "size": 1000 },
-          { "name": "Monetize or Die", "size": 1000 },
-          { "name": "Luxury Print", "size": 1000 },
-          { "name": "Mobile First", "size": 1000 }
+          {
+            "name": "Robot Journalism",
+            "desc": {
+              "paragraphs": [
+                "By the end of 2015, the AP will produce up to 4,440 corporate-earnings reports per quarter—all written by robots. That’s more than 10 times what the agency’s human reporters currently produce. Today, robots are writing fantasy football recaps, internal sales reports for Fortune 500 companies, real estate listings, and other types of relatively simple reporting. They can even employ perspective, tone, and humor to tailor stories to their audience. In the future, robot journalists could act as “personal data scientists,” sifting through reams of data that might otherwise go unanalyzed to create custom reports for micro-audiences—for example, daily stories on your fitness tracking data and personal finances."              ],
+
+              "related" : [
+                "Robot Design",
+                "AI Content"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Digital Exhaust",
+            "desc": {
+              "paragraphs": [
+                "We’re putting more and more data into the cloud. Nest knows which rooms in your house you spend time in, and when. “Smart” appliances capture and transmit voice commands to their manufacturers. Hue light bulbs know exactly what shade of lighting you like for every mood. Car insurance companies deploy tracking devices to gauge how safely you drive. Fitness trackers know your heart rate, how much you sweat, your blood sugar levels, how many steps you take, and when and how well you sleep. In addition to the information we deliberately post to social media, geographic coordinates and what we look at are also captured. Almost every interaction with technology, deliberate or not, creates a trail of “digital exhaust” that is becoming more difficult to escape—and more valuable to marketers."              ],
+
+              "related" : [
+                "Self As Brand",
+                "Omni-Tracking",
+                "Security"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Short Shelf Life",
+            "desc": {
+              "paragraphs": [
+                "The average American spends more than eight hours a day consuming media, with mobile the fastest growing and more dominant consumption channel. Consumers demand fresh content far more frequently than traditional print media once provided."              ],
+
+              "related" : [
+                "Social Media",
+                "Entertainment",
+                "Phygical"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Monetize or Die",
+            "desc": {
+              "paragraphs": [
+                "As the line between digital and physical blurs further, those who can monetize the eyeballs on their properties will succeed—whether by monetizing physical traffic that later buys products online, integrating with a broad commerce platform, or charging subscription or membership fees for access. In short, traditional means of generating revenue must change with the landscape."              ],
+
+              "related" : [
+                "Affiliate Schemes",
+                "Revenue"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Luxury Print",
+            "desc": {
+              "paragraphs": [
+                "While the migration from print to digital will continue, at some point in the future, print could become an affordable luxury. Millennials, often seen as tech savvy and digital leaning, are growing weary of the constant tech in their lives, leading to a rising desire for alternate experiences. Print publications, favored by a core group of adherents, could be seen as “experiential products.”"              ],
+
+              "related" : [
+                "Brands",
+                "Luxury",
+                "Customer Experience"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Mobile First",
+            "desc": {
+              "paragraphs": [
+                "For many consumer services, mobile device usage outpaces desktop use—a trend likely to continue. Information will follow consumers in the form of on-demand services offered as needed, in the most useful form."              ],
+
+              "related" : [
+                "Phygical",
+                "Wearable Tech",
+                "Ubiquitous Computing"
+              ]
+          },
+            "size": 1000
+          }
         ]
       }
     ]
