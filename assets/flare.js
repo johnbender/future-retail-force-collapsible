@@ -298,11 +298,68 @@ var bubbleData = {
       },
       {
         "name": "Big Data",
-        "desc": "Big data description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "While society has always generated data, today powerful storage, bandwidth, and computing technologies allow us to store and process it in unprecedented amounts. Analyzing this “big data” can reveal new patterns, illuminate relationships, and unlock new forms of economic value.",
+            "One interesting trend: the degree to which big data is becoming invisible. Today, businesses refer to its functional uses: big data HR, big data insurance, big data marketing. But we no longer call those functions “computer-driven,” even though computers are just a few decades old. Over time, we’re likely to see big data becoming an equally seamless and integral part of operations, one that powers most if not all business decisions and actions. Will “adoptive data preparation” soon replace the term “big data”?"
+          ],
+
+          "related" : [
+            "Self As Brand",
+            "Security",
+            "Predictive"
+          ]
+
+        },
+
         "children": [
-          { "name": "Omni-Tracking", "size": 1000 },
-          { "name": "Fragmentation", "size": 1000 },
-          { "name": "Data As Currency", "size": 1000 }
+          {
+            "name": "Omni-Tracking",
+            "desc": {
+              "paragraphs": [
+                "The classic argument in favor of tracking, whether virtual or in-store, is that consumers are willing to give up a bit of their privacy in exchange for convenience or savings. Until recently, however, it wasn’t technologically possible to find out much about consumers in stores until they bought something, with a credit card, email address, or loyalty program membership. Now marketers are developing the ability to connect online and offline behaviors to create a single unified view of each consumer. Collecting that level of information and insight will require a greater exchange of value in the form of savings, service, and convenience."
+              ],
+
+              "related" : [
+                "Self As Brand",
+                "Security",
+                "Predictive"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Distributed Data",
+            "desc": {
+              "paragraphs": [
+                "In the next five years, the global volume of digital data is expected to multiply 40 times or more, encompassing information from a variety of sources—web, phone, location, etc. For retailers, the challenge is how to access and use this deluge. Mall shoppers, for example, generate many pieces of data, but they are from disparate systems that don’t necessarily talk with each other, making it difficult to produce a view of a single consumer.",
+                "In the future, successful retailers will find ways to use this unified data to offer shoppers better experiences and better service. Data concierge services may emerge to aggregate fragmented, distributed data points into comprehensive, scalable data platforms. "
+              ],
+
+              "related" : [
+                "Self As Brand",
+                "Predictive",
+                "Convergence Economy"
+              ]
+          },
+            "size": 1000
+          },
+          {
+            "name": "Data As Currency",
+            "desc": {
+              "paragraphs": [
+                "In the most basic sense, a currency is something that a group of people agree has value. In the digital age, companies regularly buy, sell, and trade data; at least one social network is proposing to pay its users for their data. Few places draw as many people to one place for as many different purposes as a shopping center. Capturing and monetizing the data from shoppers’ purchases, behavior, and interactions can help create strong and potentially valuable customer relationships."
+              ],
+
+              "related" : [
+                "Phygical",
+                "Self As Brand",
+                "Security"
+              ]
+          },
+          "size": 1000
+        }
         ]
       },
       {
