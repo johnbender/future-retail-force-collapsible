@@ -467,17 +467,119 @@ var bubbleData = {
   },
   {
     "name":"Transportation",
-    "desc": "Transportation description goes here",
+
+    "desc": {
+      "paragraphs": [
+        "\“If I had asked people what they wanted, they would have said faster horses.\"",
+        "—Henry Ford"
+      ],
+
+      "related" : [
+        "Infrastructure",
+        "Lifestyle"
+      ]
+
+    },
     "children":[
       {
         "name":"Auto",
-        "desc": "Car description goes here",
+
+        "desc": {
+          "paragraphs": [
+            "At the 1964 World’s Fair, General Motors exhibited the Firebird IV concept car, which, as the company explained, “anticipates the day when the family will drive to the super-highway, turn over the car’s controls to an automatic, programmed guidance system, and travel in comfort and absolute safety at more than twice the speed possible on today’s expressways.” Now that day has arrived, with the technology to make vehicles driverless. Automobiles, long a symbol of freedom, independence, and personal expression are set to radically evolve, transforming American lifestyles and impacting industries from real estate to retail."
+          ],
+
+          "related" : [
+            "New \(Mixed\) Use",
+            "Development",
+            "Necessities"
+          ]
+        },
+
         "children":[
-          {"name":"Driverless Cars","size":1000},
-          {"name":"Carsharing","size":1000},
-          {"name":"Robot Valet","size":1000},
-          {"name":"Carmagedon","size":1000},
-          {"name":"The 3rd Space","size":1000}
+          {
+            "name":"Driverless Cars",
+            "desc": {
+              "imgsrc" : "assets/images/driverless-car.jpg",
+
+              "paragraphs": [
+                "An inevitable future of driverless cars promises increased safety and efficiency, a reduction in traffic congestion, and the ability to multitask. Technology that would enable a vehicle to drive autonomously exists today; cars including Tesla’s Model S are one law and one over-the-air software update away from driving themselves from New York to Los Angeles.",
+                "There are two prevailing views of what may happen when driverless cars become the majority of road users. In one, driverless cars will become part of the shared economy, moving from user to user once their task is complete. In the second scenario, people will be able to simultaneously deploy multiple autonomous vehicles, each completing its task without an occupant. In both cases, the changes to the automotive landscape will be enormous, with major impacts on other industries."
+              ],
+
+              "meaning": [
+                "The need for parking structures at shopping centers may go away entirely. In a sharing economy scenario, a driverless car would drop off a shopper and then move on to the next user. In a world with private ownership of driverless vehicles, the parking garages could be designed very differently. Without the need for a shopper to park each car, garages could become more flexible in their placement and more efficient in their layout.",
+                "Without the need to park a vehicle, the arrival experience at a shopping center changes dramatically. Driverless vehicles could drop shoppers off at any locations they choose, then either move on or park themselves. From a development perspective, grand Vegas-hotel-style entrances could be created to usher shoppers into a center.",
+                "If driverless cars can be deployed to complete tasks without an occupant, retailers will need to provide areas where such vehicles can pull up, have goods loaded into them, then depart to the shopper’s home or office.",
+                "The average car is used for approximately 50 minutes each day. If the act of driving is no longer required, this becomes time where the occupant can multitask, shop, interact with brands, plan a visit, or be entertained. This time represents a significant opportunity for Westfield to interact with its customers long before and after they are physically at a center.",
+                "One expected effect of driverless vehicles is cost reduction. Fewer or no accidents could reduce or eliminate need for auto insurance. Optimized energy usage could reduce cost and environmental effects. Ownership might not be required. All of these factors could lead to increased discretionary spending.",
+                "Major advancements in transportation have often led to a spreading out of population; for example, automobiles allowed users to travel greater distances more quickly than did horses. High-speed trains allow people to work in urban centers but live far outside of them. Driverless cars could similarly expand trade areas when, say, a two-hour drive could become two hours of watching TV, reading, working, or sleeping."
+              ],
+
+              "related" : [
+                "Market",
+                "Infrastructure",
+                "Travel"
+              ]
+          },
+            "size":1000
+          },
+          {
+            "name":"Carsharing",
+            "desc": {
+              "paragraphs": [
+                "The average car is used for only one hour a day and costs an average of $715 a month to own. Car ownership, once the symbol of freedom and independence, is increasingly viewed as an expensive burden. For every rented car, there are 15 fewer owned cars on the road; fewer cars lead to less congestion, reduced environmental impact, less need for parking structures, and increased discretionary spending."              ],
+
+              "related" : [
+                "Sharing Economy",
+                "Smart Buildings",
+                "Necessities"
+              ]
+          },
+            "size":1000
+          },
+          {
+            "name":"Robot Valet",
+            "desc": {
+              "paragraphs": [
+                "Today’s fully automated parking garages help reduce the footprint of parking structures by increasing vehicle density and reducing pathways. Further development and implementation of this technology could help create an entirely different first impression and arrival experience than those shoppers have today as they enter properties from parking garages."              ],
+
+              "related" : [
+                "Smart Buildings",
+                "New (Mixed) Use",
+                "Automation"
+              ]
+          },
+          "size":1000
+        },
+          {
+            "name":"Carmagedon",
+            "desc": {
+              "paragraphs": [
+                "Autonomous vehicles promise a new era of convenience, efficiency, and cost savings. One view of the future is of autonomous vehicles that are shared by many people and move from user to user as their task is completed, reducing congestion and eliminating the need for parking garages. The other view is one in which people own multiple autonomous vehicles and deploy them simultaneously to complete tasks, creating a significant increase in congestion."              ],
+
+              "related" : [
+                "New (Mixed) Use",
+                "Development",
+                "Values"
+              ]
+          },
+          "size":1000
+        },
+          {
+            "name":"The 3rd Space",
+            "desc": {
+              "paragraphs": [
+                "Attention, a scarce resource, is becoming an increasingly important commodity in the Internet age—one that can predict the flow of goods and capital. Monetizing the average 50 minutes per day people spend in their cars is a significant opportunity in the “attention economy.” As driving becomes increasingly automated, people in cars will have more time to relax, learn, be entertained, interact with brands, and shop."              ],
+
+              "related" : [
+                "Internet of Things",
+                "Customer Experience",
+                "Lifestyle"
+              ]
+          },
+          "size":1000
+        }
         ]
       },
       {
