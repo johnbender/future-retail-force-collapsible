@@ -7,39 +7,40 @@
   </head>
   <body>
 
-    <script type="text/template" id="basic-template-related">
+    <script type="text/mustache" id="template">
       <h2>{{name}}</h2>
 
-      {{paragraphs}}
+      {{#imgsrc}}
+      <img src="{{.}}"/>
+      {{/imgsrc}}
 
-      See related:
-      <ul>
-        {{related}}
-      </ul>
-    </script>
+      {{#paragraphs}}
+      <p>
+        {{.}}
+      </p>
+      {{/paragraphs}}
 
-    <script type="text/template" id="basic-template">
-      <h2>{{name}}</h2>
-
-      {{paragraphs}}
-    </script>
-
-    <script type="text/template" id="complex-template">
-      <h2>{{name}}</h2>
-
-      <img src="{{imgsrc}}"/>
-
-      {{paragraphs}}
-
+      {{#meaning.length}}
       What does it mean?
       <ul>
-        {{meaning}}
+        {{#meaning}}
+        <li>
+          {{.}}
+        </li>
+        {{/meaning}}
       </ul>
+      {{/meaning.length}}
 
+      {{#related.length}}
       See related:
       <ul>
-        {{related}}
+        {{#related}}
+        <li>
+          <a href='#' data-node-name='{{.}}'>{{.}}</a>
+        </li>
+        {{/related}}
       </ul>
+      {{/related.length}}
     </script>
 
     <script type="text/javascript" src="./assets/d3.js"></script>
@@ -47,6 +48,7 @@
     <script type="text/javascript" src="./assets/d3.layout.js"></script>
     <script type="text/javascript" src="./assets/flare.js"></script>
     <script type="text/javascript" src="./assets/force-collapsible.js"></script>
+    <script type="text/javascript" src="./assets/mustache.js"></script>
     <h1>
       <img class="logo" alt="Westfield" src="./assets/images/westfield-logo.png"/>
     </h1>
