@@ -812,6 +812,18 @@ var bubbleData = {
               ]
             },
             "size":1000
+          },
+          {
+            "name":"Robot Messenger",
+            "desc": {
+              "imgsrc" : "assets/images/robot-cycle.gif",
+              "related" : [
+                "Health",
+                "Travel",
+                "Vocation"
+              ]
+            },
+            "size":1000
           }
         ]
       },
@@ -1306,6 +1318,18 @@ var bubbleData = {
                 "Food Transparency",
                 "Sustainability",
                 "Culture"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Robot Arena",
+            "desc": {
+              "imgsrc" : "assets/images/robot-soccer.gif",
+              "related" : [
+                "Live Streaming",
+                "Living Social",
+                "Convivality"
               ]
             },
             "size":1000
