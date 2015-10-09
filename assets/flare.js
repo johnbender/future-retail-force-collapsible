@@ -1216,24 +1216,25 @@ var bubbleData = {
         "name":"New (Mixed) Use",
         "desc": {
           "paragraphs": [
-            "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+            "Imagine a multi-use destination where office workers pop downstairs to have clothing designed and tailored, custom products are purchased and made to order on-site, furniture stores turn into overnight hotels, and guests are just steps away from their next great escape. The possibilities are endless."
           ],
           "related" : [
-            "Living Social",
-            "Convivality",
-            "Shared Experience"
+            "Flagship Portfolio",
+            "Revenue",
+            "Development"
           ]
-        },        "children":[
+        },
+        "children":[
           {
             "name":"Resort",
             "desc": {
               "paragraphs": [
-                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+                "As lodging and entertainment concepts will continue to merge, resorts are likely to become more like theme parks, building more and more indoor recreation facilities. Any recreation or sporting activity normally done outdoors could have an indoor version; resorts with such facilities could face fewer trip cancellations and preserve revenue streams. Future resort designs could incorporate indoor-outdoor combinations constructed using new technologies, domed enclosures, and moveable glass walls."
               ],
               "related" : [
-                "Living Social",
-                "Convivality",
-                "Shared Experience"
+                "Anchors",
+                "Flagship Portfolio",
+                "Travel"
               ]
             },
             "size":1000
@@ -1241,13 +1242,14 @@ var bubbleData = {
           {
             "name":"Fulfillment Hub",
             "desc": {
+              "imgsrc" : "assets/images/fulfillment.jpg",
               "paragraphs": [
-                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+                "At some point, the flow of goods will not accelerate further without changes to material handling practices. To reduce the time it takes to deliver goods to consumers, many companies are moving distribution/fulfillment centers closer to population centers—where they must have smaller footprints. This movement can also reduce delays due to traffic congestion and weather."
               ],
               "related" : [
-                "Living Social",
-                "Convivality",
-                "Shared Experience"
+                "Purchase",
+                "Omni-Channel",
+                "Mobile Inventory"
               ]
             },
             "size":1000
@@ -1256,11 +1258,11 @@ var bubbleData = {
             "name":"Residential",
             "desc": {
               "paragraphs": [
-                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+                "Single-use zoning is out, and mixed use is in. Schools, parks, and pools are still important. Energy efficiency is becoming more and more important. And despite a scarcity of resources in many areas, living near where you work and shop is in. Outer-ring suburbs, with long commutes to shopping and jobs, are likely to lose market share to locations that meet the changing needs of the market - like a mixed use retail destination."
               ],
               "related" : [
-                "Living Social",
-                "Convivality",
+                "Urban Demographics",
+                "Lifestyle",
                 "Shared Experience"
               ]
             },
@@ -1269,13 +1271,14 @@ var bubbleData = {
           {
             "name":"Office",
             "desc": {
+              "imgsrc" : "assets/images/office.jpg",
               "paragraphs": [
-                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+                "Cubicle warrens are disappearing as technology untethers us from traditional office space. But the change is also driven by the preferred work style of Generation Z, whose members tend to be collaborative and motivated by the need for social connection. At the office, they demand choice—over the location of their work and which spaces to use. Future offices are likely to be increasingly mobile, with technology enabling employees to perform their jobs from virtually anywhere. A global network of flagship retail destinations could be the ideal campus for offices of the future."
               ],
               "related" : [
-                "Living Social",
-                "Convivality",
-                "Shared Experience"
+                "Telecommuting",
+                "Virtually There",
+                "Shared Spaces"
               ]
             },
             "size":1000
@@ -1283,13 +1286,14 @@ var bubbleData = {
           {
             "name":"Urban Farm",
             "desc": {
+              "imgsrc" : "assets/images/urban-farm.jpeg",
               "paragraphs": [
-                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+                "Access to healthy food is a growing priority, with more and more communities reclaiming empty urban lots, turning blight into fertile opportunity. Cities are likely to enact incentive programs that catalyze such urban agriculture zones, reinforced by educational programs and small-scale commercial growing operations that bring a new bounty of fresh, organic produce to neighborhood markets."
               ],
               "related" : [
-                "Living Social",
-                "Convivality",
-                "Shared Experience"
+                "Food Transparency",
+                "Sustainability",
+                "Culture"
               ]
             },
             "size":1000
