@@ -1002,37 +1002,298 @@ var bubbleData = {
       },
       {
         "name":"Market",
-        "desc": "Market description goes here",
+        "desc": {
+          "paragraphs": [
+            "Market description goes here"
+          ],
+          "related" : [
+            "Revenue",
+            "Development",
+            "Lifestyle"
+          ]
+        },
         "children":[
-          {"name":"Experience Economy","size":1000},
-          {"name":"Flagship Portfolio","size":1000},
-          {"name":"Diversified Mix","size":1000},
-          {"name":"Glocal Footprint","size":1000},
-          {"name":"Phygical","size":1000}
+          {
+            "name":"Experience Economy",
+            "desc": {
+              "imgsrc" : "assets/images/experiential.jpg",
+              "paragraphs": [
+                "Consumers are increasingly measuring their lives in terms of experiences and emotions, rather than money and titles. If this trend continues, more people will crave immersive brand experiences that stimulate their senses, minds, and bodies to create strong memories.",
+                "In one recent survey, 81% of US Millennials said that they value experiences over material items, and 72% would rather spend their money on an experience than an object. Sales of experiential luxury accounted for 55% of luxury sales in 2014. One way for malls to capitalize on this desire is to create immersive, continually changing ecosystems using flexible design and architecture, partnership with tenants for unique experiences and pilots, and rich programming that caters to diverse interests."
+              ],
+              "related" : [
+                "Convivality",
+                "Virtual Reality",
+                "Venues"
+              ]
+            },
+
+            "size":1000
+          },
+          {
+            "name":"Flagship Portfolio",
+            "desc": {
+              "paragraphs": [
+                "As competition for the consumer’s dollar increases from every direction, successful shopping centers will be those that deliver unique and meaningful value to users. With product inventory and pricing fully available online, centers are unlikely to win by competing on cost. Instead, they should focus on delivering unique experiences, and other luxuries, including socializing, exclusivity, and focus on affluent households."
+              ],
+              "related" : [
+                "Development",
+                "Convivality",
+                "Luxury"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Convergence Economy",
+            "desc": {
+              "paragraphs": [
+                "From media and retail, to hospitality and performance, to fashion and technology, sectors are converging. The borders between art and entertainment, and those among the senses, are becoming increasingly blurred. Welcome to the convergence economy. In this environment, consumers can buy anything online at any time. Retailers can collapse sectors and offers to maximize in-store choice and inspiration."
+              ],
+              "related" : [
+                "New (Mixed Use)",
+                "Crowdsourcing",
+                "Sharing Economy"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Anchors",
+            "desc": {
+              "paragraphs": [
+                "Shopping centers’ traditional anchor tenants, department stores, are feeling pressure to rapidly evolve to meet the demands of the omnichannel shopper—and in some cases, to cull weaker-performing locations. Meanwhile, online-only retailers such as Amazon are challenged to “solve for the last mile” and get products into the hands of consumers. In 2014 for example, Amazon spent $6.6 billion on delivery and received only $3.1 billion in shipping fees. Physical locations have retained this competitive advantage, with many retailers optimizing shipping costs by using their stores as fulfillment centers.",
+                "The set of retailers that fill the anchor role is likely to expand to include unorthodox tenants such as gyms, colleges, and entertainment providers. Big box stores such as Target; Costco; and Bed, Bath & Beyond may appear in malls more than they once did. Nobody knows what the Apples and Teslas of the future will be, but they or tenants like them will be key to driving a large volume of traffic and sales through high-end centers.",
+                "In a major showrooming trend, retailers use physical locations only to broadcast their brand and create consumer experiences. These “stores,” which may not stock or sell any product, could still drive significant traffic."
+              ],
+              "meaning": [
+                "Leases will need to capture a percentage of sales that don’t occur at a physical location, but are only fulfilled there.",
+                "Stores that operate at least somewhat as showrooms could drive significant foot traffic; however, they will need to find alternative ways to monetize sales."
+              ],
+              "related" : [
+                "Store",
+                "Mega Brands",
+                "Consumption"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Glocal Footprint",
+            "desc": {
+              "paragraphs": [
+                "“Glocalization,” a combination of the ideas behind globalization and local considerations, is not a new concept. But as trade areas spread and global reach becomes easier, brands will have to consider further altering themselves or their products to better appeal to customers in specified countries or regions."
+              ],
+              "related" : [
+                "Global Market",
+                "Cultural Exploration",
+                "Emerging Markets"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Phygical",
+            "desc": {
+              "paragraphs": [
+                "Our digital and offline worlds are converging. We have become bedfellows with robots, we take advice from gadgets, and we ask megasystems for answers to life’s questions. And we ask ourselves how we can embrace technology without losing our humanity in the process.",
+                "Retailers have become more driven to have strong physical and digital presence. In-store digital technology is much more than a tool for managing sales and stock. Imaginative retailers and designers are introducing “PhygitalRetail,” a playful synergy of physical and digital systems that aims to inspire, intrigue, and entertain consumers as they shop. Phygital displays, biometrics, wearable technology, geolocation: These once-niche technologies are metamorphosing into powerful tools that help brands never keep a customer waiting."
+              ],
+              "related" : [
+                "Wearable Tech",
+                "Internet of Things",
+                "Living Social"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Customer Experience",
-        "desc": "Customer experience description goes here",
+        "desc": {
+          "paragraphs": [
+            "We live in an age of the customer. Customers know more, and expect more, and their behaviors are the primary driver for the future of the service experience. Speed of gratification will continue to increase, and customers will interact on their own terms, necessitating communication via multiple platforms.",
+            "Shoppers want experiences that deliver maximum value and become seamless extensions of their lives. To connect with them, we must engage individuals and their communities to deliver these exceptional service and experiences."
+          ],
+          "related" : [
+            "Spending",
+            "Entertainment",
+            "Convergence Ecnonomy"
+          ]
+        },
         "children":[
-          {"name":"Store","size":1000},
-          {"name":"Product","size":1000},
-          {"name":"Purchase","size":1000},
-          {"name":"Service","size":1000},
-          {"name":"R&R","size":1000},
-          {"name":"Social","size":1000},
-          {"name":"Omni-Channel","size":1000}
+          {
+            "name":"Store",
+            "desc": {
+              "paragraphs": [
+                "Rapid changes within and outside the industry are pushing retailers to present and service the consumer in new ways. The virtual world will continue to supplement the physical world via phones and connected wearable devices. Shoppers may also access information and special offers through augmented reality—for example, seeing how they would look in clothing without trying it on. Opt-in choices will give consumers access to tools and experiences; for example, bathing suit shoppers might get recommendations based on body shape and size, virtually try on their choices, and then pick them up from a sales associate at the counter."
+              ],
+              "related" : [
+                "Wearable Tech",
+                "Internet of Things",
+                "Cloud-Based World"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Product",
+            "desc": {
+              "imgsrc" : "assets/images/product.jpg",
+              "paragraphs": [
+                "Products you might once have only read about or seen on TV are poised to become more broadly accessible, as are the evolutions of known favorites and products designed as inspiration that haven’t yet found their way onto a production line. Product display, and ways of connecting the product to the consumer, are likely to be even more integral to store design."
+              ],
+              "related" : [
+                "Product Lifecycle",
+                "Aesthetics",
+                "Internet of Things"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Purchase",
+            "desc": {
+              "imgsrc" : "assets/images/purchase.jpg",
+              "paragraphs": [
+                "Today, retail customers’ most frequent interactions with banks involve cash and credit cards. As cash wanes and phones replace plastic, banks may struggle to remain relevant. One of the most frustrating parts of in-store shopping is waiting to check out. Many retailers are likely to follow Apple’s lead with mobile self-checkout. The customer finds what he or she needs, scans it, selects a payment method, and finalizes the transaction, without waiting—or possibly talking to an associate. As consumers become increasingly comfortable with contactless payments, the ability to control when and where checkout happens will become more prevalent."
+              ],
+              "related" : [
+                "Cloud-Based World",
+                "Internet of Things",
+                "Affiliate Schemes"
+              ]
+            },
+            "size":1000},
+          {"name":"Service",
+          "desc": {
+            "paragraphs": [
+              "Customer expectations today are the outcome of decades-old movements, such as the explosion of digital, the empowered customer, and the acceleration of innovation. The customers of 2020 will be more informed and more in charge of the shopping experience. They will expect companies to know their individual needs, and to personalize each shopping experience. Immediate resolution will not be fast enough; instead, customers will expect companies to proactively address their current and future needs.",
+              "Drawing on expectations set by—and technology related to—mobile applications, retailers will maximize staff resources and enhance the customer experience by allowing shoppers to virtually request assistance, enabling on-demand customer service.",
+              "Today, consumers have more power than ever. They’re carrying around big data tools in every smartphone. They can scan bar codes to compare prices, check reviews, or snap a picture and ask friends for advice. To meet emerging customer needs, companies will have to provide rich information and social capabilities optimized for every screen, while integrating scanning and other tools into branded or third-party apps. And reacting to customers’ increased ability to shop around, retailers must also take steps to improve transparency."
+            ],
+            "related" : [
+              "Super-Targeting",
+              "Customization",
+              "Anchors"
+            ]
+          },
+          "size":1000
+          },
+          {
+            "name":"Social",
+            "desc": {
+              "paragraphs": [
+                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+              ],
+              "related" : [
+                "Living Social",
+                "Convivality",
+                "Shared Experience"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Omni-Channel",
+            "desc": {
+              "paragraphs": [
+                "Our digital and offline worlds are converging. We have become bedfellows with robots, we take advice from gadgets, and we ask megasystems for answers to life’s questions. And we ask ourselves how we can embrace technology without losing our humanity in the process.",
+                "Retailers have become more driven to have strong physical and digital presence. In-store digital technology is much more than a tool for managing sales and stock. Imaginative retailers and designers are introducing “PhygitalRetail,” a playful synergy of physical and digital systems that aims to inspire, intrigue, and entertain consumers as they shop. Phygital displays, biometrics, wearable technology, geolocation: These once-niche technologies are metamorphosing into powerful tools that help brands never keep a customer waiting."
+              ],
+              "related" : [
+                "Wearable Tech",
+                "Internet of Things",
+                "Living Social"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"New (Mixed) Use",
-        "desc": "New (Mixed) Use description goes here",
-        "children":[
-          {"name":"Resort","size":1000},
-          {"name":"Fulfillment Hub","size":1000},
-          {"name":"Residential","size":1000},
-          {"name":"Office","size":1000},
-          {"name":"Urban Farm","size":1000}
+        "desc": {
+          "paragraphs": [
+            "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+          ],
+          "related" : [
+            "Living Social",
+            "Convivality",
+            "Shared Experience"
+          ]
+        },        "children":[
+          {
+            "name":"Resort",
+            "desc": {
+              "paragraphs": [
+                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+              ],
+              "related" : [
+                "Living Social",
+                "Convivality",
+                "Shared Experience"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Fulfillment Hub",
+            "desc": {
+              "paragraphs": [
+                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+              ],
+              "related" : [
+                "Living Social",
+                "Convivality",
+                "Shared Experience"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Residential",
+            "desc": {
+              "paragraphs": [
+                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+              ],
+              "related" : [
+                "Living Social",
+                "Convivality",
+                "Shared Experience"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Office",
+            "desc": {
+              "paragraphs": [
+                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+              ],
+              "related" : [
+                "Living Social",
+                "Convivality",
+                "Shared Experience"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Urban Farm",
+            "desc": {
+              "paragraphs": [
+                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+              ],
+              "related" : [
+                "Living Social",
+                "Convivality",
+                "Shared Experience"
+              ]
+            },
+            "size":1000
+          }
         ]
       }
     ]
