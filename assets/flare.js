@@ -293,6 +293,18 @@ var bubbleData = {
               ]
           },
             "size": 1000
+          },
+          {
+            "name": "Robot Idol",
+            "desc": {
+              "imgsrc" : "assets/images/robot-idol.gif",
+              "related" : [
+                "Gen Z",
+                "Venues",
+                "Culture"
+              ]
+          },
+            "size": 1000
           }
         ]
       },
