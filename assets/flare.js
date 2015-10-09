@@ -753,14 +753,15 @@ var bubbleData = {
               "imgsrc" : "assets/images/truck-of-the-future.jpg",
 
               "paragraphs": [
-                "Ecommerce, which is rapidly reshaping the retail world, is predicted to make up 11% of all retail sales by 2018. Brick-and-mortar stores, however, are not disappearing. One of the biggest retail trends is the rise of omnichannel shopping, driven by the increasingly blurred line between buying in a store and buying online.",
-                "Traditional brick-and-mortar retailers are finding that their most effective tool when competing with Amazon is a physical network of retail locations that can quickly fulfill orders, reduce online cart abandonment, optimize shipping costs, and increase inventory turnover. Roughly 30% of retailers offer “buy online, pick up in store today” service. Another 34% plan to implement the capability within two years, and 18% say it will take more than two years, but plans are in the works."
+                "Ecommerce, which is rapidly reshaping the retail world, is predicted to make up 11% of all retail sales by 2018. Brick-and-mortar stores, however, are not disappearing. One of the biggest retail trends is the rise of omni-channel shopping, driven by the increasingly blurred line between buying in a store and buying online.",
+                "Traditional brick-and-mortar retailers are finding that their most effective tool when competing with Amazon is a physical network of retail locations that can quickly fulfill orders, reduce online cart abandonment, optimize shipping costs, and increase inventory turnover. Roughly 30% of retailers offer “buy online, pick up in store today” service. Another 34% plan to implement the capability within two years, and 18% say it will take more than two years, but plans are in the works.",
+                "Using physical retail locations as miniature fulfillment hubs will require changes to the infrastructure and design of shopping centers.  Store layouts are typically arranged to encourage people to browse and spend time with products.  For a program where people can buy online and pick up in store to be successful, store layouts will need to support browsing and quick efficient pickups simultaneously.  The exterior of the shopping centers will also need to incorporate facilities that allow customers to pick up items without leaving their car."
               ],
 
               "meaning": [
-                "Lease rates are based in part on total sales made in a physical retail location. To make physical retail pay, Westfield will need to be able to capture a piece of online transactions influenced or fulfilled by its physical centers.",
-                "The design of retail spaces will have to incorporate the new use case presented by online order fulfillment. Possible changes include more inventory storage and new layouts that simultaneously support browsing, discovery, and quick pickups.",
-                "Incorporating curbside pickup services into the overall suite of services offered at the center level, including physical space for vehicles to arrive and depart without a customer exiting the vehicle, will be important as more retailers offer this capability."
+                "Westfield will need to be able to capture a piece of online transactions influenced or fulfilled by its physical centers.",
+                "Store layouts will have to be refined to support browsing and quick pickups simultaneously.",
+                "Curbside pickup locations will need to be incorporated into the design of shopping centers to allow consumers to conveniently pick up goods purchased online."
               ],
 
               "related" : [
@@ -916,17 +917,87 @@ var bubbleData = {
   },
   {
     "name":"Mallonomics",
-    "desc": "Mallonomics description goes here",
+    "desc": {
+      "paragraphs": [
+        "Mallonomics quote goes here."
+      ]
+    },
     "children":[
       {
         "name":"Revenue",
-        "desc": "Revenue description goes here",
+        "desc": {
+          "paragraphs": [
+            "Over the next decade, revenue will be driven in new forms not currently in the stream. Patents could deliver high revenue coupled with demand, with associated royalties or licensing fees maintaining the revenue stream. Exclusive content associated with event venues, streaming, appearances, and digital media open up other possible lines of revenue. Partnering with tenants to target content by audience is likely to increase engagement and create new revenue streams within our lease structure. Leasing revenue will likely be driven by market occupancies, with shorter lease terms driving higher turn and larger increases over time."
+          ],
+
+          "related" : [
+            "Development",
+            "Market",
+            "Spending"
+          ]
+        },
         "children":[
-          {"name":"Landlords","size":1000},
-          {"name":"Publishers","size":1000},
-          {"name":"Venues","size":1000},
-          {"name":"Referrers","size":1000},
-          {"name":"Entrepreneurs","size":1000}
+          {
+            "name":"Landlords",
+            "desc": {
+              "paragraphs": [
+"Market rents have typically been driven by target occupancy ratios. As brick and mortar retail merges with ecommerce, multiple sales models will merge; landlords may be able to charge more rent in this converged world. A flagship center model creates significant demand for major brand presence. Meanwhile, showroom-model stores can drive more revenue that those with a traditional occupancy ratio. Escalating rent increases (once 3%, now 4%, moving toward 5%) and percentage rent breakpoints that favor shorter lease terms (down to five years) may give the landlord more favorable control of retail space."
+],
+
+              "related" : [
+                "Development",
+                "Anchors",
+                "Phygical"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Publishers",
+            "desc": {
+              "paragraphs": [
+                "Affiliate agreements with publishers and referrers can generate revenue for performance-based marketing. This scenario has four core players: the tenant, the network (which handles payments and contains offers that publishers can choose from), the publisher (aka the affiliate), and the customer. In the future, Westfield may act as a publisher of sorts, connecting the tenant with the customer through digital and in-center content."
+              ],
+
+              "related" : [
+                "Advertising",
+                "Self As Brand",
+                "Mobile First"
+              ]
+            },
+            "size":1000
+          },
+          {"name":"Venues",
+          "desc": {
+            "imgsrc" : "assets/images/venues.jpg",
+
+            "paragraphs": [
+              "Retail may become the event space of the future, one that charges for valued experience. Instead of focusing on “generating footfall,” retailers could become the site of desirable ticketed events, including those livestreamed to multiple centers on massive HD screens, marrying digital media and content—even augmented reality—with human interaction."
+            ],
+
+            "related" : [
+              "Development",
+              "Market",
+              "Spending"
+            ]
+          },
+          "size":1000
+          },
+          {
+            "name":"Entrepreneurs",
+            "desc": {
+              "paragraphs": [
+                "Malls could make a move toward becoming “cultural centers”—a shift driven not by mall owners, but by retailers. It all comes down to consumers’ desires, with retailers driving the change."
+              ],
+
+              "related" : [
+                "Product",
+                "Market",
+                "Spending"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
