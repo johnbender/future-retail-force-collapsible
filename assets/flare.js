@@ -1340,23 +1340,137 @@ var bubbleData = {
   },
   {
     "name":"Product",
-    "desc": "Product description goes here",
+    "desc": {
+      "paragraphs": [
+        "quote"
+      ]
+    },
     "children":[
       {
         "name":"Production",
-        "desc": "Production description goes here",
+        "desc": {
+          "paragraphs": [
+            "Today’s manufacturing landscape is undergoing a massive shift. Increasing consumer demands for information and personalization, the changing nature of products and materials, and shifting economics of production and distribution are coming together to shape a new future of manufacturing. Boundaries are blurring between manufacturing and technology—and manufacturing and retail. Innovation is creating more value. But who will capture that value, and how will it affect the evolving relationship between retailers and manufacturers?"
+          ],
+          "related" : [
+            "New (Mixed) Use",
+            "Product",
+            "Lifestyle"
+          ]
+        },
         "children":[
-          {"name":"3D Printing","size":1000},
-          {"name":"Quality Redefined","size":1000},
-          {"name":"Rapid Speed","size":1000},
-          {"name":"Automation","size":1000},
-          {"name":"Global Supply Chain","size":1000},
-          {"name":"Customization","size":1000}
+          {
+            "name":"3D Printing",
+            "desc": {
+              "imgsrc" : "assets/images/3d-printing.jpg",
+              "paragraphs": [
+                "Additive manufacturing, or 3D printing, describes manufacturing technologies that create products by addition rather than subtraction (e.g., milling, drilling). 3D printing technologies are not new; they were developed more than 30 years ago. However, recent growth in 3D printing tools, techniques, and applications has accelerated in both commercial and consumer arenas.",
+                "3D printing provides tools for rapid prototyping of new products. This technology is likely to expand into other stages in the manufacturing process. For example, additive manufacturing techniques let companies produce previously unattainable items and shapes. And because 3D printing (whose equipment costs are dropping rapidly) also obviates the need for tooling, the initial capital outlay for additive manufacturing is typically much lower than for alternatives—making small-scale production a reality.[1] In retail, additive manufacturing is likely to change business models, connecting design thinking and customer experience to allow greater levels of customization and cocreation."
+              ],
+              "meaning": [
+                "Emergence of small-scale, on-premise manufacturing facilities that support real-time customized production runs,",
+                "Rise of new platforms that allow customers to move from being passive consumers to product cocreators.",
+                "Threat to retailers, since customers can download digital blueprints of items and print them at home without needing to go to a store (much as how digital cameras disrupted the photo printing businesses)."
+              ],
+              "related" : [
+                "Customization",
+                "Product",
+                "Rapid Speed"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Quality Redefined",
+            "desc": {
+              "paragraphs": [
+                "In the future, companies are likely to be expected to deliver consistently excellent outcomes for both customers and society. Regardless of where they’re located, manufacturers will be challenged to manage uncertainty with sophistication and produce products that meet and exceed customer expectations. Production, quality, cost, cycle time, and safety management methods, critical in past decades, will continue to be so, and manufacturing is likely to be driven by the marketplace in ways that test organizations’ abilities to produce at high volumes while keeping quality high, costs down, and supply chains lean."
+              ],
+              "related" : [
+                "3D Printing",
+                "Customization",
+                "Luxury"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Rapid Speed",
+            "desc": {
+              "paragraphs": [
+                "Marketplace volatility, caused by changes in customer demands, is likely to test manufacturers’ abilities to respond. To survive, companies will have to react quickly enough to remain profitable, responding quickly to customer needs, adjusting work practices, and keeping pace with technology."
+              ],
+              "related" : [
+                "3D Printing",
+                "Product Lifecycle",
+                "Delivery"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Automation",
+            "desc": {
+              "paragraphs": [
+                "Major emerging software applications are using wireless sensors and distributed peer-to-peer networks—tiny operating systems in wireless sensor nodes, driven by software that allows nodes to function together as a complex adaptive system. In a related vision of fully automated factories, customers order online, with electronic transactions that negotiate batch size (in some cases as low as one), price, size and color; intelligent robots and sophisticated machines then smoothly and rapidly fabricate a variety of customized products on demand."
+              ],
+              "related" : [
+                "Rapid Speed",
+                "Internet of Things",
+                "Modular"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Global Supply Chain",
+            "desc": {
+              "paragraphs": [
+                "Companies will be likely to use supply chains as dynamic hedging mechanisms against uncertainty, actively and regularly examining—even reconfiguring—their broader supply networks with an eye toward economic conditions five or 10 years down the road. Traditional monolithic supply chains will experience pressure to split into smaller, more flexible components."
+              ],
+              "related" : [
+                "Emerging Markets",
+                "Rapid Speed",
+                "Global Market"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Customization",
+            "desc": {
+              "imgsrc" : "assets/images/customization.jpg",
+              "paragraphs": [
+                "Personalization and customization can help manufacturers create products tailored to appeal to select customers rather than the mass market. Personalization can include building an entire product for an individual, or adding specific characteristics (e.g., a monogram) to a mass-market product. Customization, in contrast, involves building products that are attractive to a targeted customer niche defined by shared interests. In the future, both personalization and customization are likely to extend beyond aesthetics. Individuals might not only add their names to mass-produced products, but also purchase items generated entirely for them, to fit their unique bodies and lifestyles. Imagine a world where patients can even receive chemotherapy optimized for a particular tumor.",
+                "Personalization (to the individual) and customization (to a niche) have historically been the domain of the wealthy, with offerings such as custom tailoring and personalized financial planning. But today, digital technologies and the Internet have begun making both processes available to a wider audience. For example, artificial intelligence (AI) algorithms can help with personal shopping needs and digital marketplaces can connect customers to niche producers anywhere in the world.[1] Personalization and customization will likely fragment the market into numerous niches, representing an opportunity to build one-on-one relationships with consumers."
+              ],
+              "meaning": [
+                "Emerge as a trusted advisor that helps consumers navigate multiple options and find those that fit their needs and requirements.",
+                "Embrace technologies that allows personalization and customization at lower costs.",
+                "Connect with the ecosystem of niche producers and makers; recommend their offerings to consumers with unique needs."
+              ],
+              "related" : [
+                "3D Printing",
+                "Self As Brand",
+                "Product"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Consumption",
-        "desc": "Consumption description goes here",
+        "desc": {
+          "paragraphs": [
+            "description"
+          ],
+          "related" : [
+            "New (Mixed) Use",
+            "Product",
+            "Lifestyle"
+          ]
+        },
         "children":[
           {"name":"Sharing Economy","size":1000},
           {"name":"Emerging Markets","size":1000},
