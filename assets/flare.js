@@ -1439,13 +1439,20 @@ var bubbleData = {
           {
             "name":"Customization",
             "desc": {
+              "imgsrc" : "assets/images/customization.jpg",
               "paragraphs": [
-                "description"
+                "Personalization and customization can help manufacturers create products tailored to appeal to select customers rather than the mass market. Personalization can include building an entire product for an individual, or adding specific characteristics (e.g., a monogram) to a mass-market product. Customization, in contrast, involves building products that are attractive to a targeted customer niche defined by shared interests. In the future, both personalization and customization are likely to extend beyond aesthetics. Individuals might not only add their names to mass-produced products, but also purchase items generated entirely for them, to fit their unique bodies and lifestyles. Imagine a world where patients can even receive chemotherapy optimized for a particular tumor.",
+                "Personalization (to the individual) and customization (to a niche) have historically been the domain of the wealthy, with offerings such as custom tailoring and personalized financial planning. But today, digital technologies and the Internet have begun making both processes available to a wider audience. For example, artificial intelligence (AI) algorithms can help with personal shopping needs and digital marketplaces can connect customers to niche producers anywhere in the world.[1] Personalization and customization will likely fragment the market into numerous niches, representing an opportunity to build one-on-one relationships with consumers."
+              ],
+              "meaning": [
+                "Emerge as a trusted advisor that helps consumers navigate multiple options and find those that fit their needs and requirements.",
+                "Embrace technologies that allows personalization and customization at lower costs.",
+                "Connect with the ecosystem of niche producers and makers; recommend their offerings to consumers with unique needs."
               ],
               "related" : [
-                "New (Mixed) Use",
-                "Product",
-                "Lifestyle"
+                "3D Printing",
+                "Self As Brand",
+                "Product"
               ]
             },
             "size":1000
