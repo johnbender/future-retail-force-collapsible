@@ -2260,13 +2260,19 @@ var bubbleData = {
           {
             "name":"Gen Z",
             "desc": {
+              "imgsrc": "assets/images/gen-z.jpg",
               "paragraphs": [
-                "desrctipon"
+                "\"Gen Zs\"—Americans born after 2000—are the most connected, educated and sophisticated generation ever. These “up-agers,” who have influence beyond their years, also reject many values of the generations that precede them. Characteristics of Gen Zs include:",
+                "Change Agents: Gen Zs want to change the world. Unprecedented access to information makes them one of the most knowledgeable generations in history. A study conducted by Sparks & Honey shows that social entrepreneurship is one of Gen Z's most popular career choices, and 26% of 16-19 year olds currently volunteer.",
+                "Anxious: Thanks possibly to overprotective parents, many Gen Zs begin life in a metaphorical bubble, discouraged from dipping a toe into the perilous ocean that is “the real world.” Born into a crisis period of terrorism, the global recession, and climate change, they are often fully aware of the fragility of life.",
+                "Collaborative: Raised in a culture where the vernacular includes terms like \"crowdsourcing,\" \"crowdfunding,\" and \"inclusive classrooms,\" they tend to flourish in group settings and can be better team players than any generation in history.",
+                "Experimental: Gen Zs tend to be active, not passive, consumers. When they’re spotted glued to their tablets, it’s all too easy to underestimate their activities. But they’re socializing, creating content, and most importantly challenging themselves and each other. They don’t just watch YouTube—they own their own YouTube channels and are making other creative waves in the wider world.",
+                "Ano-Sharers: Growing up in a culture of oversharing and NSA surveillance has made privacy a luxury for Gen Z. As a countertrend to obsessive oversharing, Gen Zs are creating a culture of \"ano-sharing\": Apps such as Whisper, YikYak, and Secret allow users to post anonymous thoughts, feelings, and observations."
               ],
               "related" : [
-                "Linked Systems",
-                "Ubiquitous Computing",
-                "Ubiquitous Media"
+                "Self As Brand",
+                "Post-Privacy World",
+                "Consciousness"
               ]
             },
             "size":1000
