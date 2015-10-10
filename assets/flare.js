@@ -943,7 +943,8 @@ var bubbleData = {
     "name":"Mallonomics",
     "desc": {
       "paragraphs": [
-        "Mallonomics quote goes here."
+        "“We will continue to see a convergence of the digital and physical world. Those who conquer that trends will be market leaders.”",
+        "—John Phillips, Senior Vice President of Customer Supply Chain and Logistics for Pepsico, Inc."
       ]
     },
     "children":[
@@ -1011,7 +1012,7 @@ var bubbleData = {
             "name":"Entrepreneurs",
             "desc": {
               "paragraphs": [
-                "Malls could make a move toward becoming “cultural centers”—a shift driven not by mall owners, but by retailers. It all comes down to consumers’ desires, with retailers driving the change."
+                "In the business landscape that is constantly disrupted, innovation and risk taking is no longer optional – it is essential to the survival. Shopping venues will need to become innovative and entrepreneurial in order to take advantage of the emerging opportunities. Rapid experimentation, risk taking, and building robust networks of partners in retail and other industries will become a key to success."
               ],
 
               "related" : [
@@ -1028,7 +1029,7 @@ var bubbleData = {
         "name":"Market",
         "desc": {
           "paragraphs": [
-            "Market description goes here"
+            "In the environment where consumers are ubiquitously connected and where transportation is becoming fast and frictionless, geographical boundaries are destined to expand. This expansion may impact how Shopping Venues define their trade areas and the diversity of consumers (and thus expectations) they attract."
           ],
           "related" : [
             "Revenue",
@@ -1096,7 +1097,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Store",
-                "Mega Brands",
+                "Brands",
                 "Consumption"
               ]
             },
@@ -1209,7 +1210,7 @@ var bubbleData = {
             "name":"Social",
             "desc": {
               "paragraphs": [
-                "Powerful communities are being formed around brands and experiences—from CrossFit enthusiasts to foodies to gamers. Over time, even more communities will be tied to these elements, influencing major buying decisions."
+                "Powerful communities are being formed around shared interests — from CrossFit enthusiasts to foodies to gamers. Consumers are now able to find others with similar passions and connect with them anywhere in the world. Retail venues such as shopping centers can become catalysts for these communities to meet, learn, and collaborate around their points of interests. As such, the mall will shift from a place to buy “stuff” to a place to connect, access, and even co-create."
               ],
               "related" : [
                 "Living Social",
@@ -1223,9 +1224,8 @@ var bubbleData = {
             "name":"Omni-Channel",
             "desc": {
               "paragraphs": [
-                "Our digital and offline worlds are converging. We have become bedfellows with robots, we take advice from gadgets, and we ask megasystems for answers to life’s questions. And we ask ourselves how we can embrace technology without losing our humanity in the process.",
-                "Retailers have become more driven to have strong physical and digital presence. In-store digital technology is much more than a tool for managing sales and stock. Imaginative retailers and designers are introducing “PhygitalRetail,” a playful synergy of physical and digital systems that aims to inspire, intrigue, and entertain consumers as they shop. Phygital displays, biometrics, wearable technology, geolocation: These once-niche technologies are metamorphosing into powerful tools that help brands never keep a customer waiting."
-              ],
+                "The ubiquitously connected consumers do not make a distinction between on line and offline – digital and physical become tools in the shopping toolkit. In return, retailers are shifting toward offering a seamless shopping experience across online and offline channels. Indeed, the distinction between online and offline shopping is likely to become irrelevant in the future.  Shopping centers have an opportunity to become catalyst is blending digital and physical."
+                  ],
               "related" : [
                 "Wearable Tech",
                 "Internet of Things",
@@ -1512,6 +1512,162 @@ var bubbleData = {
             "name":"Product Lifecycle",
             "desc": {
               "paragraphs": [
+                "Increased competition and changes in consumer behavior are driving companies to develop new products more quickly than ever before. This trend is especially strong in the technology and fashion sectors. Shorter product lifecycles present a relatively narrow window of opportunity for manufacturers and sellers to profit."
+              ],
+              "related" : [
+                "Rapid Speed",
+                "3D Printing",
+                "Global Market"
+              ]
+            },
+            "size":1000
+          }
+        ]
+      },
+      {
+        "name":"Design",
+        "desc": {
+          "paragraphs": [
+            "We buy products not only for their utility, but also for their associated emotional connections, and the brand promise they embody. As product design becomes increasingly complicated, consumers’ relationship with products is becoming more sensitive and intimate."
+          ],
+          "related" : [
+            "Values",
+            "Identity",
+            "Spending"
+          ]
+        },
+        "children":[
+          {
+            "name":"Robotic Design",
+            "desc": {
+              "paragraphs": [
+                "Robots are coming to the workplace, and are on track to usurp many human functions—not just jobs humans don’t want to do, but also those requiring creative and strategic thinking. Today, robots do a wide variety of work, including performing surgeries, writing articles for newspapers, and operating heavy machinery. In the retail sector, robot use will allow for mass customization of products—perhaps to the point where every product is made to order."
+              ],
+              "related" : [
+                "Automation",
+                "Robot Journalism",
+                "Customization"
+              ]
+            },
+            "size":1000
+          },
+          {"name":"Crowdsourcing",
+          "desc": {
+            "paragraphs": [
+              "Crowdsourcing is the combined efforts of many individuals; each participant, acting on his or her own initiative, adds a small contribution that combines with those of others to achieve a greater result. Crowdsourcing can leverage a vast pool of talent and distribute the effort of problem solving. It may come to have significant impact on models of employment and compensation."
+            ],
+            "related" : [
+              "Democratized Influence",
+              "Shared Experience",
+              "Sharing Economy"
+            ]
+          },
+          "size":1000
+        },
+          {
+            "name":"Materials",
+            "desc": {
+              "paragraphs": [
+                "New materials and material combinations could radically change products of every kind. Organically based, digitally controlled materials could allow products to adapt to individual users and react to external environmental inputs. For example, clothing fibers could expand or contract as environmental conditions or the wearer’s body temperature changes. New materials could also have an impact on product lifecycles, helping address consumer demands for environmental accountability and sustainability."
+              ],
+              "related" : [
+                "3D Printing",
+                "Customization",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Aesthetics",
+            "desc": {
+              "paragraphs": [
+                "How products look will be increasingly shaped by new manufacturing processes, with an emphasis on form following function. 3D printing has already created polymer-based products that cannot be generated via conventional manufacturing."
+              ],
+              "related" : [
+                "3D Printing",
+                "Values",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Sustainability",
+            "desc": {
+              "paragraphs": [
+                "With increasing demands for sustainability, manufacturers must aim for minimal use of natural resources. More and more, consumers will expect products that can be recycled, upcycled, and/or and reused."
+              ],
+              "related" : [
+                "Social Responsibility",
+                "Global Supply Chain",
+                "Values"
+              ]
+            },
+            "size":1000
+          }
+        ]
+      },
+      {
+        "name":"Brands",
+        "desc": {
+          "paragraphs": [
+            "Brands have historically helped consumers by assuring quality and setting expectations. However, technology advances and expanded connectivity are rapidly eroding the information asymmetry between buyer and seller. Product descriptions and reviews help consumers compare options and prices. In a perfectly transparent society, would there be a role for brands? Or might brands as we know them be replaced by highly personalized products designed to meet each consumer’s unique needs and requirements?",
+            "One alternative perspective advocates for the rise of mega, or lifestyle, brands, which could evolve from providing products to creating branded experience across product categories. Which future do you think is more likely?"
+          ],
+          "related" : [
+            "Values",
+            "Identity",
+            "Anchors"
+          ]
+        },
+        "children":[
+          {
+            "name":"Mass Indie",
+            "desc": {
+              "paragraphs": [
+                "Technological improvements, combined with increased access to tools through platforms such as TechShop (the “gym for makers”), will continue making it easier for new product producers—including small, nimble businesses and individual craftspeople and inventors—to enter markets. Meanwhile, more and more, consumers expect offerings that exactly fit their needs and lifestyle requirements. As a result, the notion of mass market will likely disappear for many retail categories, to be replaced by a proliferation of niche markets. Revenue opportunities may be limited to capturing a relevant niche segment instead of an entire market.[1]"
+              ],
+              "related" : [
+                "Customization",
+                "Gen Z",
+                "Millennial"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Lifestyle Brands",
+            "desc": {
+              "paragraphs": [
+                "Consumers, especially Millennials, are seeking deeper connections to brands’ values and the lifestyles that they represent. Brands that represent complete and authentic experiences are more likely to achieve dedicated consumer followings. In short, people will pay more for brands that believe in something."
+              ],
+              "related" : [
+                "Spending",
+                "Anchors",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Brand As Media",
+            "desc": {
+              "paragraphs": [
+                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+              ],
+              "related" : [
+                "Spending",
+                "Anchors",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Social Responsibility",
+            "desc": {
+              "paragraphs": [
                 "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
               ],
               "related" : [
@@ -1525,7 +1681,7 @@ var bubbleData = {
         ]
       },
       {
-        "name":"Design",
+        "name":"Connectivity",
         "desc": {
           "paragraphs": [
             "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
@@ -1537,30 +1693,48 @@ var bubbleData = {
           ]
         },
         "children":[
-          {"name":"Robotic Design","size":1000},
-          {"name":"Crowdsourcing","size":1000},
-          {"name":"Materials","size":1000},
-          {"name":"Aesthetics","size":1000},
-          {"name":"Sustainability","size":1000}
-        ]
-      },
-      {
-        "name":"Brands",
-        "desc": "Brands description goes here",
-        "children":[
-          {"name":"Mass Indie","size":1000},
-          {"name":"Mega Brands","size":1000},
-          {"name":"Brand As Media","size":1000},
-          {"name":"Social Responsibility","size":1000}
-        ]
-      },
-      {
-        "name":"Connectivity",
-        "desc": "Connectivity description goes here",
-        "children":[
-          {"name":"Internet Of Things","size":1000},
-          {"name":"Cloud-Based World","size":1000},
-          {"name":"Wearable Tech","size":1000}
+          {
+            "name":"Internet Of Things",
+            "desc": {
+              "paragraphs": [
+                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+              ],
+              "related" : [
+                "Spending",
+                "Anchors",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Cloud-Based World",
+            "desc": {
+              "paragraphs": [
+                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+              ],
+              "related" : [
+                "Spending",
+                "Anchors",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Wearable Tech",
+            "desc": {
+              "paragraphs": [
+                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+              ],
+              "related" : [
+                "Spending",
+                "Anchors",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          }
         ]
       }
     ]
