@@ -1748,80 +1748,408 @@ var bubbleData = {
   },
   {
     "name":"Infrastructure",
-    "desc": "Infrastructure description goes here",
+    "desc": "Infrastructure quote goes here",
     "children":[
       {
         "name":"Flexibility",
-        "desc": "Flexibility description goes here",
+        "desc": {
+          "paragraphs": [
+            "Given our current rate of technological change, it doesn’t make sense for a business to focus on any single technology. Our daily functions have come to rely on digital infrastructures, which are highly flexible, only partially visible, and easy to change. In this climate, when making long-term investments in physical infrastructures, companies should also consider—and design in—flexibility."
+          ],
+          "related" : [
+            "Experience Economy",
+            "Venues",
+            "Brands"
+          ]
+        },
         "children":[
-          {"name":"Modular","size":1000},
-          {"name":"Evolving","size":1000},
-          {"name":"Experiential","size":1000},
-          {"name":"Activated","size":1000},
-          {"name":"Shared Spaces","size":1000}
+          {
+            "name":"Modular",
+            "desc": {
+              "imgsrc": "assets/images/modular.jpg",
+              "paragraphs": [
+                "Imagine this future: modular infrastructures and components allow for systematic, sustainable deployment. They help maximize efficiency, speeding construction and creating little to no waste. “Plug-in” cities, once a utopic dream, now streamline design, development, and construction processes around the world.",
+                "In this vision, the modern city footprint is condensed; overlapping programs and uses are layered vertically. Demographics and use patterns are analyzed and clearly outlined, then synced with smart building and city systems to build what is most needed. Architecture is increasingly pliable: Modular units can plug into and out of a larger framework, adapting to user demands and expanding and contracting with needs and trends.",
+                "Shopping centers could blend vertically into housing and office programs; some could become community nexuses, offering comprehensive and tailored lifestyle experiences. Tenants prefabricate their spaces, deliver them to the site, and install them quickly after hours, eliminating onsite construction, reducing closures, and allowing for year-round operations. Dynamic leasing could let tenants change location within a center based on market trends, helping maximize profits while satisfying both tenants and consumers."
+              ],
+              "related" : [
+                "Urban Demographics",
+                "3D Printing",
+                "Emerging Markets"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Evolving",
+            "desc": {
+              "paragraphs": [
+                "Infrastructure flexibility creates a welcoming space for new technologies and trends to evolve. As these influences transform the infrastructure, their implications can be analyzed and incorporated into the whole."
+              ],
+              "related" : [
+                "Experience Economy",
+                "Internet of Things",
+                "Anchors"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Experiential",
+            "desc": {
+              "paragraphs": [
+                "In the future, retail is likely to be focused on experiences more than products. Physical retail space will need to be flexible enough to accommodate a variety of ever-changing installations. Even pure-play online retailers can benefit from pop-up locations, which can help them acquire customers. Experiences affect lifestyles, which in turn create strong relationships with the brands that enable them."
+              ],
+              "related" : [
+                "Venues",
+                "Immersive Entertainment",
+                "Virtual Reality"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Activated",
+            "desc": {
+              "paragraphs": [
+                "Products define the scope of activation, and the complexity of the installation showcasing them. As dynamic landmarks, they mirror current trends and are highly driven by consumers’ needs and wants."
+              ],
+              "related" : [
+                "Venues",
+                "Self As Brand",
+                "Brands"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Shared Spaces",
+            "desc": {
+              "paragraphs": [
+                "Overlapping programs can take advantage of shared space, and of their relationships with each other, to increase marketability. The resulting fluid relationship can be influenced and shaped by, and react to, user trends."
+              ],
+              "related" : [
+                "Sharing Economy",
+                "Carsharing",
+                "Urban Demographics"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Augmented",
-        "desc": "Augmented economy description goes here",
+        "desc": {
+          "paragraphs": [
+            "Augmented reality (AR) is a technology that overlays computer-generated images and information onto real-world environments. Beyond its obvious applications in the industrial and DIY spaces, AR has the capability to fundamentally modify customers’ shopping experiences by enabling curation and personalization of superimposed content. In the future, AR might combine with social media and mobile technologies to accompany customers in their choices and purchases. Combined with geolocation technology, AR can become a marketing platform, one that lets brands and retailers interact directly and personally with customers."
+          ],
+          "related" : [
+            "Experience Economy",
+            "Venues",
+            "Immersive Entertainment"
+          ]
+        },
         "children":[
-          {"name":"Virtual Reality","size":1000},
-          {"name":"Super-Connected","size":1000},
-          {"name":"Ubiquitous Computing","size":1000}
+          {
+            "name":"Virtual Reality",
+            "desc": {
+              "paragraphs": [
+                "The convergence and exponential growth of computing power, data storage, and network speed have brought virtual reality (VR) technologies to a point where they are poised to transform the worlds of design, architecture, urbanism, and real estate. Once faraway promises of Holodeck paradises no longer seem so farfetched, with companies including Sony, Amazon, Facebook, and Disney making large investments in VR.",
+                "While the gaming, sport, movie, and travel sectors are most likely to see the first impact of these technologies, communication, education, medical, and other applications are also likely to benefit greatly in the coming years. Combined with mobile technology, nanodrones, and direct neural interface (DNI), VR-based “full field communication” technology has the power to disrupt how we live, work, shop, and interact."
+              ],
+              "related" : [
+                "Virtually There",
+                "Immersive Entertainment",
+                "Telecommuting"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Super-Connected",
+            "desc": {
+              "paragraphs": [
+                "Sensors miniaturization, the emergence of nanotechnologies, and ubiquitous wireless networks are converging, enabling the entire built environment to become self-aware and “smart.”",
+                "Using this technology, retail providers could create superconnected malls in a superconnected portfolio—for example, displaying reliable real-time analytics, people count, space count, media inventory, and other functions. Visualization and understanding of the real-time dynamics at play could open up new revenue sources, and new ways to engage retailers and the customers. Some possibilities: GLA rent pricing could be combined with customer analytics and dynamically indexed to customers visits, or digital media real estate (the Westfield LED screen footprint) could create online real-time auctions indexed to viewer numbers."
+              ],
+              "related" : [
+                "Immersive Entertainment",
+                "Internet of Things",
+                "Flagship Portfolio"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Ubiquitous Computing",
+            "desc": {
+              "paragraphs": [
+                "The most profound technologies are those that disappear, weaving themselves into the fabric of everyday life. Embedding sensors and microprocessors directly into a building’s infrastructure could generate an unprecedented level of information about its use and operating efficiency. Any issues with leaks, damaged wiring, clogged filters, HVAC issues, foundation shifts, weather damage, lighting, energy use, and more could be immediately identified and optimized. Other sensors and embedded computers could communicate with inhabitants and visitors to augment both functionality and human experience. Will the new norm be a life in which we notice only the absence of computing, rather than its presence?"
+              ],
+              "related" : [
+                "Internet of Things",
+                "Wearable Tech",
+                "Ubiquitous Media"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Smart Buildings",
-        "desc": "Smart buildings description goes here",
+        "desc": {
+          "paragraphs": [
+            "Advancements in automation technology are lowering the cost of creating “smart,” energy-efficient buildings that respond to human needs. In the future, it’s likely that such technology will become near-ubiquitous in industrialized countries."
+          ],
+          "related" : [
+            "Flexibility",
+            "Sustainability",
+            "Urban Demographics"
+          ]
+        },
         "children":[
-          {"name":"Linked Systems","size":1000},
-          {"name":"Self-Managing","size":1000},
-          {"name":"Super-Efficiency","size":1000},
-          {"name":"Global Impact","size":1000}
+          {
+            "name":"Linked Systems",
+            "desc": {
+              "paragraphs": [
+                "Smart buildings, common now, are likely to evolve and connect, using a cloud-based smart grid infrastructure to yield the “smart city”—a unified network of components that are analyzed individually and influenced collectively. Building functions and energy consumption could be managed autonomously to serve users and reduce cost."
+              ],
+              "related" : [
+                "Ubiquitous Computing",
+                "Sustaiability",
+                "Cloud-Based World"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Self-Management",
+            "desc": {
+              "paragraphs": [
+                "Computer-automated systems can now analyze massive amounts of data in near real time, supporting efficient, intelligent diagnostics and task delegation. Further advances in these systems are on track to autonomously maintain energy functions such as lighting and HVAC, practically eliminating excessive usage and human error. Security and safety alerts could also be precisely monitored and responded to with almost 100% success."
+              ],
+              "related" : [
+                "Internet Of Things",
+                "Cloud-Based World",
+                "Ubiquitous Computing"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Super-Efficiency",
+            "desc": {
+              "paragraphs": [
+                "Smart building systems are more energy-efficient than legacy systems; they can reduce operational risks, improve building performance, and enable more accurate capital planning. New technologies in this area can—or will soon be able to—help owners and operators determine where equipment replacements will generate the greatest ROI, extend machinery life, reduce facility staff, and even prevent full-scale building system failures. Many can automatically calculate carbon and other greenhouse gas emissions to support corporate sustainability efforts—in fact, estimates JLL, every dollar invested in energy efficiency generates three in operational savings. In the future, new construction is likely to incorporate even more sophisticated smart building technology, with existing buildings retrofitted to operate at peak efficiency."
+              ],
+              "related" : [
+                "Sustainability",
+                "Consciousness",
+                "Social Responsibility"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Global Impact",
+            "desc": {
+              "paragraphs": [
+                "Smart buildings provide better indoor air flow, operational and energy efficiency, and a lower overall carbon footprint. Today, some smart buildings use electricity generated by regenerative elevator cycles to produce ice, which is used to cool the building in place of air conditioning. In the future, such internal systems are likely to  integrate with smart power grids, significantly reducing environmental impact and realizing operational savings. Electricity markets, for example, are evolving to become real-time systems, which might ask buildings to reduce demand when wholesale prices are high or grid reliability is jeopardized. A utility on the smart grid could read the weather forecast, anticipate increased energy demands, and reward a smart building for every kilowatt hour of reduction in electricity usage."
+              ],
+              "related" : [
+                "Emerging Markets",
+                "Sustainability",
+                "Consciousness"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Development",
-        "desc": "Development description goes here",
+        "desc": {
+          "paragraphs": [
+            "Technology innovation and sustainability are becoming key value drivers. Their effect on real estate economics could make some real estate types, like bank branches and some retail and fulfillment centers, near obsolete. Meanwhile, new construction techniques such as prefab, modular, and 3D printing offer great potential for fast, inexpensive, and eco-friendly development."
+          ],
+          "related" : [
+            "Flagship Portfolio",
+            "Emerging Markets",
+            "New (Mixed Use)"
+          ]
+        },
         "children":[
-          {"name":"Urban Demographics","size":1000},
-          {"name":"Mixed Use","size":1000},
-          {"name":"Repurposed Space","size":1000},
-          {"name":"Aesthetics","size":1000},
-          {"name":"Smart Construction","size":1000}
+          {
+            "name":"Urban Demographics",
+            "desc": {
+              "paragraphs": [
+                "Large, dense urban centers are facing an influx of people from nearby and around the globe. As cost of living and the price of entry rises, so too do the required returns for those building and operating in those cities. The danger: Reduction of formerly diverse and vital urban areas in to playgrounds for the wealthy. Another trend that at once mitigates and reinforces this movement is the increased prevalence of telecommuting, supported by less cultural expectation of “face time” at work. For the foreseeable future, however, density and prices are both likely to keep rising, reducing cultural and economic diversity."
+              ],
+              "related" : [
+                "Culture",
+                "Class",
+                "Emerging Markets"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Mixed Use",
+            "desc": {
+              "paragraphs": [
+                "Malls are becoming much more than collections of stores. As changes to transportation, technology, and shopping behaviors free up space for redevelopment, the ratio of retail to common area space is likely to move from its current 70/30 to 60/40 or even 50/50. To be effective and attractive to consumers, expanded public spaces will need ongoing, evolving planning and programming. They are likely to be managed more like content and media than real estate, with an exhibition-like focus for events and experiences.",
+                "An aspect of mixed-use developments—these and others—is their ability to become attractive, integrated communities in which to live, work, and shop. Non-retail spaces and activities, including hotels, offices, and airports, can also generate traffic for malls while maximizing returns on invested capital."
+              ],
+              "related" : [
+                "New (Mixed Use)",
+                "Convergence Economy",
+                "Values"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Repurposed Space",
+            "desc": {
+              "paragraphs": [
+                "The global economy, driverless cars, advances in manufacturing, consumer trends and more all affect how physical space is used. Existing shopping center structures could become residential housing, urban greenhouses, entertainment and event spaces, hospitals, fulfillment hubs, offices, or hotels, keeping buildings productive as needs change. New shopping centers should be designed with multiple uses in mind, maximizing their value."
+              ],
+              "related" : [
+                "Mixed Use",
+                "Modular",
+                "Shared Spaces"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Aesthetics",
+            "desc": {
+              "paragraphs": [
+                "Biomimetic architecture, which draws its inspiration from natural systems and designs, aims to create buildings that exist in harmony with their environment and operate more efficiently—while completely transforming what buildings look like. Advances in large-scale 3D printing could allow the design and construction of increasingly elaborate buildings that are virtually impossible to build today."
+              ],
+              "related" : [
+                "Values",
+                "Brands",
+                "Experience Economy"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Smart Construction",
+            "desc": {
+              "paragraphs": [
+                "Unified cloud data systems, 3D digital building models, 3D printing, and robotics are all poised to increase planning and construction efficiency. Smarter, greener building materials including self-healing concrete, sweating rooftops, aerogel insulation, and germ-repellent materials can increase operational efficiency by keeping energy and maintenance costs down."
+              ],
+              "related" : [
+                "3D Printing",
+                "Smart Building",
+                "Cloud-Based World"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Security",
-        "desc": "Security description goes here",
+        "desc": {
+          "paragraphs": [
+            "Security is the process of implementing measures and systems designed to securely protect and safeguard assets, employees and shoppers, and information (business and personal data, voice conversations, still images, motion pictures, multimedia presentations, etc.—including information and creations not yet conceived. The goal: a safe environment."
+          ],
+          "related" : [
+            "Smart Buildings",
+            "Omni-Tracking",
+            "Internet Of Things"
+          ]
+        },
         "children":[
-          {"name":"Big Brother","size":1000},
-          {"name":"Bio-Identification","size":1000},
-          {"name":"Self-Policiing","size":1000},
-          {"name":"Digital Terrorism","size":1000}
+          {
+            "name":"Big Brother",
+            "desc": {
+              "imgsrc": "assets/images/big-brother.jpg",
+              "paragraphs": [
+              "May Orwell’s Big Brother become the reality? Smart Watchers is a new generation of ubiquitous supersensitive satellite- and video- networked electronic surveillance. Other likely incarnations include real-time personal face scanning and suspicion profiling tied to massive supercomputers. Sensory-aware networks and data warehouses could determine risks, the provide prevention strategies and intelligence on how to neutralize threats."
+              ],
+              "related" : [
+                "Internet Of Things",
+                "Omni-Tracking",
+                "Data As Currency"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Bio-Identification",
+            "desc": {
+              "imgsrc": "assets/images/Bio-Identification.jpg",
+              "paragraphs": [
+                "What’s the future of biometric authentication? Much of the technology has arrived. Soon, facial, eye, fingerprint, and/or genomic scanning could be required to validate physical or virtual entry into electronic networks or physical areas. Could scannable security tattoos even become fashionable?"
+              ],
+              "related" : [
+                "Wearable Tech",
+                "Super-Connected",
+                "An App A Day"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Self-Policiing",
+            "desc": {
+              "paragraphs": [
+                "At the intersection of wearable tech and the obsession with personal monitoring lies the Quantified Self movement. It’s easier than ever to get reams of real-time sliced-and-diced information on what our bodies (and in some cases, our minds) are doing. "
+              ],
+              "related" : [
+                "Bloodless War",
+                "Robot Design",
+                "Smart Buildings"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Cyberterrorism",
+            "desc": {
+              "imgsrc": "assets/images/Cyberterrorism.jpg",
+              "paragraphs": [
+                "As the physical and virtual worlds converge, we venture further into technological dependence. More and more of our tasks are computerized, and more and more of our lives online. We are becoming ever more reliant on the convergence of our two worlds—and the security and safety issues are striking."
+              ],
+              "related" : [
+                "Linked Systems",
+                "Bloodless War",
+                "Cloud-Based World"
+              ]
+            },
+            "size":1000
+          }
         ]
       }
     ]
   },
   {
     "name":"Lifestyle",
-    "desc": "Lifestyle description goes here",
+    "desc": {
+      "paragraphs": [
+        "desrctipon"
+      ]
+    },
     "children":[
       {
         "name":"Health",
         "desc": {
           "imgsrc" : "assets/images/Health.jpg",
-
           "paragraphs": [
-            "Trailblazing technologies and therapeutics will change every aspect of healthcare – from genetic diagnosis and prevention, to drug research and testing, and high-tech treatments. The implications on every day life will be profound: imagine a world without cancer, where children receive needle-free vaccines, replacement organs are 3D printed from your own tissue, and new drugs are developed and produced as quickly as viruses morph \(for those who can afford it\)."
+            "Trailblazing technologies and therapeutics are poised to change every aspect of healthcare—from genetic diagnosis and prevention to drug research and testing to high-tech treatments. The implications for everyday life are profound: Imagine a world without cancer, where children receive needle-free vaccines, replacement organs are 3D-printed from your own tissue, and new drugs are developed as quickly as viruses arise… for those who can afford them."
           ],
-
           "meaning": [
-            "Emergence of a ‘luxury medicine’ market with brick-and-mortar presence",
-            "Growth of wearable and embeddable technology market",
-            "Longer lifespans and consumers identifying younger"
+            "Emergence of a \"luxury medicine\" market with brick-and-mortar presence.",
+            "Growth of the wearable and embeddable technology market.",
+            "Longer lifespans and consumers identifying younger."
           ],
-
           "related" : [
             "Identity",
             "Spending",
@@ -1829,50 +2157,363 @@ var bubbleData = {
           ]
         },
         "children":[
-          {"name":"Personalized Medicine","size":1000},
-          {"name":"60 Is The New 20","size":1000},
-          {"name":"An App A Day","size":1000},
-          {"name":"Food Transparency","size":1000}
+          {
+            "name":"Personalized Medicine",
+            "desc": {
+              "paragraphs": [
+                "Soon, gene mapping will be able to tell us (and our insurers and employers) what diseases we are likely to fall victim to. On the flip side, early warning is powerful—and thanks to tissue engineering, gene therapy, and drugs personalized to our unique genetic makeup, we’re likely to see supereffective treatments for many of today’s most dangerous diseases."
+              ],
+              "related" : [
+                "Bio-Identification",
+                "Mass Indie",
+                "3D Printing"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"3D Bioprinting",
+            "desc": {
+              "imgsrc" : "assets/images/3D-printed-parts.jpg",
+              "paragraphs": [
+                "3D printers are on track to churn out made-to-order bones and organs to replace, or even enhance, human machinery. Bioprinters could print using live cells, assembling them layer by layer while preserving cellular function and viability. Such emerging technologies have the potential to alleviate both long waits and rejection risk for critical organ transplants."
+              ],
+              "related" : [
+                "3D Printing",
+                "Bio-Identification",
+                "Personalized Medicine"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"60 Is The New 20",
+            "desc": {
+              "paragraphs": [
+                "Medical advances including gene therapy and “wonder drugs” could soon make it possible for our bodies to age much more slowly, increasing both lifespan and quality of life. Nanorobotic surgery could be put to medical and cosmetic use, further stalling aging and skewing age-driven identity."
+              ],
+              "related" : [
+                "Self As Brand",
+                "Personalized Medicine",
+                "Lifestyle Brands"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Pre-Edited Humany",
+            "desc": {
+              "paragraphs": [
+                "The development of molecular technology that can edit or erase select genes is well underway, with the promise of eventually being able to correct dangerous genetic variations quickly and cheaply. Along with lifesaving tools, however, comes the potential for parents to build children to order, generating moral dilemmas and raising issues around physical and neurodiversity."
+              ],
+              "related" : [
+                "Self-Policing",
+                "Personalized Medicine",
+                "Values"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"An App A Day",
+            "desc": {
+              "paragraphs": [
+                "Wearable devices and embeddable implants powered by cloud computing could make us intimately aware of our inner workings. Like finely tuned machines, we might optimize our bodies through real-time analysis of nutrition, sleep, fitness, and more."
+              ],
+              "related" : [
+                "Wearable Tech",
+                "Internet Of Things",
+                "Cloud-Based World"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Food Transparency",
+            "desc": {
+              "paragraphs": [
+                "Pervasive access to information, combined with health monitoring through wearable and embeddable technology, is likely to make us far more conscious of the nutritional value, sourcing, and efficacy of what we put in our bodies. Some likely results: greater transparency and the growth of premium food markets."
+              ],
+              "related" : [
+                "Urband Farms",
+                "Consciousness",
+                "Social Responsibility"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Identity",
-        "desc": "Identity description goes here",
+        "desc": {
+          "paragraphs": [
+            "Online living is dramatically changing how we construct our personal identities. What was most often viewed by a series of boxes to tick—age, location, marital status, and profession—is often broadcast online to a real-time global audience. This unprecedented control over what parts of our lives are seen has led to an increasingly common view of the “self as brand.” As we curate public-facing streams of our daily movements and moments, we reconstructing our own notion of self, reinforcing—or possibly compartmentalizing—our online and real-world identities. With billions coming online to join the global “mixer,” the social construct of “otherness” is slowly fading. And highly niche interests that may once have faded out are now fanned by virtual communities of likeminded peers."
+          ],
+          "related" : [
+            "Self As Brand",
+            "Lifestyle Brands",
+            "Urban Demographics"
+          ]
+        },
         "children":[
-          {"name":"Gen Z","size":1000},
-          {"name":"Millennial","size":1000},
-          {"name":"Class","size":1000},
-          {"name":"Vocation","size":1000}          ]
+          {
+            "name":"Gen Z",
+            "desc": {
+              "paragraphs": [
+                "desrctipon"
+              ],
+              "related" : [
+                "Linked Systems",
+                "Ubiquitous Computing",
+                "Ubiquitous Media"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Millennial",
+            "desc": {
+              "paragraphs": [
+                "desrctipon"
+              ],
+              "related" : [
+                "Linked Systems",
+                "Ubiquitous Computing",
+                "Ubiquitous Media"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Class",
+            "desc": {
+              "paragraphs": [
+                "desrctipon"
+              ],
+              "related" : [
+                "Linked Systems",
+                "Ubiquitous Computing",
+                "Ubiquitous Media"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Vocation",
+            "desc": {
+              "paragraphs": [
+                "desrctipon"
+              ],
+              "related" : [
+                "Linked Systems",
+                "Ubiquitous Computing",
+                "Ubiquitous Media"
+              ]
+            },
+            "size":1000
+          }
+        ]
         },
         {
           "name":"Values",
-          "desc": "Values description goes here",
+          "desc": {
+            "paragraphs": [
+              "desrctipon"
+            ],
+            "related" : [
+              "Linked Systems",
+              "Ubiquitous Computing",
+              "Ubiquitous Media"
+            ]
+          },
           "children":[
-            {"name":"Privacy","size":1000},
-            {"name":"Culture","size":1000},
-            {"name":"Politics","size":1000},
-            {"name":"Religion","size":1000},
-            {"name":"Consciousness","size":1000}
+            {
+              "name":"Privacy",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Culture",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Politics",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Religion",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Consciousness",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            }
           ]
         },
 
         {
           "name":"Spending",
-          "desc": "Spending description goes here",
+          "desc": {
+            "paragraphs": [
+              "desrctipon"
+            ],
+            "related" : [
+              "Linked Systems",
+              "Ubiquitous Computing",
+              "Ubiquitous Media"
+            ]
+          },
           "children":[
-            {"name":"Housing","size":1000},
-            {"name":"Discretionary","size":1000},
-            {"name":"Luxury","size":1000}
+            {
+              "name":"Housing",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Discretionary",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Luxury",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            }
           ]
         },
 
         {
           "name":"Relationships",
-          "desc": "Relationships description goes here",
+          "desc": {
+            "paragraphs": [
+              "desrctipon"
+            ],
+            "related" : [
+              "Linked Systems",
+              "Ubiquitous Computing",
+              "Ubiquitous Media"
+            ]
+          },
           "children":[
-            {"name":"Platonic","size":1000},
-            {"name":"Familial","size":1000},
-            {"name":"Romantic","size":1000}
+            {
+              "name":"Platonic",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Familial",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Romantic",
+              "desc": {
+                "paragraphs": [
+                  "desrctipon"
+                ],
+                "related" : [
+                  "Linked Systems",
+                  "Ubiquitous Computing",
+                  "Ubiquitous Media"
+                ]
+              },
+              "size":1000
+            }
           ]
         }
       ]
