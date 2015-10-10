@@ -1654,12 +1654,12 @@ var bubbleData = {
             "name":"Brand As Media",
             "desc": {
               "paragraphs": [
-                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+                "Brands are shifting from push-based advertising to engaging their target audiences in ongoing conversations. While branded magazines aren’t new, they’re increasingly popular with companies eager to connect with customers and differentiate themselves from competitors. As this trend evolves, brands will seek to rival “legitimate” media publications with sophisticated, original content and unique voices. The goal: engage customers, spur cocreation, and inspire brand-centered movements (e.g., the sharing economy).["
               ],
               "related" : [
-                "Spending",
-                "Anchors",
-                "Quality Redefined"
+                "Living Social",
+                "Luxury Print",
+                "Self As Brand"
               ]
             },
             "size":1000
@@ -1668,12 +1668,12 @@ var bubbleData = {
             "name":"Social Responsibility",
             "desc": {
               "paragraphs": [
-                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+                "Customers are looking for more engagement from brands—and demanding more transparency. Increased connectedness and information access mean that unethical practices such as child labor will be uncovered more easily and rapidly. And even more consumers are demanding information on where the products they purchase come from—all the way back to the farm or the mine. As these trends grow, more consumers will seek out brands that “walk the talk,” and shun those that don’t.["
               ],
               "related" : [
-                "Spending",
-                "Anchors",
-                "Quality Redefined"
+                "Sustainability",
+                "Values",
+                "Food Transparency"
               ]
             },
             "size":1000
@@ -1684,12 +1684,12 @@ var bubbleData = {
         "name":"Connectivity",
         "desc": {
           "paragraphs": [
-            "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+            "Widespread smartphone adoption has forever changed our relationship with technology, creating a direct connection between tech and the individual. It’s likely that human relationships with technology will evolve even further over time, and that more “dumb” objects will become “smart” through the use of sensors, allowing objects to communicate with each other and with humans."
           ],
           "related" : [
-            "Spending",
-            "Anchors",
-            "Quality Redefined"
+            "Ubiquitous Computing",
+            "Linked Systems",
+            "Mobile First"
           ]
         },
         "children":[
@@ -1697,12 +1697,12 @@ var bubbleData = {
             "name":"Internet Of Things",
             "desc": {
               "paragraphs": [
-                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+                "The number of devices that connect to the Internet is already increasing exponentially, and we’re moving toward a world where multiple sources of information—sensors, mobile phones, cars, etc.—will regularly connect with us, and with each other, through the Internet and wireless technologies. These devices will be able to gather information, generate insights, and take action. To manage the complex ecosystem of the Internet of Things, our society will need new, scalable, compatible, and secure solutions, and businesses to create new models that shape these opportunities."
               ],
               "related" : [
-                "Spending",
-                "Anchors",
-                "Quality Redefined"
+                "Super-Connected",
+                "Ubiquitous Computing",
+                "Linked Systems"
               ]
             },
             "size":1000
@@ -1711,12 +1711,12 @@ var bubbleData = {
             "name":"Cloud-Based World",
             "desc": {
               "paragraphs": [
-                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+                "Most new software today is built for cloud use, and it’s predicted that by 2016 more than a quarter of all applications will be available through the cloud.[1] Given the advantages—support for operational excellence and accelerated innovation—it’s likely that the majority of applications will eventually be cloud-based. Cloud software also lowers barriers to entry for businesses—companies can “rent” cloud technologies and scale up or down at much lower cost—accelerating competition overall."
               ],
               "related" : [
-                "Spending",
-                "Anchors",
-                "Quality Redefined"
+                "Linked Systems",
+                "Ubiquitous Computing",
+                "Ubiquitous Media"
               ]
             },
             "size":1000
@@ -1724,13 +1724,20 @@ var bubbleData = {
           {
             "name":"Wearable Tech",
             "desc": {
+              "imgsrc" : "assets/images/wearable-tech.jpg",
               "paragraphs": [
-                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+                "Many of today’s wearable technology devices log a single activity such as the wearer’s steps. More complex versions might track breathing patterns or measuring body composition. Many of these devices also serve as stylish accessories. But wearable technology is still in the early stages of its evolution; it’s not yet fully incorporated into our daily lives, not yet “invisible.”",
+                "The next generation of wearable tech is likely to be seamlessly integrated into our clothing and accessories. Powered by the Internet of Things (IoT), it will be multifunctional, connected, and “smart.” Imagine a world where seamlessly incorporated sensors not just measure your activity level, but show how the number of steps you took today, the food you ate, and your stress level at work affect your sleep quality. A device might trigger an alert from your healthcare provider to step up you physical activity, or to take a break from that stressful work project for breathing exercises."
+              ],
+              "meaning": [
+                "Work with retailers to determine how wearable technologies could affect their merchandise mix and retail operations. Will “smart” clothes be sold in the same way as “dumb” clothes?",
+                "Allow for new retail concepts to emerge: Wearable technology retailers may need new types of retail spaces and experiences.",
+                "Leverage wearable technology to get to know consumers better."
               ],
               "related" : [
-                "Spending",
-                "Anchors",
-                "Quality Redefined"
+                "Internet of Things",
+                "An App A Day",
+                "Ubiquitous Media"
               ]
             },
             "size":1000
