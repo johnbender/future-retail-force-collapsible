@@ -1463,23 +1463,79 @@ var bubbleData = {
         "name":"Consumption",
         "desc": {
           "paragraphs": [
-            "description"
+            "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
           ],
           "related" : [
-            "New (Mixed) Use",
-            "Product",
-            "Lifestyle"
+            "Spending",
+            "Anchors",
+            "Quality Redefined"
           ]
         },
         "children":[
-          {"name":"Sharing Economy","size":1000},
-          {"name":"Emerging Markets","size":1000},
-          {"name":"Product Lifecycle","size":1000}
+          {
+            "name":"Sharing Economy",
+            "desc": {
+              "imgsrc" : "assets/images/sharing-economy.jpg",
+              "paragraphs": [
+                "The sharing (or collaboration) economy is a hot topic. Companies such as Airbnb, Citibike, and Zipcar[TS1] have put resource sharing at the core of their business models. Today, the concept is seen as a potential threat to established resource ownership models."  ,
+                "This economic model may still be in its infancy—where social media was a decade ago. Powered by resource shortage, urban overpopulation, and a mindset shift from ownership to access, it is likely to continue building momentum and disrupting industries.",
+                "To take advantage of opportunities offered by the sharing economy, brands may need to open up their APIs and operate less like “walled gardens,” embracing collaboration with platforms that help contributors and participants increase the “pie” for all. For many industries, such collaborative models have not yet been discovered."
+              ],
+              "meaning": [
+                "Identify Westfield resources that could be shared, and establish an ecosystem around them that allows participants to collaborate and cocreate.",
+                "Create new business models that enable on-demand access to products/resources (in contrast to long-term product/resource ownership and commitment).",
+                "Build in reputation, feedback, and trust mechanisms to ensure transparency from both participants and collaborators"
+              ],
+              "related" : [
+                "Millennial",
+                "Gen Z",
+                "Carsharing"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Emerging Markets",
+            "desc": {
+              "paragraphs": [
+                "By 2025, annual consumption in emerging markets is forecast to reach $30 trillion, up from $12 trillion in 2010—nearly 50% of the world total. At that level, emerging-market consumers will become the dominant force in the global economy."
+              ],
+              "related" : [
+                "Global Market",
+                "Cultural Exploration",
+                "Glocal Footprint"
+              ]
+            },
+            "size":1000
+          },
+          {
+            "name":"Product Lifecycle",
+            "desc": {
+              "paragraphs": [
+                "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+              ],
+              "related" : [
+                "Spending",
+                "Anchors",
+                "Quality Redefined"
+              ]
+            },
+            "size":1000
+          }
         ]
       },
       {
         "name":"Design",
-        "desc": "Design description goes here",
+        "desc": {
+          "paragraphs": [
+            "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
+          ],
+          "related" : [
+            "Spending",
+            "Anchors",
+            "Quality Redefined"
+          ]
+        },
         "children":[
           {"name":"Robotic Design","size":1000},
           {"name":"Crowdsourcing","size":1000},
