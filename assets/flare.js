@@ -2263,14 +2263,14 @@ var bubbleData = {
               "imgsrc": "assets/images/gen-z.jpg",
               "paragraphs": [
                 "\"Gen Zs\"—Americans born after 2000—are the most connected, educated and sophisticated generation ever. These “up-agers,” who have influence beyond their years, also reject many values of the generations that precede them. Characteristics of Gen Zs include:",
-                "Change Agents: Gen Zs want to change the world. Unprecedented access to information makes them one of the most knowledgeable generations in history. A study conducted by Sparks & Honey shows that social entrepreneurship is one of Gen Z's most popular career choices, and 26% of 16-19 year olds currently volunteer.",
-                "Anxious: Thanks possibly to overprotective parents, many Gen Zs begin life in a metaphorical bubble, discouraged from dipping a toe into the perilous ocean that is “the real world.” Born into a crisis period of terrorism, the global recession, and climate change, they are often fully aware of the fragility of life.",
-                "Collaborative: Raised in a culture where the vernacular includes terms like \"crowdsourcing,\" \"crowdfunding,\" and \"inclusive classrooms,\" they tend to flourish in group settings and can be better team players than any generation in history.",
-                "Experimental: Gen Zs tend to be active, not passive, consumers. When they’re spotted glued to their tablets, it’s all too easy to underestimate their activities. But they’re socializing, creating content, and most importantly challenging themselves and each other. They don’t just watch YouTube—they own their own YouTube channels and are making other creative waves in the wider world.",
-                "Ano-Sharers: Growing up in a culture of oversharing and NSA surveillance has made privacy a luxury for Gen Z. As a countertrend to obsessive oversharing, Gen Zs are creating a culture of \"ano-sharing\": Apps such as Whisper, YikYak, and Secret allow users to post anonymous thoughts, feelings, and observations."
+                "CHANGE AGENTS: Gen Zs want to change the world. Unprecedented access to information makes them one of the most knowledgeable generations in history. A study conducted by Sparks & Honey shows that social entrepreneurship is one of Gen Z's most popular career choices, and 26% of 16-19 year olds currently volunteer.",
+                "ANXIOUS: Thanks possibly to overprotective parents, many Gen Zs begin life in a metaphorical bubble, discouraged from dipping a toe into the perilous ocean that is “the real world.” Born into a crisis period of terrorism, the global recession, and climate change, they are often fully aware of the fragility of life.",
+                "COLLABORATIVE: Raised in a culture where the vernacular includes terms like \"crowdsourcing,\" \"crowdfunding,\" and \"inclusive classrooms,\" they tend to flourish in group settings and can be better team players than any generation in history.",
+                "EXPERIMENTAL: Gen Zs tend to be active, not passive, consumers. When they’re spotted glued to their tablets, it’s all too easy to underestimate their activities. But they’re socializing, creating content, and most importantly challenging themselves and each other. They don’t just watch YouTube—they own their own YouTube channels and are making other creative waves in the wider world.",
+                "ANO-SHARERS: Growing up in a culture of oversharing and NSA surveillance has made privacy a luxury for Gen Z. As a countertrend to obsessive oversharing, Gen Zs are creating a culture of \"ano-sharing\": Apps such as Whisper, YikYak, and Secret allow users to post anonymous thoughts, feelings, and observations."
               ],
               "related" : [
-                "Self As Brand",
+                "Relationships",
                 "Post-Privacy World",
                 "Consciousness"
               ]
@@ -2281,12 +2281,12 @@ var bubbleData = {
             "name":"Millennial",
             "desc": {
               "paragraphs": [
-                "desrctipon"
+                "Millennials—the 80 million Americans born between 1980 and 2000—are the most researched generation of all time. While media may stereotype them as coddled and lazy, they have come of age in one of the most difficult times in recent history, shaped by rapid technological change, an uncertain economy, and an often desolate job market. Characteristics of Millennials include confidence, optimism, connectedness, openness to change, and entitlement. They’re also on the cusp of commanding the largest share of consumer spending."
               ],
               "related" : [
-                "Linked Systems",
-                "Ubiquitous Computing",
-                "Ubiquitous Media"
+                "Mass Indie",
+                "Sharing Economy",
+                "On-Demand Content"
               ]
             },
             "size":1000
@@ -2295,12 +2295,12 @@ var bubbleData = {
             "name":"Class",
             "desc": {
               "paragraphs": [
-                "desrctipon"
+                "Discussions on socioeconomic class in the US have been focused primarily on the erosion of what has traditionally been defined as the middle class. Richard Reeves, a senior fellow in economic studies at the Brookings Institution, argues that the problem is not the dismantling of old structures of class, but that \“we’ve yet to come up with institutions to replace them.\” Today, manufacturing jobs are being eliminated at a rapid pace, a PhD no longer means lifetime employment, home ownership has reached a 20-year low, and married parenthood is increasingly uncommon. Class, as a set of ideas and beliefs or a perception of oneself, is in a process of rapid refinement and is unlikely to conform to the definitions of the past. For example, there are today classes of people defined by their employer (\“Googlers\”) or their social media presence (\“Instagram Influencers\”). New and fragmented definitions of class will make it more difficult for retailers to target, say, \“the Middle \Class”; they must instead interact with potential consumers in an increasingly personalized and niche way."
               ],
               "related" : [
-                "Linked Systems",
-                "Ubiquitous Computing",
-                "Ubiquitous Media"
+                "Urban Demographics",
+                "Spending",
+                "Emerging Markets"
               ]
             },
             "size":1000
@@ -2309,12 +2309,12 @@ var bubbleData = {
             "name":"Vocation",
             "desc": {
               "paragraphs": [
-                "desrctipon"
+                "As Boomers reach retirement age, Millennials become the largest segment of the workforce, and Gen Z enters the workplace, vocation as a component of one’s identity is likely to change significantly. Gen X, Millennials, and Gen Z workers tend to want to align who they are with what they do, and value career growth and an opportunity to be passionate about their work."
               ],
               "related" : [
-                "Linked Systems",
-                "Ubiquitous Computing",
-                "Ubiquitous Media"
+                "Office",
+                "Education",
+                "Urban Demographics"
               ]
             },
             "size":1000
@@ -2338,12 +2338,26 @@ var bubbleData = {
               "name":"Privacy",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Ambient tracking via facial recognition and the growth of the personal data market may soon make privacy a bygone luxury. Hyperawareness of surveillance and cybersecurity could lead to a pendulum swing away from the oversharing associated with the emergence of social media. Consumers will increasingly seek \“safe havens\” with physical and technological tracking blockers. In the future, privacy may become a luxury accessible only to the wealthy, or an amenity available through destination experiences. Data security will certainly face increased scrutiny, and be even more in demand."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Post-Privacy World",
+                  "Omni-Tracking",
+                  "Bio-Identification"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Convivality",
+              "desc": {
+                "paragraphs": [
+                  "As an antidote to all that time online and digital always-on culture, people are looking for balance and connection, digital invisibility and face-to-face simplicity. In reaction to the repeated booms and recessions of the 1990s and 2000s, individuals may become more likely to turn away from materialism and look to measure their lives by experiences and emotions."
+                ],
+                "related" : [
+                  "Shared Experience",
+                  "Social",
+                  "Relationships"
                 ]
               },
               "size":1000
@@ -2352,12 +2366,12 @@ var bubbleData = {
               "name":"Culture",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "The pace of globalization and cultural homogenization—spurred by easy travel, the internet, and social networking—is still accelerating. In 1971, one could get a cup of Starbucks coffee only at a single location in Seattle. Today, Starbucks has nearly 20,000 locations in 60 countries. In the US, there are more Chinese restaurants than there are McDonald's, Burger Kings, Wendy's, and KFCs combined. Generation Z consumes music, movies, celebrities, fashion, and food from around the world, and interacts with friends from anywhere."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Gen Z",
+                  "Class",
+                  "Brands"
                 ]
               },
               "size":1000
@@ -2366,12 +2380,12 @@ var bubbleData = {
               "name":"Politics",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "The state of the economy and foreign policy challenges are likely to continue to dominate politics, joined by issues including global warming, privacy, cyberwarfare, and urbanization. Whatever the issues, politicians of the future are sure to use more, and more sophisticated, data tools to understand and reach their constituents. Technology will also support greater personalization and increased reach of political messaging."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Cyberterrorism",
+                  "Emerging Markets",
+                  "Democratized Influence"
                 ]
               },
               "size":1000
@@ -2380,12 +2394,26 @@ var bubbleData = {
               "name":"Religion",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Today, one in six Americans do not associate themselves with any particular religion; the Pew Research Center predicts that figure to grow to one in four by 2050. Research on the ebb and flow of religion’s influence suggests that religion recedes whenever human security and well-being rises. Might our spiritual impulses take different social forms in the 21st century US, as in humanist communities or social clubs dedicated to good works?"
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Class",
+                  "Relationships",
+                  "Urban Demographics"
+                ]
+              },
+              "size":1000
+            },
+            {
+              "name":"Bloodless War",
+              "desc": {
+                "paragraphs": [
+                  "Remember watching the bombing of Baghdad on CNN? We’re still watching, for better or worse. But in place of manned troops, predator drones and armies of lethal autonomous robotics (LARS) may soon be able to select and engage targets without human intervention. Does the YouTubeification of culture mean that battles will be broadcast for political and public consumption? Many of us may do and see more warfare, but experience less."
+                ],
+                "related" : [
+                  "Virtual Reality",
+                  "Self-Policing",
+                  "Democratized Influence"
                 ]
               },
               "size":1000
@@ -2394,12 +2422,12 @@ var bubbleData = {
               "name":"Consciousness",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Global warming, food shortages, drought, hurricanes, melting ice caps, and more will push consumption further into the limelight.  Unprecedented access to this information could make us increasingly socially and environmentally conscious, a shift already seen in Millennials and Gen Z. More and more consumers are likely to demand that the brands and businesses they choose echo their values on causes from environmental issues to social injustices. Sustainability will not be marketing lingo, but a way of life."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Social Responsibility",
+                  "Sustainability",
+                  "Lifestyle Brands"
                 ]
               },
               "size":1000
@@ -2414,22 +2442,22 @@ var bubbleData = {
               "desrctipon"
             ],
             "related" : [
-              "Linked Systems",
-              "Ubiquitous Computing",
-              "Ubiquitous Media"
+              "Brands",
+              "Revenue",
+              "Customer Experience"
             ]
           },
           "children":[
             {
-              "name":"Housing",
+              "name":"Necessities",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Homeownership, traditionally a vehicle for wealth accumulation, is at a 20-year low in America. Battered by a struggling economy, huge student loan debt, and a weak job market, many people are forced to spend an outsized portion of their incomes on housing, leaving less for other necessities and discretionary spending. Trends such as the tiny home movement have gained in popularity with pressed young people as well as with those seeking to downsize in retirement. With financial freedom becoming more and more difficult to achieve, many people are beginning to rethink their relationship with material possessions, which could have a negative impact on the retail environment."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Culture",
+                  "Urband Demographics",
+                  "Food Transparency"
                 ]
               },
               "size":1000
@@ -2437,13 +2465,21 @@ var bubbleData = {
             {
               "name":"Discretionary",
               "desc": {
+                "imgsrc" : "assets/images/discretionary.jpg",
                 "paragraphs": [
-                  "desrctipon"
+                  "Roughly 70% of the US economy is driven by consumer spending. Three major trends affect consumer spending coming out of the Great Recession: flat wage growth, a shift to thrift, and technology.",
+                  "Wages have remained flat since 2000, partly due to outsourcing of jobs to countries where labor and manufacturing is cheaper. During the recession, many shoppers searched for the cheapest prices possible, a trend expected to wane as the economy improved. Instead, value has become more important to consumers. Low prices alone are less likely to drive sales, and even luxury goods, which are beginning to sell again, must prove their value for the price.",
+                  "Technology has generated more transparency in pricing. Consumers can easily compare product prices from multiple retailers, driving consumers to demand goods and services at even cheaper prices."
+                ],
+                "meaning": [
+                  "Predictive advertising is emerging as a rich world for brands to exploit.",
+                  "Advertising, including creative development, is becoming increasingly data driven and automated.",
+                  "As advertising becomes increasingly heavily reliant on user data, establishing trust among consumers, brands, and publishers will be critical."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Brands",
+                  "Experience Economy",
+                  "Consciousness"
                 ]
               },
               "size":1000
@@ -2452,12 +2488,12 @@ var bubbleData = {
               "name":"Luxury",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Highly affluent people feel that they were smart about making money, and they don’t want to look stupid in spending it. Expect increasing use of Internet research prior to luxury purchases, and an increased emphasis on value. Rattled by the Great Recession and often cast in a villainous light in discussions on wealth and class, highly affluent consumers in the US may also be cautious about visible displays of luxury products, instead splurging on services, time savers, and experiences. But US cultural norms do not apply everywhere; wealthy foreign tourists are highly likely to remain a strong source of sales."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Lifestyle Brands",
+                  "Flagship Portfolio",
+                  "Emerging Markets"
                 ]
               },
               "size":1000
@@ -2469,12 +2505,12 @@ var bubbleData = {
           "name":"Relationships",
           "desc": {
             "paragraphs": [
-              "desrctipon"
+              "Relationships have been shifted dramatically by online living. We communicate virtually 24/7, spend more time FaceTiming than getting face time, and can access encyclopedic accounts of each other’s lives in a few clicks. As communication technology bounds ahead and more and more personal data is brought online—with and without our permission—this trend will only rise around the globe. In the future, our most personal relationships may be lived almost entirely virtually."
             ],
             "related" : [
-              "Linked Systems",
-              "Ubiquitous Computing",
-              "Ubiquitous Media"
+              "Social",
+              "Convivality",
+              "Living Social"
             ]
           },
           "children":[
@@ -2482,12 +2518,12 @@ var bubbleData = {
               "name":"Platonic",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Platonic relationships may become increasingly virtual, with friends participating in each other’s lives 24/7 through direct messaging and livestreaming. With the help of instant translation, social media and increasing connectivity in the rest of the world, our network of “friends” may circle the globe."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Living Social",
+                  "Gen Z",
+                  "Shared Experience"
                 ]
               },
               "size":1000
@@ -2496,12 +2532,12 @@ var bubbleData = {
               "name":"Familial",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Emigration of younger generations to new cities and countries is likely to increase as Gen Zs identify as global citizens with international networks of friends. Some familial relationships may begin resembling friendships, with relatives engaging frequently in each other's lives via social media. Where tensions exist, relationships could become more distant as the “otherness” of Gen Z conflicts with norms of parents and grandparents."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Gen Z",
+                  "Millennial",
+                  "Religion"
                 ]
               },
               "size":1000
@@ -2510,12 +2546,12 @@ var bubbleData = {
               "name":"Romantic",
               "desc": {
                 "paragraphs": [
-                  "desrctipon"
+                  "Romantic relationships may become increasingly casual, as the super-sexualization of media and normalization of hookup culture makes sex before emotional investment even more common. Breaking from the ideals of parents and grandparents, many commitmentphobic Gen Zs could often be satisfied by company over commitment."
                 ],
                 "related" : [
-                  "Linked Systems",
-                  "Ubiquitous Computing",
-                  "Ubiquitous Media"
+                  "Gen Z",
+                  "Millennial",
+                  "Living Social"
                 ]
               },
               "size":1000
