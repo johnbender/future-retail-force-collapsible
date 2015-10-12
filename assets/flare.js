@@ -2013,7 +2013,7 @@ var bubbleData = {
       {
         "name":"Development",
         "desc": {
-          "imgsrc" : "assets/images/development.jpg",
+          "imgsrc" : "assets/images/development.png",
 
           "paragraphs": [
             "Technology innovation and sustainability are becoming key value drivers. Their effect on real estate economics could make some real estate types, like bank branches and some retail and fulfillment centers, near obsolete. Meanwhile, new construction techniques such as prefab, modular, and 3D printing offer great potential for fast, inexpensive, and eco-friendly development."
