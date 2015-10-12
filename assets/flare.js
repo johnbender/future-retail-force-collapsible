@@ -93,6 +93,7 @@ var bubbleData = {
       {
         "name": "Advertising",
         "desc": {
+          "imgsrc" : "assets/images/advertising.jpg",
           "paragraphs": [
             "Where advertising was once neatly divided among TV, print and billboard, today’s landscape of outlets, devices, and options is becoming more fragmented by the day. A bombardment of messaging is inspiring more and more consumers to tune out in self-preservation—and prompting the growth of technologies like ad blockers and DVRs.",
             "However, technology advances in this area run in both directions. Advertisers and publishers are responding with sophisticated targeting, delivery, and content strategies. In the future, consumers are likely to be treated by advertisers as unique individuals—recipients of the “right” message in the right way at the right time. And with advertisers precisely tracking every dollar each consumer spends, the industry’s most famous saying may find itself obsolete:",
@@ -191,6 +192,7 @@ var bubbleData = {
         "name": "Entertainment",
 
         "desc": {
+          "imgsrc" : "assets/images/entertainment.jpg",
           "paragraphs": [
             "Few industries have been more affected by the digital revolution than entertainment. The strongholds of powerhouse conglomerates—record labels, movie studios, and cable networks—are gone or severely injured. Driven by global growth in content consumption and consumer demand for niche programming, the relationship between producers, providers, and consumers is moving toward collaboration. With the commercial adoption of virtual reality (VR) and high-definition range (HDR) technologies, what we watch is poised to change as dramatically as how we watch it, with the potential for full sensory experiences."
           ],
@@ -312,6 +314,8 @@ var bubbleData = {
         "name": "Big Data",
 
         "desc": {
+          "imgsrc" : "assets/images/big-data.jpg",
+
           "paragraphs": [
             "While society has always generated data, today powerful storage, bandwidth, and computing technologies allow us to store and process it in unprecedented amounts. Analyzing this “big data” can reveal new patterns, illuminate relationships, and unlock new forms of economic value.",
             "One interesting trend: the degree to which big data is becoming invisible. Today, businesses refer to its functional uses: big data HR, big data insurance, big data marketing. But we no longer call those functions “computer-driven,” even though computers are just a few decades old. Over time, we’re likely to see big data becoming an equally seamless and integral part of operations, one that powers most if not all business decisions and actions. Will “adoptive data preparation” soon replace the term “big data”?"
@@ -378,6 +382,8 @@ var bubbleData = {
         "name":"Content",
 
         "desc": {
+          "imgsrc" : "assets/images/content.jpg",
+
           "paragraphs": [
             "Two major trends are driving how we’ll view and use content in the future. As artificial intelligence (AI) improves, it can be used to not only locate, but also create, the right content for the right users. Fast and easy content creation in many sectors will in turn increase churn and reduce shelf life. And as consumers come to expect new forms of content (and content delivery) personalized to their needs and lifestyles, mobile content consumption will become more dominant. Bombarded by such rapidly changing content, consumers will look for information that is relevant, but also engaging and meaningful."
           ],
@@ -484,19 +490,15 @@ var bubbleData = {
       "paragraphs": [
         "\“If I had asked people what they wanted, they would have said faster horses.\"",
         "—Henry Ford"
-      ],
-
-      "related" : [
-        "Infrastructure",
-        "Lifestyle"
       ]
-
     },
     "children":[
       {
         "name":"Auto",
 
         "desc": {
+          "imgsrc" : "assets/images/auto.jpg",
+
           "paragraphs": [
             "At the 1964 World’s Fair, General Motors exhibited the Firebird IV concept car, which, as the company explained, “anticipates the day when the family will drive to the super-highway, turn over the car’s controls to an automatic, programmed guidance system, and travel in comfort and absolute safety at more than twice the speed possible on today’s expressways.” Now that day has arrived, with the technology to make vehicles driverless. Automobiles, long a symbol of freedom, independence, and personal expression are set to radically evolve, transforming American lifestyles and impacting industries from real estate to retail."
           ],
@@ -603,6 +605,8 @@ var bubbleData = {
         "name":"Mass Transit",
 
         "desc": {
+          "imgsrc" : "assets/images/mass-transit.jpg",
+
           "paragraphs": [
             "The portion of Americans aged 16 to 24 who have driver’s licenses is at its lowest level in half a century. With a preference for a live/walk/work lifestyle driving urbanization, cities large and small are placing a renewed focus on increasing mobility to spur economic and social activity and create stable, safe, and productive neighborhoods."
           ],
@@ -666,6 +670,8 @@ var bubbleData = {
         "name":"Air & Space",
 
         "desc": {
+          "imgsrc" : "assets/images/air-space.jpg",
+
           "paragraphs": [
             "“Earth isn't the only world for us anymore.”",
             "—Buzz Aldrin, Astronaut and Engineer"
@@ -730,6 +736,8 @@ var bubbleData = {
         "name":"Delivery",
 
         "desc": {
+          "imgsrc" : "assets/images/delivery.jpg",
+
           "paragraphs": [
             "One of the biggest challenges in B2C ecommerce is solving for the “last mile,” the home delivery of goods to a customer. The challenge of combining profitability with a high level of service has led to many advances in delivery, from logistics to drones."
           ],
@@ -831,6 +839,8 @@ var bubbleData = {
         "name":"Virtual Transport",
 
         "desc": {
+          "imgsrc" : "assets/images/virtual-transport.jpg",
+
           "paragraphs": [
             "Faster Internet access, cloud storage, video conferencing, and other technological advances have helped to transform the workplace, with more people than ever working remotely."
           ],
@@ -878,6 +888,8 @@ var bubbleData = {
         "name":"Travel",
 
         "desc": {
+          "imgsrc" : "assets/images/travel.jpg",
+
           "paragraphs": [
             "A significant barrier to the implementation of futuristic transportation systems is the cost of updating existing infrastructure, or creating entirely new infrastructure. Straddling buses, for example, roll on tracked “stilts” above traffic, creating a second level of traffic flow and increasing the people-carrying capacity of existing roadways."
           ],
@@ -943,14 +955,16 @@ var bubbleData = {
     "name":"Mallonomics",
     "desc": {
       "paragraphs": [
-        "“We will continue to see a convergence of the digital and physical world. Those who conquer that trends will be market leaders.”",
-        "—John Phillips, Senior Vice President of Customer Supply Chain and Logistics for Pepsico, Inc."
+        "\"The future cannot be predicted, but it can be invented. It was man's ability to invent which has made human society what it is.\"",
+        "—Dennis Gabor, Nobel Prize winning physicist"
       ]
     },
     "children":[
       {
         "name":"Revenue",
         "desc": {
+          "imgsrc" : "assets/images/revenue.jpg",
+
           "paragraphs": [
             "Over the next decade, revenue will be driven in new forms not currently in the stream. Patents could deliver high revenue coupled with demand, with associated royalties or licensing fees maintaining the revenue stream. Exclusive content associated with event venues, streaming, appearances, and digital media open up other possible lines of revenue. Partnering with tenants to target content by audience is likely to increase engagement and create new revenue streams within our lease structure. Leasing revenue will likely be driven by market occupancies, with shorter lease terms driving higher turn and larger increases over time."
           ],
@@ -966,8 +980,8 @@ var bubbleData = {
             "name":"Landlords",
             "desc": {
               "paragraphs": [
-"Market rents have typically been driven by target occupancy ratios. As brick and mortar retail merges with ecommerce, multiple sales models will merge; landlords may be able to charge more rent in this converged world. A flagship center model creates significant demand for major brand presence. Meanwhile, showroom-model stores can drive more revenue that those with a traditional occupancy ratio. Escalating rent increases (once 3%, now 4%, moving toward 5%) and percentage rent breakpoints that favor shorter lease terms (down to five years) may give the landlord more favorable control of retail space."
-],
+                "Market rents have typically been driven by target occupancy ratios. As brick and mortar retail merges with ecommerce, multiple sales models will merge; landlords may be able to charge more rent in this converged world. A flagship center model creates significant demand for major brand presence. Meanwhile, showroom-model stores can drive more revenue that those with a traditional occupancy ratio. Escalating rent increases (once 3%, now 4%, moving toward 5%) and percentage rent breakpoints that favor shorter lease terms (down to five years) may give the landlord more favorable control of retail space."
+              ],
 
               "related" : [
                 "Development",
@@ -1028,6 +1042,8 @@ var bubbleData = {
       {
         "name":"Market",
         "desc": {
+          "imgsrc" : "assets/images/market.jpg",
+
           "paragraphs": [
             "In the environment where consumers are ubiquitously connected and where transportation is becoming fast and frictionless, geographical boundaries are destined to expand. This expansion may impact how Shopping Venues define their trade areas and the diversity of consumers (and thus expectations) they attract."
           ],
@@ -1137,6 +1153,8 @@ var bubbleData = {
       {
         "name":"Customer Experience",
         "desc": {
+          "imgsrc" : "assets/images/customer-experience.jpg",
+
           "paragraphs": [
             "We live in an age of the customer. Customers know more, and expect more, and their behaviors are the primary driver for the future of the service experience. Speed of gratification will continue to increase, and customers will interact on their own terms, necessitating communication via multiple platforms.",
             "Shoppers want experiences that deliver maximum value and become seamless extensions of their lives. To connect with them, we must engage individuals and their communities to deliver these exceptional service and experiences."
@@ -1239,6 +1257,8 @@ var bubbleData = {
       {
         "name":"New (Mixed) Use",
         "desc": {
+          "imgsrc" : "assets/images/mixed-use.jpg",
+
           "paragraphs": [
             "Imagine a multi-use destination where office workers pop downstairs to have clothing designed and tailored, custom products are purchased and made to order on-site, furniture stores turn into overnight hotels, and guests are just steps away from their next great escape. The possibilities are endless."
           ],
@@ -1342,13 +1362,16 @@ var bubbleData = {
     "name":"Product",
     "desc": {
       "paragraphs": [
-        "quote"
+        "\"Every good product I've ever seen is because a group of people cared deeply about making something wonderful that they and their friends wanted.\"",
+        "—Steve Jobs, Apple co-founder"
       ]
     },
     "children":[
       {
         "name":"Production",
         "desc": {
+          "imgsrc" : "assets/images/production.jpg",
+
           "paragraphs": [
             "Today’s manufacturing landscape is undergoing a massive shift. Increasing consumer demands for information and personalization, the changing nature of products and materials, and shifting economics of production and distribution are coming together to shape a new future of manufacturing. Boundaries are blurring between manufacturing and technology—and manufacturing and retail. Innovation is creating more value. But who will capture that value, and how will it affect the evolving relationship between retailers and manufacturers?"
           ],
@@ -1462,6 +1485,8 @@ var bubbleData = {
       {
         "name":"Consumption",
         "desc": {
+          "imgsrc" : "assets/images/consumption.jpg",
+
           "paragraphs": [
             "Technological advances, global wealth accumulation, and mindset shifts are affecting the ways we consume “stuff.” Movements such as the sharing economy are capitalizing on a shift in consumer mindset from ownership to access and cocreation. In the future, consumers may exchange the aspiration of ownership for a desire to connect meaningfully with products, vendors, and manufacturers; protect the environment; and foster community. At the same time, emerging markets are gaining wealth and spending power. These trends occur against a backdrop of shorter product lifecycles and increased connectivity, transparency, and social sharing."
           ],
@@ -1527,6 +1552,8 @@ var bubbleData = {
       {
         "name":"Design",
         "desc": {
+          "imgsrc" : "assets/images/design.jpg",
+
           "paragraphs": [
             "We buy products not only for their utility, but also for their associated emotional connections, and the brand promise they embody. As product design becomes increasingly complicated, consumers’ relationship with products is becoming more sensitive and intimate."
           ],
@@ -1611,6 +1638,8 @@ var bubbleData = {
       {
         "name":"Brands",
         "desc": {
+          "imgsrc" : "assets/images/brands.jpg",
+
           "paragraphs": [
             "Brands have historically helped consumers by assuring quality and setting expectations. However, technology advances and expanded connectivity are rapidly eroding the information asymmetry between buyer and seller. Product descriptions and reviews help consumers compare options and prices. In a perfectly transparent society, would there be a role for brands? Or might brands as we know them be replaced by highly personalized products designed to meet each consumer’s unique needs and requirements?",
             "One alternative perspective advocates for the rise of mega, or lifestyle, brands, which could evolve from providing products to creating branded experience across product categories. Which future do you think is more likely?"
@@ -1683,6 +1712,8 @@ var bubbleData = {
       {
         "name":"Connectivity",
         "desc": {
+          "imgsrc" : "assets/images/connectivity.jpg",
+
           "paragraphs": [
             "Widespread smartphone adoption has forever changed our relationship with technology, creating a direct connection between tech and the individual. It’s likely that human relationships with technology will evolve even further over time, and that more “dumb” objects will become “smart” through the use of sensors, allowing objects to communicate with each other and with humans."
           ],
@@ -1748,11 +1779,18 @@ var bubbleData = {
   },
   {
     "name":"Infrastructure",
-    "desc": "Infrastructure quote goes here",
+    "desc": {
+      "paragraphs": [
+        "\"As an architect you design for the present, with an awareness of the past, for a future which is essentially unknown.\"",
+        "—Norman Foster, architect"
+      ]
+    },
     "children":[
       {
         "name":"Flexibility",
         "desc": {
+          "imgsrc" : "assets/images/flexibility.jpg",
+
           "paragraphs": [
             "Given our current rate of technological change, it doesn’t make sense for a business to focus on any single technology. Our daily functions have come to rely on digital infrastructures, which are highly flexible, only partially visible, and easy to change. In this climate, when making long-term investments in physical infrastructures, companies should also consider—and design in—flexibility."
           ],
@@ -1841,6 +1879,8 @@ var bubbleData = {
       {
         "name":"Augmented",
         "desc": {
+          "imgsrc" : "assets/images/augmented.jpg",
+
           "paragraphs": [
             "Augmented reality (AR) is a technology that overlays computer-generated images and information onto real-world environments. Beyond its obvious applications in the industrial and DIY spaces, AR has the capability to fundamentally modify customers’ shopping experiences by enabling curation and personalization of superimposed content. In the future, AR might combine with social media and mobile technologies to accompany customers in their choices and purchases. Combined with geolocation technology, AR can become a marketing platform, one that lets brands and retailers interact directly and personally with customers."
           ],
@@ -1900,6 +1940,8 @@ var bubbleData = {
       {
         "name":"Smart Buildings",
         "desc": {
+          "imgsrc" : "assets/images/smart-building.jpg",
+
           "paragraphs": [
             "Advancements in automation technology are lowering the cost of creating “smart,” energy-efficient buildings that respond to human needs. In the future, it’s likely that such technology will become near-ubiquitous in industrialized countries."
           ],
@@ -1971,6 +2013,8 @@ var bubbleData = {
       {
         "name":"Development",
         "desc": {
+          "imgsrc" : "assets/images/development.jpg",
+
           "paragraphs": [
             "Technology innovation and sustainability are becoming key value drivers. Their effect on real estate economics could make some real estate types, like bank branches and some retail and fulfillment centers, near obsolete. Meanwhile, new construction techniques such as prefab, modular, and 3D printing offer great potential for fast, inexpensive, and eco-friendly development."
           ],
@@ -2057,8 +2101,10 @@ var bubbleData = {
       {
         "name":"Security",
         "desc": {
+          "imgsrc" : "assets/images/security.jpg",
+
           "paragraphs": [
-            "Security is the process of implementing measures and systems designed to securely protect and safeguard assets, employees and shoppers, and information (business and personal data, voice conversations, still images, motion pictures, multimedia presentations, etc.—including information and creations not yet conceived. The goal: a safe environment."
+            "The definitions of citizenship and social life are rapidly evolving in the digital age. The boundary between being private and being public is shifting. “Public” is emerging as the default modality while complete privacy is on decline. In order to “exist” online, individuals have to share things in the open, public spaces. That is becoming a primary way to enrich friendships, find or grow communities, learn new things, and act as economic agents online. Additionally, personal data is increasingly becoming the raw material of the knowledge economy – capturing and interpreting this data is essential to the success of many businesses and the transformation of many industries."
           ],
           "related" : [
             "Smart Buildings",
@@ -2134,7 +2180,8 @@ var bubbleData = {
     "name":"Lifestyle",
     "desc": {
       "paragraphs": [
-        "desrctipon"
+        "\"Design creates culture. Culture shapes values. Values determine the future.\"",
+        "—Robert L. Peters, scholar and poet"
       ]
     },
     "children":[
@@ -2247,6 +2294,8 @@ var bubbleData = {
       {
         "name":"Identity",
         "desc": {
+          "imgsrc" : "assets/images/identity.jpg",
+
           "paragraphs": [
             "Online living is dramatically changing how we construct our personal identities. What was most often viewed by a series of boxes to tick—age, location, marital status, and profession—is often broadcast online to a real-time global audience. This unprecedented control over what parts of our lives are seen has led to an increasingly common view of the “self as brand.” As we curate public-facing streams of our daily movements and moments, we reconstructing our own notion of self, reinforcing—or possibly compartmentalizing—our online and real-world identities. With billions coming online to join the global “mixer,” the social construct of “otherness” is slowly fading. And highly niche interests that may once have faded out are now fanned by virtual communities of likeminded peers."
           ],
@@ -2318,19 +2367,36 @@ var bubbleData = {
               ]
             },
             "size":1000
+          },
+          {
+            "name":"Education",
+            "desc": {
+              "imgsrc" : "assets/images/education.jpg",
+              "paragraphs": [
+                "Life-long learning is essential in the rapidly evolving technology and business landscape. Today, much of a college degree curriculum becomes irrelevant in under a decade; it will be less in the future.  As a result, the learning landscape will change dramatically, and a democratized, specialized and highly accessible learning ecosystem is likely to emerge. Resembling as a virtual apprenticeship, this ecosystem may offer rich, personalized curricula and resources available to any learner with an internet connection. Specialized communities will emerge where individuals can unite around topics of interest, learning and co-creating together."
+              ],
+              "related" : [
+                "Vocation",
+                "Urban Demographics",
+                "On-Demand Content"
+              ]
+            },
+            "size":1000
           }
         ]
         },
         {
           "name":"Values",
           "desc": {
+            "imgsrc" : "assets/images/values.jpg",
+
             "paragraphs": [
-              "desrctipon"
+              "By mid-century, there will likely be 9 billion people on the planet, consuming more resources and living technologically complex lives. The hope is that technology will make our society more empowered, motivated and active, rather than mindless consumers of information and entertainment."
             ],
             "related" : [
-              "Linked Systems",
-              "Ubiquitous Computing",
-              "Ubiquitous Media"
+              "Gen Z",
+              "Experience Economy",
+              "Discretionary"
             ]
           },
           "children":[
@@ -2438,13 +2504,14 @@ var bubbleData = {
         {
           "name":"Spending",
           "desc": {
+            "imgsrc" : "assets/images/spending.jpg",
             "paragraphs": [
-              "desrctipon"
+              "Future consumers may increasingly value experiences over goods. Already, more than three in four millennials would choose to spend money on experiences or events rather than buying something durable. The growth of the sharing economy – which allows access over ownership – is likely to further power this shift, as it satisfies both the phyiscal need and the emotional desire for personal connection. When purchasing goods and services a supreme focus on value is universal, as rising housing costs pinch discretionary spending for the masses and luxury spenders are increasingly savvy about the plethora of options that exist."
             ],
             "related" : [
               "Brands",
-              "Revenue",
-              "Customer Experience"
+              "Sharing Economy",
+              "Convivality"
             ]
           },
           "children":[
@@ -2467,14 +2534,13 @@ var bubbleData = {
               "desc": {
                 "imgsrc" : "assets/images/discretionary.jpg",
                 "paragraphs": [
-                  "Roughly 70% of the US economy is driven by consumer spending. Three major trends affect consumer spending coming out of the Great Recession: flat wage growth, a shift to thrift, and technology.",
-                  "Wages have remained flat since 2000, partly due to outsourcing of jobs to countries where labor and manufacturing is cheaper. During the recession, many shoppers searched for the cheapest prices possible, a trend expected to wane as the economy improved. Instead, value has become more important to consumers. Low prices alone are less likely to drive sales, and even luxury goods, which are beginning to sell again, must prove their value for the price.",
-                  "Technology has generated more transparency in pricing. Consumers can easily compare product prices from multiple retailers, driving consumers to demand goods and services at even cheaper prices."
-                ],
+                  "Roughly 70% of the US economy is driven by consumer spending. Three major trends affect consumer spending coming out of the Great Recession: flat wage growth, a shift to thrift, and technology. Wages have remained flat since 2000, partly due to outsourcing of jobs to countries where labor and manufacturing is cheaper.",
+                  "During the recession, many shoppers searched for the cheapest prices possible, a trend expected to wane as the economy improved. Instead, value has become more important to consumers. Low prices alone are less likely to drive sales, and even luxury goods, which are beginning to sell again, must prove their value for the price.",
+                  "Technology has generated more transparency in pricing. Consumers can easily compare product prices from multiple retailers, driving consumers to demand goods and services at even cheaper prices. Technology could entirely eliminate product pricing differences across retailers."
+                    ],
                 "meaning": [
-                  "Predictive advertising is emerging as a rich world for brands to exploit.",
-                  "Advertising, including creative development, is becoming increasingly data driven and automated.",
-                  "As advertising becomes increasingly heavily reliant on user data, establishing trust among consumers, brands, and publishers will be critical."
+                  "Even as the economy improves, retailers should continue to expect cost-conscious consumption trends to continue.",
+                  "Discretionary dollars may become harder to capture; retailers and Westfield must be prepared to demonstrate value for their customers"
                 ],
                 "related" : [
                   "Brands",
@@ -2487,6 +2553,7 @@ var bubbleData = {
             {
               "name":"Luxury",
               "desc": {
+                "imgsrc" : "assets/images/luxury.jpg",
                 "paragraphs": [
                   "Highly affluent people feel that they were smart about making money, and they don’t want to look stupid in spending it. Expect increasing use of Internet research prior to luxury purchases, and an increased emphasis on value. Rattled by the Great Recession and often cast in a villainous light in discussions on wealth and class, highly affluent consumers in the US may also be cautious about visible displays of luxury products, instead splurging on services, time savers, and experiences. But US cultural norms do not apply everywhere; wealthy foreign tourists are highly likely to remain a strong source of sales."
                 ],
@@ -2504,6 +2571,8 @@ var bubbleData = {
         {
           "name":"Relationships",
           "desc": {
+            "imgsrc" : "assets/images/relationships.jpg",
+
             "paragraphs": [
               "Relationships have been shifted dramatically by online living. We communicate virtually 24/7, spend more time FaceTiming than getting face time, and can access encyclopedic accounts of each other’s lives in a few clicks. As communication technology bounds ahead and more and more personal data is brought online—with and without our permission—this trend will only rise around the globe. In the future, our most personal relationships may be lived almost entirely virtually."
             ],
