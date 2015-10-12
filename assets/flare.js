@@ -2144,10 +2144,10 @@ var bubbleData = {
             "size":1000
           },
           {
-            "name":"Self-Policiing",
+            "name":"Self-Policing",
             "desc": {
               "paragraphs": [
-                "At the intersection of wearable tech and the obsession with personal monitoring lies the Quantified Self movement. It’s easier than ever to get reams of real-time sliced-and-diced information on what our bodies (and in some cases, our minds) are doing. "
+                "The advances in Artificial Intelligence (AI) and robotics can lead to the development of a prognostic policing method using analytics to fight crime before it happens. Traditional police work may not be able to keep pace with the new types of crime. Statistical algorithms may emerge that can calculate in real time the probability of where and how crime is likely to happen. Security will become data-driven as a result."
               ],
               "related" : [
                 "Bloodless War",
