@@ -369,7 +369,7 @@ var bubbleData = {
               ],
 
               "related" : [
-                "Phygical",
+                "Phygital",
                 "Self As Brand",
                 "Security"
               ]
@@ -433,7 +433,7 @@ var bubbleData = {
               "related" : [
                 "Social Media",
                 "Entertainment",
-                "Phygical"
+                "phygital"
               ]
           },
             "size": 1000
@@ -472,7 +472,7 @@ var bubbleData = {
                 "For many consumer services, mobile device usage outpaces desktop use—a trend likely to continue. Information will follow consumers in the form of on-demand services offered as needed, in the most useful form."              ],
 
               "related" : [
-                "Phygical",
+                "phygital",
                 "Wearable Tech",
                 "Ubiquitous Computing"
               ]
@@ -592,7 +592,7 @@ var bubbleData = {
               ],
 
               "related" : [
-                "Internet of Things",
+                "Internet Of Things",
                 "Customer Experience",
                 "Lifestyle"
               ]
@@ -787,7 +787,7 @@ var bubbleData = {
               "related" : [
                 "Fulfillment Hub",
                 "Customer Experience",
-                "Phygical"
+                "phygital"
               ]
             },
             "size":1000
@@ -801,7 +801,7 @@ var bubbleData = {
 
               "related" : [
                 "Fulfillment Hub",
-                "Phygical",
+                "phygital",
                 "Necessities"
               ]
             },
@@ -986,7 +986,7 @@ var bubbleData = {
               "related" : [
                 "Development",
                 "Anchors",
-                "Phygical"
+                "phygital"
               ]
             },
             "size":1000
@@ -1134,7 +1134,7 @@ var bubbleData = {
             "size":1000
           },
           {
-            "name":"Phygical",
+            "name":"phygital",
             "desc": {
               "paragraphs": [
                 "Our digital and offline worlds are converging. We have become bedfellows with robots, we take advice from gadgets, and we ask megasystems for answers to life’s questions. And we ask ourselves how we can embrace technology without losing our humanity in the process.",
@@ -1142,7 +1142,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Wearable Tech",
-                "Internet of Things",
+                "Internet Of Things",
                 "Living Social"
               ]
             },
@@ -1174,7 +1174,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Wearable Tech",
-                "Internet of Things",
+                "Internet Of Things",
                 "Cloud-Based World"
               ]
             },
@@ -1190,7 +1190,7 @@ var bubbleData = {
               "related" : [
                 "Product Lifecycle",
                 "Aesthetics",
-                "Internet of Things"
+                "Internet Of Things"
               ]
             },
             "size":1000
@@ -1204,7 +1204,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Cloud-Based World",
-                "Internet of Things",
+                "Internet Of Things",
                 "Affiliate Schemes"
               ]
             },
@@ -1246,7 +1246,7 @@ var bubbleData = {
                   ],
               "related" : [
                 "Wearable Tech",
-                "Internet of Things",
+                "Internet Of Things",
                 "Living Social"
               ]
             },
@@ -1439,7 +1439,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Rapid Speed",
-                "Internet of Things",
+                "Internet Of Things",
                 "Modular"
               ]
             },
@@ -1766,7 +1766,7 @@ var bubbleData = {
                 "Leverage wearable technology to get to know consumers better."
               ],
               "related" : [
-                "Internet of Things",
+                "Internet Of Things",
                 "An App A Day",
                 "Ubiquitous Media"
               ]
@@ -1826,7 +1826,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Experience Economy",
-                "Internet of Things",
+                "Internet Of Things",
                 "Anchors"
               ]
             },
@@ -1915,7 +1915,7 @@ var bubbleData = {
               ],
               "related" : [
                 "Immersive Entertainment",
-                "Internet of Things",
+                "Internet Of Things",
                 "Flagship Portfolio"
               ]
             },
@@ -1928,7 +1928,7 @@ var bubbleData = {
                 "The most profound technologies are those that disappear, weaving themselves into the fabric of everyday life. Embedding sensors and microprocessors directly into a building’s infrastructure could generate an unprecedented level of information about its use and operating efficiency. Any issues with leaks, damaged wiring, clogged filters, HVAC issues, foundation shifts, weather damage, lighting, energy use, and more could be immediately identified and optimized. Other sensors and embedded computers could communicate with inhabitants and visitors to augment both functionality and human experience. Will the new norm be a life in which we notice only the absence of computing, rather than its presence?"
               ],
               "related" : [
-                "Internet of Things",
+                "Internet Of Things",
                 "Wearable Tech",
                 "Ubiquitous Media"
               ]
